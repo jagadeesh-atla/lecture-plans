@@ -16,12 +16,22 @@ app.get('/', (req, res) => {
 
 app.post("/:handle", async (req, res) => {
     const handle = req.body.username.trim();
-    run(handle, res);
+    const resu = await run(handle, res);
+    if (resu != "error") res.render('result.ejs', { resu });
+    else {
+        const inp = handle.toUpperCase();
+        res.render('404.ejs', { inp })
+    };
 });
 
-app.get('/:handle', (req, res) => {
+app.get('/:handle', async (req, res) => {
     const handle = req.params.handle.trim();
-    run(handle, res);
+    const resu = await run(handle, res);
+    if (resu != "error") res.render('result.ejs', { resu });
+    else {
+        const inp = handle.toUpperCase();
+        res.render('404.ejs', { inp })
+    };
 });
 
 app.listen(port, () => { console.log(`listens at ${port}`); });

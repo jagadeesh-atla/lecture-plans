@@ -8,31 +8,35 @@ function search(nameKey, myArray) {
     }
 }
 
-function run(handle, res) {
+async function urlCheck(url) {
+    const urlStatusCode = require('url-status-code')
+    try {
+        const status = await urlStatusCode(url)
+        //   console.log(status)
+        if (status === 200)
+            return url;
+        else return 'NA';
+    } catch (error) {
+        //   console.error(error)
+    }
+}
+
+async function run(handle, res) {
     try {
         let inp = handle.toUpperCase();
         let resu = search(inp, data);
         resu.hi = 'resu';
         let two = inp.trim().slice(0, 2).toLowerCase();
         let url = `https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/${lp[two]}/${inp}.pdf`;
-        (async () => {
-            const urlStatusCode = require('url-status-code')
-            try {
-                const status = await urlStatusCode(url)
-                //   console.log(status)
-                if (status === 200)
-                    resu.lplink = url;
-                else resu.lplink = 'NA';
-            } catch (error) {
-                //   console.error(error)
-            }
-        })();
+        resu.lplink = await urlCheck(url);
         console.log(resu);
-        res.render('result.ejs', { resu });
+        return resu;
+        // res.render('result.ejs', { resu });
     } catch (error) {
         // console.log(error);
         let inp = handle.toUpperCase();
-        res.render('404.ejs', { inp });
+        return "error";
+        // res.render('404.ejs', { inp });
     }
 }
 

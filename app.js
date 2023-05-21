@@ -1,6 +1,8 @@
 const port = process.env.PORT || 3000;
 const express = require('express');
 const { run } = require('./worker');
+const { data, deptNames, lp, ctype } = require('./data');
+const { courses_names } = require('./courses');
 
 const app = express();
 
@@ -10,12 +12,16 @@ app.use(express.static(__dirname + '/src'));
 
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
-    res.send('index');
+app.get('/', async (req, res) => {
+    // res.send('index');
+    const names = courses_names;
+    // console.log(names);
+    res.render('index.ejs', { names })
 });
 
 app.post("/:handle", async (req, res) => {
-    const handle = req.body.username.trim();
+    let handle = req.body.username.trim();
+    handle = handle.substring(0, handle.indexOf('-')-1).trim();
     const resu = await run(handle, res);
     if (resu != "error") res.render('result.ejs', { resu });
     else {
@@ -25,7 +31,8 @@ app.post("/:handle", async (req, res) => {
 });
 
 app.get('/:handle', async (req, res) => {
-    const handle = req.params.handle.trim();
+    let handle = req.params.handle.trim();
+    handle = handle.substring(0, handle.indexOf('-')-1).trim();
     const resu = await run(handle, res);
     if (resu != "error") res.render('result.ejs', { resu });
     else {

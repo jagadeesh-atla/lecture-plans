@@ -21,7 +21,7 @@ app.get('/', async (req, res) => {
 
 app.post("/:handle", async (req, res) => {
     let handle = req.body.username.trim();
-    handle = handle.substring(0, handle.indexOf('-')-1).trim();
+    handle = handle.split('-')[0].trim();
     const resu = await run(handle, res);
     if (resu != "error") res.render('result.ejs', { resu });
     else {
@@ -32,7 +32,7 @@ app.post("/:handle", async (req, res) => {
 
 app.get('/:handle', async (req, res) => {
     let handle = req.params.handle.trim();
-    handle = handle.substring(0, handle.indexOf('-')-1).trim();
+    handle = handle.split('-')[0].trim();
     const resu = await run(handle, res);
     if (resu != "error") res.render('result.ejs', { resu });
     else {

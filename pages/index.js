@@ -16,6 +16,7 @@ export default function Home() {
   
   const handleOnSelect = (item) => {
     const code = item.name.slice(0, 6).trim();
+    setSearch(code);
     router.push(`/${code}`);
   };
 

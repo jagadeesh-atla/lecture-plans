@@ -10,13 +10,14 @@ export default function Home() {
   const [search, setSearch] = useState("");
 
   const handeleOnSearch = (string, result) => {
-    console.log(string);
-    setSearch(string);
+    setSearch(result[0]?.name.slice(0, 6).trim() ?? "");
+    if (search !== "") {
+      router.push(`/${search}`);
+    }
   };
-  
+
   const handleOnSelect = (item) => {
     const code = item.name.slice(0, 6).trim();
-    setSearch(code);
     router.push(`/${code}`);
   };
 
@@ -37,10 +38,15 @@ export default function Home() {
       </div>
       <div style={{ width: "400px" }}>
         <div>
-      <button  style={{marginLeft: "45%", marginBottom: "2%"}} onClick={()=>{
-          const code = search.toUpperCase();
-          router.push(`/${code}`);
-        }}>Search</button>
+          <button
+            style={{ marginLeft: "45%", marginBottom: "2%" }}
+            onClick={() => {
+              const code = search.toUpperCase();
+              router.push(`/${code}`);
+            }}
+          >
+            Search
+          </button>
         </div>
         <ReactSearchAutocomplete
           items={items}
@@ -50,7 +56,6 @@ export default function Home() {
           formatResult={formatResult}
           placeholder="Course Code or Name"
         />
-        
       </div>
     </div>
   );

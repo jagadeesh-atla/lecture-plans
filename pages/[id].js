@@ -4,36 +4,10 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import { timetable } from "../data/index";
-
-// import styles from "../styles/result.module.css";
-
-pdfjs.GlobalWorkerOptions.workerSrc =
-  "https://unpkg.com/pdfjs-dist@3.6.172/build/pdf.worker.min.js";
-
 import ErrorPage from "next/error";
 
-const PDFViewer = ({ pdfLink, setIsLoaded }) => {
-  const [numPages, setNumPages] = useState(null);
-
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-    setIsLoaded(true);
-  };
-
-  return (
-    <div>
-      <Document file={pdfLink} onLoadSuccess={onDocumentLoadSuccess} noData>
-        {Array.from(new Array(numPages), (el, index) => (
-          <Page key={index} pageNumber={index + 1} />
-        ))}
-      </Document>
-    </div>
-  );
-};
-
 export default function Result({ item }) {
-  const [pdfLink, setPdfLink] = useState(null);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   if (!item) {
     return <ErrorPage statusCode={404} />;
@@ -41,8 +15,8 @@ export default function Result({ item }) {
 
   useEffect(() => {
     document.title = item.code + " | " + item.name;
-    const pdf = `/api/${item.link.split("cat/")[1].split("/")[0]}-${item.code}`;
-    setPdfLink(pdf);
+    const mo = document.innerWidth <= 768;
+    setIsMobile(mo);
   }, [item]);
 
   return (
@@ -80,25 +54,24 @@ export default function Result({ item }) {
           <Link href="/">
             <button>Home</button>
           </Link>
-          {isLoaded && (
-            <button
-              onClick={() => {
-                const link = document.createElement("a");
-                link.rel = "noopener noreferrer";
-                link.href = pdfLink;
-                link.download = item.code + ".pdf";
-                link.click();
-              }}
-            >
-              Download
-            </button>
+          {isMobile ? (
+            <a href={item.link} download={item.code + ".pdf"}>
+              <button>Download</button>
+            </a>
+          ) : (
+            <>
+              <a href={item.link} download={item.code + ".pdf"}>
+                <button>Download</button>
+              </a>
+              <iframe
+                src={item.link}
+                width="100%"
+                height="600"
+                title="PDF Viewer"
+              ></iframe>
+            </>
           )}
         </div>
-        {pdfLink && (
-          <div>
-            <PDFViewer pdfLink={pdfLink} setIsLoaded={setIsLoaded} />
-          </div>
-        )}
       </div>
     </div>
   );

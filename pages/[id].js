@@ -49,11 +49,13 @@ export default function Result({ item }) {
     <div>
       <div>
         <h1>
-          {item.code} | {item.name}
+          {item.code} | {item.name} |{" "}
+          {item.semester == "MS" ? "Monsoon" : "Winter"} Semester
         </h1>
         <h3>
           {item.department} | {item.type} | {item.credits}
         </h3>
+        <p>Instructor: {item.instructor}</p>
         <h4>Time Table</h4>
         <table>
           <thead>

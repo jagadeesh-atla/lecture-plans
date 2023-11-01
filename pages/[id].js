@@ -83,9 +83,13 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const { id } = context.params;
-  const _id = id.toUpperCase();
+  const [sem, code] = id.split("-");
 
-  const items = timetable.filter((thing) => thing.code === _id);
+  const items = timetable.filter((thing) => {
+    if (thing.semester == sem.toUpperCase() && thing.code == code.toUpperCase())
+      return true;
+    else return false;
+  });
   const item = items.length === 0 ? null : items[0];
 
   return {

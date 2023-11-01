@@ -10,14 +10,14 @@ export default function Home() {
   const [search, setSearch] = useState("");
 
   const handeleOnSearch = (string, result) => {
-    setSearch(result[0]?.name.slice(2, 9).trim() ?? "");
+    setSearch(result[0]?.name.replace(" ", "-").slice(0, 9).trim() ?? "");
     if (search !== "") {
       router.push(`/${search}`);
     }
   };
 
   const handleOnSelect = (item) => {
-    const code = item.name.slice(2, 9).trim();
+    const code = item.name.replace(" ", "-").slice(0, 9).trim();
     router.push(`/${code}`);
   };
 

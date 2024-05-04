@@ -1,5184 +1,4366 @@
-const courses = [
+ const courses = [
   {
     id: 0,
-    name: "MS GPC530 - Seismology",
+    name: "MS CHD401 - Petrochemical Technology"
   },
   {
     id: 1,
-    name: "MS GPC531 - Geotechnical Modelling",
+    name: "MS CHD408 - Process Data Analytics"
   },
   {
     id: 2,
-    name: "MS GPC532 - Hydrology",
+    name: "MS CHD411 - Catalytic Reaction Engineering"
   },
   {
     id: 3,
-    name: "MS GPC533 - Seismic Hazard Zonation",
+    name: "MS CHO401 - Process Integration"
   },
   {
     id: 4,
-    name: "MS GPC534 - Finite Element Analysis",
+    name: "MS CHO402 - Biofuels & Biomass Conversion Technology"
   },
   {
     id: 5,
-    name: "MS GPC535 - Geotechnical Modelling Practical",
+    name: "MS CSD404 - Computer Graphics"
   },
   {
     id: 6,
-    name: "MS GPC536 - Seismology Practical",
+    name: "MS CSD411 - Introduction to Deep Learning"
   },
   {
     id: 7,
-    name: "MS CHC501 - Advanced Transport Phenomena",
+    name: "MS CSD511 - Information Theory and Coding"
   },
   {
     id: 8,
-    name: "MS CHC502 - Advanced Chemical Engineering Thermodynamics",
+    name: "MS CSD520 - VLSI Design and Testing"
   },
   {
     id: 9,
-    name: "MS CHC503 - Computational Techniques in Chemical Engineering",
+    name: "MS CSO404 - Cryptography"
   },
   {
     id: 10,
-    name: "MS CHC504 - Advanced Chemical Reaction Engineering",
+    name: "MS CSO504 - Machine Learning"
   },
   {
     id: 11,
-    name: "MS CHC505 - Advanced Process Control",
+    name: "MS CSO505 - Soft Computing"
   },
   {
     id: 12,
-    name: "MS CHC506 - Instrumental Methods of Analysis",
+    name: "MS CED401 - Traffic Engineering and Management"
   },
   {
     id: 13,
-    name: "MS CHC507 - Computational Techniques Lab",
+    name: "MS CED403 - Advanced Hydrology"
   },
   {
     id: 14,
-    name: "MS CSC501 - Advanced Data Structures & Algorithms",
+    name: "MS CED501 - Computational Solid Mechanics"
   },
   {
     id: 15,
-    name: "MS CSC502 - Advanced DBMS",
+    name: "MS CED531 - Advanced Design of Structures"
   },
   {
     id: 16,
-    name: "MS CSC503 - Algorithmic Graph Theory",
+    name: "MS CEO528 - Ground Improvement and Geosynthetics"
   },
   {
     id: 17,
-    name: "MS CSC504 - Computing Techniques and Mathematical Tools",
+    name: "MS ECD403 - Computer Networks"
   },
   {
     id: 18,
-    name: "MS CSC505 - High Performance Computer Architecture",
+    name: "MS ECD405 - Digital Systems Design using HDL"
   },
   {
     id: 19,
-    name: "MS CSC506 - Advanced Data Structures & Algorithms Lab",
+    name: "MS ECD415 - Optical Communication"
   },
   {
     id: 20,
-    name: "MS CSC507 - Computing Techniques and Mathematical Tools Lab",
+    name: "MS ECO501 - Internet of Things"
   },
   {
     id: 21,
-    name: "MS ECC500 - Advanced Communication Theory",
+    name: "MS ECO561 - Embedded System Design"
   },
   {
     id: 22,
-    name: "MS ECC501 - Advanced Optical Communication",
+    name: "MS EED401 - Power System Protection and Switchgear"
   },
   {
     id: 23,
-    name: "MS ECC542 - Microwave Transmission Lines and Matching Networks",
+    name: "MS EED403 - Industrial Power Electronics"
   },
   {
     id: 24,
-    name: "MS ECC580 - Mathematical and Simulation Techniques",
+    name: "MS EEO403 - Digital Signal Processing"
   },
   {
     id: 25,
-    name: "MS ECC582 - Digital VLSI Circuits Design",
+    name: "MS EEO404 - Renewable Energy Systems and Energy Audit"
   },
   {
     id: 26,
-    name: "MS ECC583 - VLSI & Communication Systems Lab",
+    name: "MS EEO405 - Industrial Automation"
   },
   {
     id: 27,
-    name: "MS ECC584 - RF & Photonics Lab",
+    name: "MS ESD401 - Biodiversity Conservation"
   },
   {
     id: 28,
-    name: "MS ESC501 - Ecology and Environmental Microbiology",
+    name: "MS ESD405 - Climate Vulnerability and Risk Analysis"
   },
   {
     id: 29,
-    name: "MS ESC502 - Water Supply and Treatment",
+    name: "MS ESD502 - Environmental Biotechnology"
   },
   {
     id: 30,
-    name: "MS ESC503 - MATLAB Programming for Numerical Computation",
+    name: "MS ESD511 - Aerosols in the Atmosphere"
   },
   {
     id: 31,
-    name: "MS ESC504 - Air and Noise Pollution",
+    name: "MS ESO405 - Cleaner  Energy"
   },
   {
     id: 32,
-    name: "MS ESC505 - Wastewater Engineering",
+    name: "MS FMD403 - Engineering Materials Selection and Design"
   },
   {
     id: 33,
-    name: "MS ESC521 - Water Chemistry Practical",
+    name: "MS FMD461 - Computational Techniques and Modelling"
   },
   {
     id: 34,
-    name: "MS ESC522 - Air and Noise Monitoring Practical",
+    name: "MS FMD515 - Thermochemical Conversion of Coal and Biomass"
   },
   {
     id: 35,
-    name: "MS FMC501 - Coal and Mineral Processing",
+    name: "MS FMO545 - Equipment Design"
   },
   {
     id: 36,
-    name: "MS FMC502 - Transport Phenomena",
+    name: "MS FMO547 - Additive Manufacturing"
   },
   {
     id: 37,
-    name: "MS FMC503 - Numerical Methods & Computer Applications",
+    name: "MS MND400 - Rock Excavation Engineering"
   },
   {
     id: 38,
-    name: "MS FMC504 - Unit Operations in Extractive Metallurgy",
+    name: "MS MND401 - Advanced Mine Ventilation"
   },
   {
     id: 39,
-    name: "MS FMC506 - Fuel Technology",
+    name: "MS MND402 - Open Pit Slope Analysis and Design"
   },
   {
     id: 40,
-    name: "MS FMC551 - Coal and Mineral Processing Laboratory",
+    name: "MS MND403 - Geospatial Technology in Mining"
   },
   {
     id: 41,
-    name: "MS FMC552 - Process Metallurgy Laboratory",
+    name: "MS MND405 - Mine Safety Engineering"
   },
   {
     id: 42,
-    name: "MS MCC531 - Advanced Data Structures & Algorithm",
+    name: "MS MND406 - Mine Environmental Engineering"
   },
   {
     id: 43,
-    name: "MS MCC532 - Fundamentals of Machine Learning",
+    name: "MS MSO401 - Principles of Economics"
   },
   {
     id: 44,
-    name: "MS MCC533 - Computer Oriented Numerical Methods",
+    name: "MS MSO402 - Introduction to Financial Management"
   },
   {
     id: 45,
-    name: "MS MCC534 - Statistics in Decision Makings",
+    name: "MS MSO403 - Foundations of Management and Organizational Behaviour"
   },
   {
     id: 46,
-    name: "MS MCC535 - Soft Computing Techniques",
+    name: "MS HSD405 - Introduction to Environmental Humanities"
   },
   {
     id: 47,
-    name: "MS MCC536 - Advanced Data Structures & Algorithm Practical",
+    name: "MS HSD525 - Advance Course in Applied Ethics"
   },
   {
     id: 48,
-    name: "MS MCC537 - Fundamentals of Machine Learning Practical",
+    name: "MS HSO309 - Fundamental of Sociology"
   },
   {
     id: 49,
-    name: "MS MCC538 - Computer Oriented Numerical Methods Practical",
+    name: "MS HSO402 - Computational Psychology"
   },
   {
     id: 50,
-    name: "MS PEC501 - Formation Evaluation and Production Logging",
+    name: "MS HSO403 - Indian Society and Culture"
   },
   {
     id: 51,
-    name: "MS PEC502 - Advanced Well Testing",
+    name: "MS HSO404 - Sociology of Health"
   },
   {
     id: 52,
-    name: "MS PEC503 - Numerical Methods for Petroleum Engineers",
+    name: "MS MED539 - Fundamentals of Aerodynamics"
   },
   {
     id: 53,
-    name: "MS PEC504 - Advanced Production Technologies",
+    name: "MS MED540 - Fundamentals of Aeroacoustics"
   },
   {
     id: 54,
-    name: "MS PEC505 - Petroleum Economics, Risk and Uncertainty Management",
+    name: "MS MEO528 - Robotics"
   },
   {
     id: 55,
-    name: "MS PEC506 - Reservoir Simulation Practical",
+    name: "MS MEO579 - Computational Fluid Dynamics"
   },
   {
     id: 56,
-    name: "MS PEC507 - Term paper or Mini Project",
+    name: "MS MED401 - Energy Conversion Equipment"
   },
   {
     id: 57,
-    name: "MS MCC501 - Analysis",
+    name: "MS MED549 - Cryogenic Engineering"
   },
   {
     id: 58,
-    name: "MS MCC502 - Differential Equations",
+    name: "MS MEO534 - Automation and Control"
   },
   {
     id: 59,
-    name: "MS MCC503 - Numerical Methods",
+    name: "MS MMO504 - Advanced Fluid Power Systems and Control"
   },
   {
     id: 60,
-    name: "MS MCC504 - Data Structures",
+    name: "MS PED401 - Offshore Drilling and Petroleum Production Practices"
   },
   {
     id: 61,
-    name: "MS MCC505 - Probability & Statistics",
+    name: "MS PED402 - Enhanced Oil Recovery Techniques"
   },
   {
     id: 62,
-    name: "MS MCC505 - Probability & Statistics",
+    name: "MS PEO401 - Petroleum Environment, Health and Safety Practices"
   },
   {
     id: 63,
-    name: "MS MCC506 - Numerical Methods Practical",
+    name: "MS PEO402 - Well Performance"
   },
   {
     id: 64,
-    name: "MS MCC507 - Data Structures Practical",
+    name: "MS PEO406 - Reservoir Geomechanics"
   },
   {
     id: 65,
-    name: "MS GLC502 - Applied Geochemistry",
+    name: "MS PHD501 - Advanced Quantum Mechanics"
   },
   {
     id: 66,
-    name: "MS GLC505 - Mathematics for Geoscientists",
+    name: "MS PHD506 - Characterization Techniques"
   },
   {
     id: 67,
-    name: "MS GLC552 - Sample Preparation and Analytical Technique in Geosciences",
+    name: "MS PHD577 - Numerical Methods and Simulation"
   },
   {
     id: 68,
-    name: "MS GLC553 - Geology of Natural Resources",
+    name: "MS PHO400 - Nanoelectronics and Nanophotonics"
   },
   {
     id: 69,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS PHO504 - Optoelectronic Materials and Devices"
   },
   {
     id: 70,
-    name: "MS GPC531 - Geotechnical Modelling",
+    name: "MS GLC201 - Crystallography and Mineralogy"
   },
   {
     id: 71,
-    name: "MS GPC533 - Seismic Hazard Zonation",
+    name: "MS GLC202 - Physical and Structural Geology"
   },
   {
     id: 72,
-    name: "MS GPC541 - Numerical Analysis and Data Structure",
+    name: "MS GLC203 - Crystallography and Optical Mineralogy Practical"
   },
   {
     id: 73,
-    name: "MS GPC542 - Geophysical Field Theory",
+    name: "MS GLC204 - Structural Geology Practical"
   },
   {
     id: 74,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS GLE201 - Geology for Engineering and Sciences"
   },
   {
     id: 75,
-    name: "MS CHC501 - Advanced Transport Phenomena",
+    name: "MS GPC501 - Solid Earth Geophysics"
   },
   {
     id: 76,
-    name: "MS CHC502 - Advanced Chemical Engineering Thermodynamics",
+    name: "MS GLC202 - Physical and Structural Geology"
   },
   {
     id: 77,
-    name: "MS CHC503 - Computational Techniques in Chemical Engineering",
+    name: "MS GLE203 - Geology for Engineering and Sciences Practical"
   },
   {
     id: 78,
-    name: "MS CHC519 - Catalytic Processes and Reactors",
+    name: "MS GPC201 - Introduction to Rock Physics"
   },
   {
     id: 79,
-    name: "MS CHC520 - Applied Statistics in Chemical Engineering",
+    name: "MS GPC202 - Self-Potential Method: Theory and Application"
   },
   {
     id: 80,
-    name: "MS CSC503 - Algorithmic Graph Theory",
+    name: "MS GPC203 - Lab on Rock Physics"
   },
   {
     id: 81,
-    name: "MS CSC504 - Computing Techniques and Mathematical Tools",
+    name: "MS GPC204 - Self-Potential Method Theory & Application Practical"
   },
   {
     id: 82,
-    name: "MS CSC517 - Selected Topics in Algorithms",
+    name: "MS GPE202 - Geophysical Prospecting"
   },
   {
     id: 83,
-    name: "MS CSC518 - Number Theory and Cryptography",
+    name: "MS MCC201 - Modern Algebra"
   },
   {
     id: 84,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS MCC202 - Computer Organization and Architecture"
   },
   {
     id: 85,
-    name: "MS ECC501 - Advanced Optical Communication",
+    name: "MS MCC203 - Real Analysis"
   },
   {
     id: 86,
-    name: "MS ECC504 - Fundamentals of Communication Systems Design",
+    name: "MS MCC204 - Computer Organization and Architecture Practical"
   },
   {
     id: 87,
-    name: "MS ECC505 - Numerical Methods and Optimization Techniques",
+    name: "MS MCC505 - Probability & Statistics"
   },
   {
     id: 88,
-    name: "MS ECC582 - Digital VLSI Circuits Design",
+    name: "MS GLC502 - Applied Geochemistry"
   },
   {
     id: 89,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS GLC503 - Methods of Structural Geology"
   },
   {
     id: 90,
-    name: "MS ESC501 - Ecology and Environmental Microbiology",
+    name: "MS GLC504 - Micropaleontology and Vertebrate Palaeontology"
   },
   {
     id: 91,
-    name: "MS ESC503 - MATLAB Programming for Numerical Computation",
+    name: "MS GLC506 - Mineralogy and Geochemistry Practical"
   },
   {
     id: 92,
-    name: "MS ESC508 - Instrumental Techniques in Environmental Analysis",
+    name: "MS GLC507 - Methods of Structural Geology Practical"
   },
   {
     id: 93,
-    name: "MS ESC525 - Environmental Chemistry",
+    name: "MS GLC508 - Micropaleontology and Vertebrate Paleontology Practical"
   },
   {
     id: 94,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS GLO532 - Environmental Geology"
   },
   {
     id: 95,
-    name: "MS FMC501 - Coal and Mineral Processing",
+    name: "MS GPC501 - Solid Earth Geophysics"
   },
   {
     id: 96,
-    name: "MS FMC503 - Numerical Methods & Computer Applications",
+    name: "MS GPC502 - Gravity Method"
   },
   {
     id: 97,
-    name: "MS FMC506 - Fuel Technology",
+    name: "MS GPC504 - Mathematical Functional Analysis"
   },
   {
     id: 98,
-    name: "MS FMC509 - Advanced Materials and Applications",
+    name: "MS GPC505 - Gravity Method Practical"
   },
   {
     id: 99,
-    name: "MS FMC510 - Mathematical Modeling of Mineral and Metallurgical Processes",
+    name: "MS GPC507 - Mathematical Functional Analysis Practical"
   },
   {
     id: 100,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS GPE202 - Geophysical Prospecting"
   },
   {
     id: 101,
-    name: "MS MCC502 - Differential Equations",
+    name: "MS GPE203 - Geophysical Prospecting Practical"
   },
   {
     id: 102,
-    name: "MS MCC503 - Numerical Methods",
+    name: "MS MCC301 - Number Theory and Cryptography"
   },
   {
     id: 103,
-    name: "MS MCC520 - Fourier Analysis and its Applications",
+    name: "MS MCC302 - GPU Computing Practical"
   },
   {
     id: 104,
-    name: "MS MCC521 - Bayesian Survival Analysis",
+    name: "MS MCC502 - Differential Equations"
   },
   {
     id: 105,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS MCD541 - GPU Computing"
   },
   {
     id: 106,
-    name: "MS MCC502 - Differential Equations",
+    name: "MS MCO403 - Graph Algorithms"
   },
   {
     id: 107,
-    name: "MS MCC503 - Numerical Methods",
+    name: "MS GLC518 - Principles and Applications of Geostatistics"
   },
   {
     id: 108,
-    name: "MS MCC520 - Fourier Analysis and its Applications",
+    name: "MS GLC519 - Engineering Geology"
   },
   {
     id: 109,
-    name: "MS MCC521 - Bayesian Survival Analysis",
+    name: "MS GLC520 - Hydrogeology"
   },
   {
     id: 110,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS GLC524 - Principles and Applications of Geostatistics Practical"
   },
   {
     id: 111,
-    name: "MS PEC503 - Numerical Methods for Petroleum Engineers",
+    name: "MS GLC525 - Engineering Geology and Hydrogeology Practical"
   },
   {
     id: 112,
-    name: "MS PEC504 - Advanced Production Technologies",
+    name: "MS GLD521 - Stratigraphy"
   },
   {
     id: 113,
-    name: "MS PEC513 - Introduction to Python and Petroleum Data Analysis",
+    name: "MS GLD522 - Coalbed Methane, Shale Gas and Gas Hydrate Exploration"
   },
   {
     id: 114,
-    name: "MS GLC518 - Principles and Applications of Geostatistics",
+    name: "MS GLO523 - Atmosphere, Ocean and Climate Dynamics"
   },
   {
     id: 115,
-    name: "MS GLC519 - Engineering Geology",
+    name: "MS GPC516 - Geophysical Inversion"
   },
   {
     id: 116,
-    name: "MS GLC520 - Hydrogeology",
+    name: "MS GPC517 - Seismic Data Processing and Interpretation"
   },
   {
     id: 117,
-    name: "MS GLC524 - Principles and Applications of Geostatistics Practical",
+    name: "MS GPC518 - Geophysical Inversion Practical"
   },
   {
     id: 118,
-    name: "MS GLC525 - Engineering Geology and Hydrogeology Practical",
+    name: "MS GPC519 - Seismic Data Processing and Interpretation  Practical"
   },
   {
     id: 119,
-    name: "MS GLD576 - Nanotechnology in Mineral and Hydrocarbon Exploration",
+    name: "MS GPD501 - Geothermics and Geodynamics"
   },
   {
     id: 120,
-    name: "MS GLD591 - Rock Slope Engineering",
+    name: "MS GPD502 - Formation Evaluation"
   },
   {
     id: 121,
-    name: "MS GPC516 - Geophysical Inversion",
+    name: "MS GPD503 - Image Processing and Geographic Information System"
   },
   {
     id: 122,
-    name: "MS GPC517 - Seismic Data Processing and Interpretation",
+    name: "MS GPO501 - Groundwater Geophysics"
   },
   {
     id: 123,
-    name: "MS GPC518 - Geophysical Inversion Practical",
+    name: "MS MCC503 - Numerical Methods"
   },
   {
     id: 124,
-    name: "MS GPC519 - Seismic Data Processing and Interpretation  Practical",
+    name: "MS MCC506 - Numerical Methods Practical"
   },
   {
     id: 125,
-    name: "MS GPD502 - Formation Evaluation",
+    name: "MS MCD531 - Cryptography"
   },
   {
     id: 126,
-    name: "MS GPD503 - Image Processing and Geographic Information System",
+    name: "MS MCD557 - Finite Field Theory"
   },
   {
     id: 127,
-    name: "MS GLC501 - Advanced Mineralogy",
+    name: "MS MCO401 - Partial Differential Equations"
   },
   {
     id: 128,
-    name: "MS GLC502 - Applied Geochemistry",
+    name: "MS MCO502 - Optimization Techniques"
   },
   {
     id: 129,
-    name: "MS GLC503 - Methods of Structural Geology",
+    name: "MS CYC514 - Photochemistry & Pericyclic Reactions"
   },
   {
     id: 130,
-    name: "MS GLC504 - Micropaleontology and Vertebrate Palaeontology",
+    name: "MS CYC515 - Molecular Spectroscopy"
   },
   {
     id: 131,
-    name: "MS GLC505 - Mathematics for Geoscientists",
+    name: "MS CYC516 - Strategies in Organic Synthesis"
   },
   {
     id: 132,
-    name: "MS GLC506 - Mineralogy and Geochemistry Practical",
+    name: "MS CYC517 - Physical Chemistry Lab - II"
   },
   {
     id: 133,
-    name: "MS GLC506 - Mineralogy and Geochemistry Practical",
+    name: "MS CYC518 - Analytical Chemistry Lab"
   },
   {
     id: 134,
-    name: "MS GLC507 - Methods of Structural Geology Practical",
+    name: "MS CYD512 - Modern Aspects of Catalysis and Surface Science"
   },
   {
     id: 135,
-    name: "MS GLC508 - Micropaleontology and Vertebrate Paleontology Practical",
+    name: "MS CYD515 - Advances in Nonconventional Energy Systems"
   },
   {
     id: 136,
-    name: "MS GLC202 - Physical and Structural Geology",
+    name: "MS CYD522 - Advanced Biocatalysis"
   },
   {
     id: 137,
-    name: "MS GPC501 - Solid Earth Geophysics",
+    name: "MS CYD532 - Solid State Materials: Chemistry & Engineering"
   },
   {
     id: 138,
-    name: "MS GPC502 - Gravity Method",
+    name: "MS CYD534 - Heterocyclic Chemistry"
   },
   {
     id: 139,
-    name: "MS GPC503 - Remote Sensing Principles",
+    name: "MS CYD536 - Science of Corrosion & Corrosion Control"
   },
   {
     id: 140,
-    name: "MS GPC504 - Mathematical Functional Analysis",
+    name: "MS MCC514 - Functional Analysis"
   },
   {
     id: 141,
-    name: "MS GPC505 - Gravity Method Practical",
+    name: "MS MCC515 - Topology"
   },
   {
     id: 142,
-    name: "MS GPC506 - Remote Sensing Principles Practical",
+    name: "MS MCC516 - Computational Fluid Dynamics"
   },
   {
     id: 143,
-    name: "MS GPC507 - Mathematical Functional Analysis Practical",
+    name: "MS MCC517 - Design and Analysis of Algorithms"
   },
   {
     id: 144,
-    name: "MS GLC518 - Principles and Applications of Geostatistics",
+    name: "MS MCC518 - Computational Fluid Dynamics Practical"
   },
   {
     id: 145,
-    name: "MS GLC519 - Engineering Geology",
+    name: "MS MCC519 - Design and Analysis of Algorithms  Practical"
   },
   {
     id: 146,
-    name: "MS GLC520 - Hydrogeology",
+    name: "MS MCD533 - Numerical Optimization"
   },
   {
     id: 147,
-    name: "MS GLC524 - Principles and Applications of Geostatistics Practical",
+    name: "MS PHC514 - Statistical Mechanics"
   },
   {
     id: 148,
-    name: "MS GLC525 - Engineering Geology and Hydrogeology Practical",
+    name: "MS PHC515 - Laser Physics and Technology"
   },
   {
     id: 149,
-    name: "MS GLD521 - Stratigraphy",
+    name: "MS PHC516 - Nuclear and Particle Physics"
   },
   {
     id: 150,
-    name: "MS GLD522 - Coalbed Methane, Shale Gas and Gas Hydrate Exploration",
+    name: "MS PHC517 - Computation and Simulation"
   },
   {
     id: 151,
-    name: "MS GLO523 - Atmosphere, Ocean and Climate Dynamics",
+    name: "MS PHC518 - Experimental Physics - V"
   },
   {
     id: 152,
-    name: "MS GPC516 - Geophysical Inversion",
+    name: "MS PHD509 - Advanced Condensed Matter Physics"
   },
   {
     id: 153,
-    name: "MS GPC517 - Seismic Data Processing and Interpretation",
+    name: "MS PHD510 - Quantum Computation and Information"
   },
   {
     id: 154,
-    name: "MS GPC518 - Geophysical Inversion Practical",
+    name: "MS PHD575 - Theoretical Physics"
   },
   {
     id: 155,
-    name: "MS GPC519 - Seismic Data Processing and Interpretation  Practical",
+    name: "MS PHD576 - Experimental Physics"
   },
   {
     id: 156,
-    name: "MS GPD501 - Geothermics and Geodynamics",
+    name: "MS GLC518 - Principles and Applications of Geostatistics"
   },
   {
     id: 157,
-    name: "MS GPD504 - Airborne Geophysics",
+    name: "MS GLC519 - Engineering Geology"
   },
   {
     id: 158,
-    name: "MS MCC503 - Numerical Methods",
+    name: "MS GLC520 - Hydrogeology"
   },
   {
     id: 159,
-    name: "MS MCC506 - Numerical Methods Practical",
+    name: "MS GLC524 - Principles and Applications of Geostatistics Practical"
   },
   {
     id: 160,
-    name: "MS MCD512 - Non-Linear Dynamics and Chaos",
+    name: "MS GLC525 - Engineering Geology and Hydrogeology Practical"
   },
   {
     id: 161,
-    name: "MS MCD557 - Finite Field Theory",
+    name: "MS GLD576 - Nanotechnology in Mineral and Hydrocarbon Exploration"
   },
   {
     id: 162,
-    name: "MS MCO401 - Partial Differential Equations",
+    name: "MS GLD591 - Rock Slope Engineering"
   },
   {
     id: 163,
-    name: "MS MCO502 - Optimization Techniques",
+    name: "MS GPC516 - Geophysical Inversion"
   },
   {
     id: 164,
-    name: "MS GLC502 - Applied Geochemistry",
+    name: "MS GPC517 - Seismic Data Processing and Interpretation"
   },
   {
     id: 165,
-    name: "MS GLC503 - Methods of Structural Geology",
+    name: "MS GPC518 - Geophysical Inversion Practical"
   },
   {
     id: 166,
-    name: "MS GLC504 - Micropaleontology and Vertebrate Palaeontology",
+    name: "MS GPC519 - Seismic Data Processing and Interpretation  Practical"
   },
   {
     id: 167,
-    name: "MS GLC506 - Mineralogy and Geochemistry Practical",
+    name: "MS GLC591 - Research Methodology"
   },
   {
     id: 168,
-    name: "MS GLC506 - Mineralogy and Geochemistry Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 169,
-    name: "MS GLC507 - Methods of Structural Geology Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 170,
-    name: "MS GLC508 - Micropaleontology and Vertebrate Paleontology Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 171,
-    name: "MS GLO532 - Environmental Geology",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 172,
-    name: "MS GPC501 - Solid Earth Geophysics",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 173,
-    name: "MS GPC502 - Gravity Method",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 174,
-    name: "MS GPC504 - Mathematical Functional Analysis",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 175,
-    name: "MS GPC505 - Gravity Method Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 176,
-    name: "MS GPC507 - Mathematical Functional Analysis Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 177,
-    name: "MS GPE202 - Geophysical Prospecting",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 178,
-    name: "MS GPE203 - Geophysical Prospecting Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 179,
-    name: "MS GPO501 - Groundwater Geophysics",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 180,
-    name: "MS MCC301 - Number Theory and Cryptography",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 181,
-    name: "MS MCC302 - GPU Computing Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 182,
-    name: "MS MCC502 - Differential Equations",
+    name: "MS EEC550 - Research Methodology and Statistics for Electrical Engineering"
   },
   {
     id: 183,
-    name: "MS MCD541 - GPU Computing",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 184,
-    name: "MS MCO403 - Graph Algorithms",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 185,
-    name: "MS GLC201 - Crystallography and Mineralogy",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 186,
-    name: "MS GLC202 - Physical and Structural Geology",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 187,
-    name: "MS GLC203 - Crystallography and Optical Mineralogy Practical",
+    name: "MS FMC511 - Research Methodology"
   },
   {
     id: 188,
-    name: "MS GLC204 - Structural Geology Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 189,
-    name: "MS GLE201 - Geology for Engineering and Sciences",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 190,
-    name: "MS GPC501 - Solid Earth Geophysics",
+    name: "MS HSC501 - Research Methodology"
   },
   {
     id: 191,
-    name: "MS GLC202 - Physical and Structural Geology",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 192,
-    name: "MS GLE203 - Geology for Engineering and Sciences Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 193,
-    name: "MS GPC201 - Introduction to Rock Physics",
+    name: "MS HSC501 - Research Methodology"
   },
   {
     id: 194,
-    name: "MS GPC202 - Self-Potential Method: Theory and Application",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 195,
-    name: "MS GPC203 - Lab on Rock Physics",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 196,
-    name: "MS GPC204 - Self-Potential Method Theory & Application Practical",
+    name: "MS HSC501 - Research Methodology"
   },
   {
     id: 197,
-    name: "MS GPE202 - Geophysical Prospecting",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 198,
-    name: "MS MCC201 - Modern Algebra",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 199,
-    name: "MS MCC202 - Computer Organization and Architecture",
+    name: "MS HSC501 - Research Methodology"
   },
   {
     id: 200,
-    name: "MS MCC203 - Real Analysis",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 201,
-    name: "MS MCC204 - Computer Organization and Architecture Practical",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 202,
-    name: "MS MCC505 - Probability & Statistics",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 203,
-    name: "MS MCC505 - Probability & Statistics",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 204,
-    name: "MS CHD405 - Energy Technology",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 205,
-    name: "MS CHD408 - Process Data Analytics",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 206,
-    name: "MS CHD413 - Advanced Separation Processes",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 207,
-    name: "MS CHD415 - Interfacial Phenomena and Microfluidics",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 208,
-    name: "MS CHO401 - Process Integration",
+    name: "MS MNC700 - Research Methodology"
   },
   {
     id: 209,
-    name: "MS CHO402 - Biofuels & Biomass Conversion Technology",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 210,
-    name: "MS CHO404 - AI in Process Industries",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 211,
-    name: "MS CSD407 - Network Security",
+    name: "MS MEC591 - Research Methodology and Statistics"
   },
   {
     id: 212,
-    name: "MS CSD410 - Quantum Computing",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 213,
-    name: "MS CSD502 - Cloud Computing",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 214,
-    name: "MS CSO403 - Internet Technology",
+    name: "MS MEC591 - Research Methodology and Statistics"
   },
   {
     id: 215,
-    name: "MS CSO404 - Cryptography",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 216,
-    name: "MS CSO504 - Machine Learning",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 217,
-    name: "MS ECD401 - Antenna and Wave Propagation",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 218,
-    name: "MS ECD405 - Digital Systems Design using HDL",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 219,
-    name: "MS ECD411 - Machine learning & Artificial Intelligence",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 220,
-    name: "MS ECD415 - Optical Communication",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 221,
-    name: "MS ECD418 - Semiconductor Device Modeling and Simulation",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 222,
-    name: "MS ECD562 - Current Mode Analog Circuits",
+    name: "MS HSI500 - Research and Technical Communication"
   },
   {
     id: 223,
-    name: "MS ECO301 - Microprocessor and its Application",
+    name: "MS MSD501 - Entrepreneurship and New Ventures"
   },
   {
     id: 224,
-    name: "MS ECO302 - Power Electronics",
+    name: "MS MSD502 - Financial Analytics"
   },
   {
     id: 225,
-    name: "MS ECO502 - Neuromorphic Engineering",
+    name: "MS MSD503 - Sales and Distribution Management"
   },
   {
     id: 226,
-    name: "MS ECO561 - Embedded System Design",
+    name: "MS MSD505 - Materials Management"
   },
   {
     id: 227,
-    name: "MS ESD401 - Biodiversity Conservation",
+    name: "MS MSD506 - Investment Analysis and Portfolio Management"
   },
   {
     id: 228,
-    name: "MS ESD405 - Climate Vulnerability and Risk Analysis",
+    name: "MS MSD507 - Management of Banks and Financial Institutions"
   },
   {
     id: 229,
-    name: "MS ESD501 - Environmental Geology and Resource Management",
+    name: "MS MSD508 - Advertising and Promotion Management"
   },
   {
     id: 230,
-    name: "MS ESD502 - Environmental Biotechnology",
+    name: "MS MSD510 - Personnel Management and Industrial Relations"
   },
   {
     id: 231,
-    name: "MS ESD511 - Aerosols in the Atmosphere",
+    name: "MS MSD511 - Human Resources Development"
   },
   {
     id: 232,
-    name: "MS FMD401 - Powder Metallurgy",
+    name: "MS MSD512 - Service Operations Management"
   },
   {
     id: 233,
-    name: "MS FMD403 - Engineering Materials Selection and Design",
+    name: "MS MSD513 - Managerial Psychology"
   },
   {
     id: 234,
-    name: "MS FMD461 - Computational Techniques and Modelling",
+    name: "MS MSD516 - Organisational Development and Change"
   },
   {
     id: 235,
-    name: "MS FMD517 - Mechanical Behaviour of Materials",
+    name: "MS MSD517 - Strategic Management"
   },
   {
     id: 236,
-    name: "MS FMD520 - Advanced Thermodynamics and Kinetics",
+    name: "MS MSD530 - Supply Chain Management and Logistics"
   },
   {
     id: 237,
-    name: "MS FMO544 - Clean Coal Technology",
+    name: "MS MSD532 - Computational Finance"
   },
   {
     id: 238,
-    name: "MS FMO547 - Additive Manufacturing",
+    name: "MS MSD533 - Marketing Research"
   },
   {
     id: 239,
-    name: "MS PED401 - Offshore Drilling and Petroleum Production Practices",
+    name: "MS MSD535 - Internet of Things and Blockchain for Business"
   },
   {
     id: 240,
-    name: "MS PED402 - Enhanced Oil Recovery Techniques",
+    name: "MS HSC519 - Privacy, Morality & Law"
   },
   {
     id: 241,
-    name: "MS PED403 - Drilling System Design",
+    name: "MS HSC526 - The Psychology of the Internet"
   },
   {
     id: 242,
-    name: "MS PEO401 - Petroleum Environment, Health and Safety Practices",
+    name: "MS HSC528 - Theorizing Digital Transformation"
   },
   {
     id: 243,
-    name: "MS PEO402 - Well Performance",
+    name: "MS HSC529 - Natural Language Processing Lab"
   },
   {
     id: 244,
-    name: "MS PEO406 - Reservoir Geomechanics",
+    name: "MS HSD507 - Introduction to Drama, Theatre and Performance Studies"
   },
   {
     id: 245,
-    name: "MS CHC301 - Separation Processes",
+    name: "MS HSD559 - Analytical Philosophy"
   },
   {
     id: 246,
-    name: "MS CHC302 - Chemical Kinetics and Reaction Engineering",
+    name: "MS CHC201 - Chemical Process Calculations"
   },
   {
     id: 247,
-    name: "MS CHC303 - Process Design and Economics",
+    name: "MS CHC202 - Fluid and Particle Mechanics"
   },
   {
     id: 248,
-    name: "MS CHC304 - Chemical Kinetics and Reaction Engineering Lab",
+    name: "MS CHC203 - Heat Transfer"
   },
   {
     id: 249,
-    name: "MS CHC305 - Mass Transfer Lab",
+    name: "MS CHC204 - Computational Tools for Chemical Engineers Lab"
   },
   {
     id: 250,
-    name: "MS CHD407 - Materials Characterization",
+    name: "MS CHC205 - Fluid and Particle Mechanics Lab"
   },
   {
     id: 251,
-    name: "MS CSC301 - Database Management Systems",
+    name: "MS CHE201 - Engineering Thermodynamics"
   },
   {
     id: 252,
-    name: "MS CSC302 - Compiler Design",
+    name: "MS CSC201 - Data Structures"
   },
   {
     id: 253,
-    name: "MS CSC303 - Database Management Systems Lab",
+    name: "MS CSC202 - Discrete Mathematics"
   },
   {
     id: 254,
-    name: "MS CSC304 - Compiler Design Lab",
+    name: "MS CSC203 - Computer Organization"
   },
   {
     id: 255,
-    name: "MS CSO303 - Artificial Intelligence",
+    name: "MS CSC204 - Data Structures Lab"
   },
   {
     id: 256,
-    name: "MS CSO505 - Soft Computing",
+    name: "MS CSC205 - Computer Organization Lab"
   },
   {
     id: 257,
-    name: "MS ECC301 - Principles of Communication Systems",
+    name: "MS CSE201 - Data Structures and Algorithms"
   },
   {
     id: 258,
-    name: "MS ECC302 - Digital Signal Processing",
+    name: "MS CEC201 - Surveying"
   },
   {
     id: 259,
-    name: "MS ECC303 - VLSI Design",
+    name: "MS CEC202 - Environmental Engineering"
   },
   {
     id: 260,
-    name: "MS ECC304 - Digital Signal Processing Lab",
+    name: "MS CEC203 - Building Materials, Construction and Management"
   },
   {
     id: 261,
-    name: "MS ECC305 - Communication System Lab",
+    name: "MS CEC204 - Material Testing Laboratory"
   },
   {
     id: 262,
-    name: "MS ECD403 - Computer Networks",
+    name: "MS CEC205 - Environmental Engineering Laboratory"
   },
   {
     id: 263,
-    name: "MS ESC308 - Environmental Geotechnology",
+    name: "MS CEE201 - Mechanics of Solid"
   },
   {
     id: 264,
-    name: "MS ESC309 - Wastewater Treatment",
+    name: "MS ECC201 - Electronic Devices"
   },
   {
     id: 265,
-    name: "MS ESC310 - Environmental Impact Assessment",
+    name: "MS ECC202 - Signals & Networks"
   },
   {
     id: 266,
-    name: "MS ESC355 - Environmental Geotechnology Practical",
+    name: "MS ECC203 - Digital Circuits and System Design"
   },
   {
     id: 267,
-    name: "MS ESC356 - Wastewater Engineering Practical",
+    name: "MS ECC204 - Digital System Design Lab"
   },
   {
     id: 268,
-    name: "MS ESO405 - Cleaner  Energy",
+    name: "MS ECC205 - Signals & Networks Lab"
   },
   {
     id: 269,
-    name: "MS FMC301 - Coal and Mineral Process Equipment Selection",
+    name: "MS ECE301 - Analog Interface Electronics"
   },
   {
     id: 270,
-    name: "MS FMC302 - Extractive Metallurgy",
+    name: "MS EEC201 - Signals, Systems and Networks"
   },
   {
     id: 271,
-    name: "MS FMC306 - Coal and Mineral Process Equipment Selection Laboratory",
+    name: "MS EEC202 - Analog and Digital Electronics"
   },
   {
     id: 272,
-    name: "MS FMC351 - Extractive Metallurgy Laboratory",
+    name: "MS EEC203 - Electromagnetic Theory and Applications"
   },
   {
     id: 273,
-    name: "MS FMD518 - Joining of Materials",
+    name: "MS EEC271 - Networks Lab"
   },
   {
     id: 274,
-    name: "MS FMO545 - Equipment Design",
+    name: "MS EEC272 - Analog and Digital Electronics Lab"
   },
   {
     id: 275,
-    name: "MS PEC301 - Applied Petroleum Reservoir Engineering and Management",
+    name: "MS EEE202 - Utilization of Electrical Energy"
   },
   {
     id: 276,
-    name: "MS PEC302 - Petroleum Production Operations",
+    name: "MS ESC201 - Drinking Water Supply and Treatment"
   },
   {
     id: 277,
-    name: "MS PEC303 - Natural Gas Engineering",
+    name: "MS ESC202 - Air Pollution"
   },
   {
     id: 278,
-    name: "MS PEC304 - Petroleum Production Engineering Practical",
+    name: "MS ESC203 - Noise  Pollution and Control"
   },
   {
     id: 279,
-    name: "MS PEC305 - Process Engineering Practical",
+    name: "MS ESC251 - Water Pollution Practical"
   },
   {
     id: 280,
-    name: "MS PEO404 - Petroleum Resource Management and Project Evaluation",
+    name: "MS ESC252 - Air and Noise Pollution Practical"
   },
   {
     id: 281,
-    name: "MS CHC201 - Chemical Process Calculations",
+    name: "MS ESE201 - Pollution Control and Management"
   },
   {
     id: 282,
-    name: "MS CHC202 - Fluid and Particle Mechanics",
+    name: "MS FMC201 - Colloids and Interfacial Phenomena"
   },
   {
     id: 283,
-    name: "MS CHC203 - Heat Transfer",
+    name: "MS FMC202 - Heat and Mass Transfer"
   },
   {
     id: 284,
-    name: "MS CHC204 - Computational Tools for Chemical Engineers Lab",
+    name: "MS FMC203 - Physical Separation Processes for Coal and Minerals"
   },
   {
     id: 285,
-    name: "MS CHC205 - Fluid and Particle Mechanics Lab",
+    name: "MS FMC251 - Particle Technology Laboratory"
   },
   {
     id: 286,
-    name: "MS CHE201 - Engineering Thermodynamics",
+    name: "MS FMC252 - Physical Separation Processes Laboratory"
   },
   {
     id: 287,
-    name: "MS CSC201 - Data Structures",
+    name: "MS FME221 - Particle Technology"
   },
   {
     id: 288,
-    name: "MS CSC202 - Discrete Mathematics",
+    name: "MS GLE203 - Geology for Engineering and Sciences Practical"
   },
   {
     id: 289,
-    name: "MS CSC203 - Computer Organization",
+    name: "MS MNC200 - Elements of Mining"
   },
   {
     id: 290,
-    name: "MS CSC204 - Data Structures Lab",
+    name: "MS MNC201 - Rock Breakage"
   },
   {
     id: 291,
-    name: "MS CSC205 - Computer Organization Lab",
+    name: "MS MNC202 - Mine Surveying"
   },
   {
     id: 292,
-    name: "MS CSE201 - Data Structures and Algorithms",
+    name: "MS MNC203 - Mine Surveying Practical"
   },
   {
     id: 293,
-    name: "MS ECC201 - Electronic Devices",
+    name: "MS MNC204 - Rock Breakage Practical"
   },
   {
     id: 294,
-    name: "MS ECC202 - Signals & Networks",
+    name: "MS MNE201 - Introduction to Mining"
   },
   {
     id: 295,
-    name: "MS ECC203 - Digital Circuits and System Design",
+    name: "MS MEC201 - Kinematics of Machines"
   },
   {
     id: 296,
-    name: "MS ECC204 - Digital System Design Lab",
+    name: "MS MEC202 - Fluid Mechanics"
   },
   {
     id: 297,
-    name: "MS ECC205 - Signals & Networks Lab",
+    name: "MS MEC203 - Applied Thermodynamics"
   },
   {
     id: 298,
-    name: "MS ECE301 - Analog Interface Electronics",
+    name: "MS MEC204 - Applied Mechanics Lab"
   },
   {
     id: 299,
-    name: "MS ESC201 - Drinking Water Supply and Treatment",
+    name: "MS MEC205 - Thermodynamics and Fluid Mechanics Lab"
   },
   {
     id: 300,
-    name: "MS ESC202 - Air Pollution",
+    name: "MS MEE201 - Engineering Materials"
   },
   {
     id: 301,
-    name: "MS ESC203 - Noise  Pollution and Control",
+    name: "MS MMC201 - Manufacturing Technology"
   },
   {
     id: 302,
-    name: "MS ESC251 - Water Pollution Practical",
+    name: "MS MMC202 - Theory of Machines"
   },
   {
     id: 303,
-    name: "MS ESC252 - Air and Noise Pollution Practical",
+    name: "MS MMC203 - Design of Machine Elements"
   },
   {
     id: 304,
-    name: "MS ESE201 - Pollution Control and Management",
+    name: "MS MMC204 - Thermodynamics and Fluid Mechanics Lab"
   },
   {
     id: 305,
-    name: "MS FMC201 - Colloids and Interfacial Phenomena",
+    name: "MS MMC205 - Solid Mechanics and Theory of Machines Lab"
   },
   {
     id: 306,
-    name: "MS FMC202 - Heat and Mass Transfer",
+    name: "MS MME202 - Mining Machinery"
   },
   {
     id: 307,
-    name: "MS FMC203 - Physical Separation Processes for Coal and Minerals",
+    name: "MS GLE203 - Geology for Engineering and Sciences Practical"
   },
   {
     id: 308,
-    name: "MS FMC251 - Particle Technology Laboratory",
+    name: "MS PEC201 - Drilling Technology"
   },
   {
     id: 309,
-    name: "MS FMC252 - Physical Separation Processes Laboratory",
+    name: "MS PEC202 - Elements of Reservoir Engineering"
   },
   {
     id: 310,
-    name: "MS FME221 - Particle Technology",
+    name: "MS PEC203 - Drilling Fluids and Cements"
   },
   {
     id: 311,
-    name: "MS GLE203 - Geology for Engineering and Sciences Practical",
+    name: "MS PEC204 - Reservoir Engineering Practical"
   },
   {
     id: 312,
-    name: "MS PEC201 - Drilling Technology",
+    name: "MS PEC205 - Drilling Fluids and Cementing Practical"
   },
   {
     id: 313,
-    name: "MS PEC202 - Elements of Reservoir Engineering",
+    name: "MS PEE201 - Introduction to Petroleum Engineering"
   },
   {
     id: 314,
-    name: "MS PEC203 - Drilling Fluids and Cements",
+    name: "MS PHC200 - Waves and Acoustics"
   },
   {
     id: 315,
-    name: "MS PEC204 - Reservoir Engineering Practical",
+    name: "MS PHC201 - Classical Mechanics"
   },
   {
     id: 316,
-    name: "MS PEC205 - Drilling Fluids and Cementing Practical",
+    name: "MS PHC202 - Mathematical Physics"
   },
   {
     id: 317,
-    name: "MS PEE201 - Introduction to Petroleum Engineering",
+    name: "MS PHC203 - Mechanics Lab"
   },
   {
     id: 318,
-    name: "MS MSC501 - Management Principles & Practices",
+    name: "MS PHC204 - Waves and Acoustics Lab"
   },
   {
     id: 319,
-    name: "MS MSC502 - Research Methodology and Statistics",
+    name: "MS PHE200 - Biomedical Engineering"
   },
   {
     id: 320,
-    name: "MS MSC504 - Financial Accounting and Reporting",
+    name: "MS CHC301 - Separation Processes"
   },
   {
     id: 321,
-    name: "MS MSC506 - Managerial Economics",
+    name: "MS CHC302 - Chemical Kinetics and Reaction Engineering"
   },
   {
     id: 322,
-    name: "MS MSC507 - Decision Modelling",
+    name: "MS CHC303 - Process Design and Economics"
   },
   {
     id: 323,
-    name: "MS MSC508 - Business Analytics Lab",
+    name: "MS CHC304 - Chemical Kinetics and Reaction Engineering Lab"
   },
   {
     id: 324,
-    name: "MS MSC509 - Business Communication Lab",
+    name: "MS CHC305 - Mass Transfer Lab"
   },
   {
     id: 325,
-    name: "MS MSC502 - Research Methodology and Statistics",
+    name: "MS CHO404 - AI in Process Industries"
   },
   {
     id: 326,
-    name: "MS MSC504 - Financial Accounting and Reporting",
+    name: "MS CSC301 - Database Management Systems"
   },
   {
     id: 327,
-    name: "MS MSC506 - Managerial Economics",
+    name: "MS CSC302 - Compiler Design"
   },
   {
     id: 328,
-    name: "MS MSC507 - Decision Modelling",
+    name: "MS CSC303 - Database Management Systems Lab"
   },
   {
     id: 329,
-    name: "MS MSC508 - Business Analytics Lab",
+    name: "MS CSC304 - Compiler Design Lab"
   },
   {
     id: 330,
-    name: "MS MSC522 - Data Mining for Business",
+    name: "MS CSO303 - Artificial Intelligence"
   },
   {
     id: 331,
-    name: "MS MSC523 - Multivariate Analysis Lab",
+    name: "MS CSO304 - Digital Image Processing"
   },
   {
     id: 332,
-    name: "MS MSC526 - Strategic Management",
+    name: "MS CEC301 - Structural Analysis - II"
   },
   {
     id: 333,
-    name: "MS MSD503 - Sales and Distribution Management",
+    name: "MS CEC302 - Foundation Engineering"
   },
   {
     id: 334,
-    name: "MS MSD507 - Management of Banks and Financial Institutions",
+    name: "MS CEC303 - Structural Engineering Laboratory"
   },
   {
     id: 335,
-    name: "MS MSD508 - Advertising and Promotion Management",
+    name: "MS CEC304 - Geotechnical Engineering Laboratory"
   },
   {
     id: 336,
-    name: "MS MSD510 - Personnel Management and Industrial Relations",
+    name: "MS CEO301 - Reliability and Risk Assessment"
   },
   {
     id: 337,
-    name: "MS MSD511 - Human Resources Development",
+    name: "MS CEO401 - Flow and Transport through Porous Media"
   },
   {
     id: 338,
-    name: "MS MSD530 - Supply Chain Management and Logistics",
+    name: "MS ECC301 - Principles of Communication Systems"
   },
   {
     id: 339,
-    name: "MS MSD532 - Computational Finance",
+    name: "MS ECC302 - Digital Signal Processing"
   },
   {
     id: 340,
-    name: "MS MSD533 - Marketing Research",
+    name: "MS ECC303 - VLSI Design"
   },
   {
     id: 341,
-    name: "MS CYC514 - Photochemistry & Pericyclic Reactions",
+    name: "MS ECC304 - Digital Signal Processing Lab"
   },
   {
     id: 342,
-    name: "MS CYC515 - Molecular Spectroscopy",
+    name: "MS ECC305 - Communication System Lab"
   },
   {
     id: 343,
-    name: "MS CYC516 - Strategies in Organic Synthesis",
+    name: "MS ECO302 - Power Electronics"
   },
   {
     id: 344,
-    name: "MS CYC517 - Physical Chemistry Lab - II",
+    name: "MS EEC308 - Electrical Machines - II"
   },
   {
     id: 345,
-    name: "MS CYC518 - Analytical Chemistry Lab",
+    name: "MS EEC309 - Modern Control"
   },
   {
     id: 346,
-    name: "MS CYC518 - Analytical Chemistry Lab",
+    name: "MS EEC310 - Power Electronics"
   },
   {
     id: 347,
-    name: "MS CYD522 - Advanced Biocatalysis",
+    name: "MS EEC375 - Microprocessor and Microcontrollers Lab"
   },
   {
     id: 348,
-    name: "MS CYD532 - Solid State Materials: Chemistry & Engineering",
+    name: "MS EEC376 - Electrical Machines and Control Lab"
   },
   {
     id: 349,
-    name: "MS CYD534 - Heterocyclic Chemistry",
+    name: "MS EED402 - High Voltage Engineering and Applications"
   },
   {
     id: 350,
-    name: "MS CYD535 - Main Group Chemistry",
+    name: "MS ESC308 - Environmental Geotechnology"
   },
   {
     id: 351,
-    name: "MS CYD536 - Science of Corrosion & Corrosion Control",
+    name: "MS ESC309 - Wastewater Treatment"
   },
   {
     id: 352,
-    name: "MS MCC514 - Functional Analysis",
+    name: "MS ESC310 - Environmental Impact Assessment"
   },
   {
     id: 353,
-    name: "MS MCC515 - Topology",
+    name: "MS ESC355 - Environmental Geotechnology Practical"
   },
   {
     id: 354,
-    name: "MS MCC516 - Computational Fluid Dynamics",
+    name: "MS ESC356 - Wastewater Engineering Practical"
   },
   {
     id: 355,
-    name: "MS MCC517 - Design and Analysis of Algorithms",
+    name: "MS ESO401 - Climate Change Impacts on Water Resources"
   },
   {
     id: 356,
-    name: "MS MCC518 - Computational Fluid Dynamics Practical",
+    name: "MS FMC301 - Coal and Mineral Process Equipment Selection"
   },
   {
     id: 357,
-    name: "MS MCC519 - Design and Analysis of Algorithms  Practical",
+    name: "MS FMC302 - Extractive Metallurgy"
   },
   {
     id: 358,
-    name: "MS MCD514 - Sampling Theory",
+    name: "MS FMC306 - Coal and Mineral Process Equipment Selection Laboratory"
   },
   {
     id: 359,
-    name: "MS PHC514 - Statistical Mechanics",
+    name: "MS FMC351 - Extractive Metallurgy Laboratory"
   },
   {
     id: 360,
-    name: "MS PHC515 - Laser Physics and Technology",
+    name: "MS FMD401 - Powder Metallurgy"
   },
   {
     id: 361,
-    name: "MS PHC516 - Nuclear and Particle Physics",
+    name: "MS FMD402 - Welding Metallurgy"
   },
   {
     id: 362,
-    name: "MS PHC517 - Computation and Simulation",
+    name: "MS MNC300 - Surface Mining"
   },
   {
     id: 363,
-    name: "MS PHC518 - Experimental Physics - V",
+    name: "MS MNC301 - Mine Planning and Economics"
   },
   {
     id: 364,
-    name: "MS PHD501 - Advanced Quantum Mechanics",
+    name: "MS MNC302 - Computer Aided Mine Planning and Design"
   },
   {
     id: 365,
-    name: "MS PHD510 - Quantum Computation and Information",
+    name: "MS MNC303 - Mine Ventilation Practical - II"
   },
   {
     id: 366,
-    name: "MS CYC501 - Quantum Chemistry",
+    name: "MS MNO301 - Modern Surveying Techniques"
   },
   {
     id: 367,
-    name: "MS CYC502 - Organic Reactions and Stereochemistry",
+    name: "MS MNO303 - Underground Construction Engineering"
   },
   {
     id: 368,
-    name: "MS CYC503 - Mathematics for Chemists",
+    name: "MS MSO301 - Operations Research"
   },
   {
     id: 369,
-    name: "MS CYC504 - Application of Spectroscopic Methods",
+    name: "MS MSO404 - Introduction to Operations Management"
   },
   {
     id: 370,
-    name: "MS CYC505 - Coordination Chemistry",
+    name: "MS MEC301 - Machine Design"
   },
   {
     id: 371,
-    name: "MS CYC506 - Inorganic Chemistry lab",
+    name: "MS MEC302 - Machining and Machine Tools"
   },
   {
     id: 372,
-    name: "MS CYC507 - Organic Chemistry Lab - I",
+    name: "MS MEC303 - Advanced Solid Mechanics"
   },
   {
     id: 373,
-    name: "MS PHC501 - Classical Mechanics and Special Theory of Relativity",
+    name: "MS MEC304 - Production Technology Lab"
   },
   {
     id: 374,
-    name: "MS PHC502 - Methods of Mathematical Physics",
+    name: "MS MEC305 - Machine Design Lab"
   },
   {
     id: 375,
-    name: "MS PHC503 - Optics and Optical Instrumentation",
+    name: "MS MEO302 - Refrigeration and Air-conditioning"
   },
   {
     id: 376,
-    name: "MS PHC504 - Electronics",
+    name: "MS MED403 - Power Plant"
   },
   {
     id: 377,
-    name: "MS PHC505 - Numerical Methods and Computer Programming",
+    name: "MS MMC301 - Mineral Beneficiation Equipment"
   },
   {
     id: 378,
-    name: "MS PHC506 - Experimental Physics - I",
+    name: "MS MMC302 - Automation and Control in Mining Machineries"
   },
   {
     id: 379,
-    name: "MS PHC507 - Experimental Physics - II",
+    name: "MS MMC303 - Mine Electrical Technology Lab"
   },
   {
     id: 380,
-    name: "MS CYC515 - Molecular Spectroscopy",
+    name: "MS MMC304 - Automation and Control Lab"
   },
   {
     id: 381,
-    name: "MS CYC522 - Advanced Techniques in Materials Characterization",
+    name: "MS MMO301 - Automobile Engineering"
   },
   {
     id: 382,
-    name: "MS CYC523 - Numerical Analysis and Methods in Chemistry",
+    name: "MS PEC301 - Applied Petroleum Reservoir Engineering and Management"
   },
   {
     id: 383,
-    name: "MS CYC524 - Advanced Spectroscopic Methods",
+    name: "MS PEC302 - Petroleum Production Operations"
   },
   {
     id: 384,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS PEC303 - Natural Gas Engineering"
   },
   {
     id: 385,
-    name: "MS CEC501 - Numerical Methods in Civil Engineering",
+    name: "MS PEC304 - Petroleum Production Engineering Practical"
   },
   {
     id: 386,
-    name: "MS CEC503 - Mechanics of Deformable Solids",
+    name: "MS PEC305 - Process Engineering Practical"
   },
   {
     id: 387,
-    name: "MS CEC504 - Mechanics of Geomaterials",
+    name: "MS PEO404 - Petroleum Resource Management and Project Evaluation"
   },
   {
     id: 388,
-    name: "MS CEC512 - Applied Engineering Statistics",
+    name: "MS PHC300 - Thermal Physics Lab"
   },
   {
     id: 389,
-    name: "MS CEC513 - River Engineering",
+    name: "MS PHC301 - Electronics Lab"
   },
   {
     id: 390,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS PHC514 - Statistical Mechanics"
   },
   {
     id: 391,
-    name: "MS EEC503 - Numerical Simulation for Electrical Engineering",
+    name: "MS PHC515 - Laser Physics and Technology"
   },
   {
     id: 392,
-    name: "MS EEC511 - Renewable Energy Sources",
+    name: "MS PHO300 - Sensors and Transducers"
   },
   {
     id: 393,
-    name: "MS EEC521 - Battery Management Systems",
+    name: "MS PHO302 - Introduction to Astrophysics and Astronomy"
   },
   {
     id: 394,
-    name: "MS EEC522 - Electromagnetic Compatibility of Power Converters",
+    name: "MS CSC504 - Computing Techniques and Mathematical Tools"
   },
   {
     id: 395,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "MS CSC507 - Computing Techniques and Mathematical Tools Lab"
   },
   {
     id: 396,
-    name: "MS HSC500 - Research and Technical Communication",
+    name: "WS CHC206 - Chemical Engineering Thermodynamics"
   },
   {
     id: 397,
-    name: "MS HSC501 - Research Methodology",
+    name: "WS CHC207 - Principles of Mass Transfer"
   },
   {
     id: 398,
-    name: "MS HSC504 - Social Theory and Sociological Practices",
+    name: "WS CHC208 - Chemical Process Technology"
   },
   {
     id: 399,
-    name: "MS HSC508 - Understanding Philosophy",
+    name: "WS CHC209 - Process Dynamics and Control"
   },
   {
     id: 400,
-    name: "MS HSC509 - Perspectives on Human Behaviour",
+    name: "WS CHC210 - Heat Transfer Lab"
   },
   {
     id: 401,
-    name: "MS HSI501 - Research Methodology",
+    name: "WS CHC211 - Process Control Lab"
   },
   {
     id: 402,
-    name: "MS HSC500 - Research and Technical Communication",
+    name: "WS CHE202 - Transport Phenomena"
   },
   {
     id: 403,
-    name: "MS HSC501 - Research Methodology",
+    name: "WS CSC206 - Algorithm Design & Analysis"
   },
   {
     id: 404,
-    name: "MS HSC504 - Social Theory and Sociological Practices",
+    name: "WS CSC207 - Computer Architecture"
   },
   {
     id: 405,
-    name: "MS HSC508 - Understanding Philosophy",
+    name: "WS CSC208 - Theory of Computation"
   },
   {
     id: 406,
-    name: "MS HSC509 - Perspectives on Human Behaviour",
+    name: "WS CSC209 - Operating Systems"
   },
   {
     id: 407,
-    name: "MS HSI501 - Research Methodology",
+    name: "WS CSC210 - Algorithm Design & Analysis Lab"
   },
   {
     id: 408,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS CSC211 - Operating Systems Lab"
   },
   {
     id: 409,
-    name: "MS MNC504 - Risk and Workplace Safety Management",
+    name: "WS CSE202 - Object Oriented Programming"
   },
   {
     id: 410,
-    name: "MS MNC525 - Remote Sensing and Digital Image Processing",
+    name: "WS CEC206 - Structural Analysis - I"
   },
   {
     id: 411,
-    name: "MS MNC535 - Excavation Methods for Tunnels and Caverns",
+    name: "WS CEC207 - Design of Concrete Structures"
   },
   {
     id: 412,
-    name: "MS MNC539 - Computational Geomechanics and Ground Control",
+    name: "WS CEC208 - Geotechnical Engineering"
   },
   {
     id: 413,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS CEC209 - Transportation Engineering"
   },
   {
     id: 414,
-    name: "MS MEC500 - Theory of Elasticity",
+    name: "WS CEC210 - Surveying Laboratory"
   },
   {
     id: 415,
-    name: "MS MEC502 - Numerical Methods",
+    name: "WS CEC211 - Transportation Engineering Laboratory"
   },
   {
     id: 416,
-    name: "MS MEC507 - Incompressible and Compressible Flow",
+    name: "WS CEE202 - Fluid Mechanics and Machines"
   },
   {
     id: 417,
-    name: "MS MEC516 - Unconventional Manufacturing Processes",
+    name: "WS ECC206 - Analog Circuits"
   },
   {
     id: 418,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS ECC207 - Electromagnetic Theory"
   },
   {
     id: 419,
-    name: "MS MSC502 - Research Methodology and Statistics",
+    name: "WS ECC208 - Control Systems"
   },
   {
     id: 420,
-    name: "MS MSC512 - Operations Management",
+    name: "WS ECC209 - Microprocessors & Microcontrollers"
   },
   {
     id: 421,
-    name: "MS MSC530 - Development Economics",
+    name: "WS ECC210 - Electronic Devices and Circuits Lab"
   },
   {
     id: 422,
-    name: "MS MSC531 - Managerial Ethics, Values and CSR",
+    name: "WS ECC211 - Microprocessor & Microcontroller Lab"
   },
   {
     id: 423,
-    name: "MS MSI502 - Research Methodology and Statistics",
+    name: "WS ECE201 - Measurements and Instrumentations"
   },
   {
     id: 424,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS EEC204 - Electrical Machines - I"
   },
   {
     id: 425,
-    name: "MS MSC502 - Research Methodology and Statistics",
+    name: "WS EEC205 - Electrical Measurements"
   },
   {
     id: 426,
-    name: "MS MSC506 - Managerial Economics",
+    name: "WS EEC206 - Control System Engineering"
   },
   {
     id: 427,
-    name: "MS MSC530 - Development Economics",
+    name: "WS EEC207 - Power System Engineering"
   },
   {
     id: 428,
-    name: "MS MSC531 - Managerial Ethics, Values and CSR",
+    name: "WS EEC273 - Control and Measurement lab"
   },
   {
     id: 429,
-    name: "MS MSI502 - Research Methodology and Statistics",
+    name: "WS EEC274 - Electrical Machines and Power lab"
   },
   {
     id: 430,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS EEE201 - Applied Electrical Engineering"
   },
   {
     id: 431,
-    name: "MS PHC572 - Theoretical Physics",
+    name: "WS ESC204 - Geology and Land use Planning"
   },
   {
     id: 432,
-    name: "MS PHC573 - Experimental Physics",
+    name: "WS ESC205 - Introduction Ecology and Environmental Microbiology"
   },
   {
     id: 433,
-    name: "MS PHC574 - Numerical Methods and Simulation",
+    name: "WS ESC206 - Environmental Policy and Legislation"
   },
   {
     id: 434,
-    name: "MS PHC575 - Physics of Phase Transformation",
+    name: "WS ESC207 - Air Pollution Control"
   },
   {
     id: 435,
-    name: "MS CHC525 - Unit Operations for Pharmaceutics",
+    name: "WS ESC253 - Geology  Practical"
   },
   {
     id: 436,
-    name: "MS CYC518 - Analytical Chemistry Lab",
+    name: "WS ESC254 - Soil  and Environmental Microbiology Practical"
   },
   {
     id: 437,
-    name: "MS CYC518 - Analytical Chemistry Lab",
+    name: "WS ESE202 - Atmospheric  Science and Climate Change"
   },
   {
     id: 438,
-    name: "MS CYC523 - Numerical Analysis and Methods in Chemistry",
+    name: "WS FMC204 - Electrochemistry and Corrosion"
   },
   {
     id: 439,
-    name: "MS CYC525 - Basic of Pharmacology & Drug Design",
+    name: "WS FMC205 - Thermodynamics and Kinetics"
   },
   {
     id: 440,
-    name: "MS CYC526 - Pharmaceutical Process Technology",
+    name: "WS FMC206 - Phase Transformation and Heat Treatment"
   },
   {
     id: 441,
-    name: "MS CYC527 - Formulation & Drug Delivery Technology",
+    name: "WS FMC207 - Fine Particle Processing for Coal and Minerals"
   },
   {
     id: 442,
-    name: "MS CYC528 - Process Chemistry Lab",
+    name: "WS FMC253 - Fine Particle Processing Laboratory"
   },
   {
     id: 443,
-    name: "MS CEC501 - Numerical Methods in Civil Engineering",
+    name: "WS FMC254 - Introduction to Fuel Technology Laboratory"
   },
   {
     id: 444,
-    name: "MS CEC503 - Mechanics of Deformable Solids",
+    name: "WS FME222 - Introduction to Fuel Technology"
   },
   {
     id: 445,
-    name: "MS CEC504 - Mechanics of Geomaterials",
+    name: "WS MNC205 - Rock Mechanics"
   },
   {
     id: 446,
-    name: "MS CEC505 - Engineering Hydrology & Hydraulics",
+    name: "WS MNC206 - Mine Ventilation"
   },
   {
     id: 447,
-    name: "MS CEC506 - Transport System Design & Management",
+    name: "WS MNC207 - Underground Metal Mining"
   },
   {
     id: 448,
-    name: "MS CEC507 - Computational Laboratory",
+    name: "WS MNC208 - Underground Coal Mining"
   },
   {
     id: 449,
-    name: "MS CEC508 - Civil Engineering Model Development Laboratory",
+    name: "WS MNC209 - Rock Mechanics Practical"
   },
   {
     id: 450,
-    name: "MS EEC502 - Modelling of Electrical Machines",
+    name: "WS MNC210 - Mine Ventilation practical - I"
   },
   {
     id: 451,
-    name: "MS EEC504 - Advanced Control System",
+    name: "WS MNE202 - Introductory Rock Mechanics"
   },
   {
     id: 452,
-    name: "MS EEC506 - Advanced Electrical Machine Lab",
+    name: "WS MEC206 - Fluid Machines"
   },
   {
     id: 453,
-    name: "MS EEC507 - Advanced Power System Lab",
+    name: "WS MEC207 - Dynamics of Machinery"
   },
   {
     id: 454,
-    name: "MS EEC511 - Renewable Energy Sources",
+    name: "WS MEC208 - Heat and Mass Transfer"
   },
   {
     id: 455,
-    name: "MS EEC512 - Soft Computing Techniques",
+    name: "WS MEC209 - Production Technology"
   },
   {
     id: 456,
-    name: "MS EEC518 - Industrial Instrumentation",
+    name: "WS MEC210 - Heat Transfer and Fluid Machines Lab"
   },
   {
     id: 457,
-    name: "MS MNC504 - Risk and Workplace Safety Management",
+    name: "WS MEC211 - Machine Dynamics and Solid Modeling Lab"
   },
   {
     id: 458,
-    name: "MS MNC505 - Geomechanics Practical",
+    name: "WS MEE202 - Computer Aided Engineering Design"
   },
   {
     id: 459,
-    name: "MS MNC536 - Computational Subsurface Ventilation and Environment",
+    name: "WS MMC206 - Mine Electrical Technology"
   },
   {
     id: 460,
-    name: "MS MNC537 - Computational Subsurface Ventilation and Environment Practical",
+    name: "WS MMC207 - Bulk Material Handling Equipment"
   },
   {
     id: 461,
-    name: "MS MNC538 - Mass Production Mining Technology",
+    name: "WS MMC208 - Design of Mining Equipment Components"
   },
   {
     id: 462,
-    name: "MS MNC539 - Computational Geomechanics and Ground Control",
+    name: "WS MMC209 - Hydraulics & Pneumatics"
   },
   {
     id: 463,
-    name: "MS MNC540 - Mining Equipment Reliability, Maintainability and Availability",
+    name: "WS MMC210 - Hydraulics & Pneumatics Lab"
   },
   {
     id: 464,
-    name: "MS MEC500 - Theory of Elasticity",
+    name: "WS MMC211 - Manufacturing Technology and Soft Computing Lab"
   },
   {
     id: 465,
-    name: "MS MEC501 - Mechanical Vibration",
+    name: "WS MME201 - IC Engines"
   },
   {
     id: 466,
-    name: "MS MEC508 - Advanced Heat Transfer",
+    name: "WS PEC206 - Elements of Petroleum Production Engineering"
   },
   {
     id: 467,
-    name: "MS MEC514 - Advances in Machining",
+    name: "WS PEC207 - Petroleum Formation Evaluation"
   },
   {
     id: 468,
-    name: "MS MEC594 - Basics of Scientific Computing",
+    name: "WS PEC208 - Reservoir Fluid Thermodynamics"
   },
   {
     id: 469,
-    name: "MS MEC595 - Thermal and Design Lab",
+    name: "WS PEC209 - Petroleum Product Testing Practical"
   },
   {
     id: 470,
-    name: "MS MEC596 - Manufacturing and Tribology Lab",
+    name: "WS PEC210 - Drilling Simulation Practical"
   },
   {
     id: 471,
-    name: "MS MSC500 - Manufacturing System Engineering",
+    name: "WS PEE202 - Petroleum Environmental Management"
   },
   {
     id: 472,
-    name: "MS MSC503 - Statistical Methods and Applications",
+    name: "WS PHC205 - Introduction to Quantum Mechanics"
   },
   {
     id: 473,
-    name: "MS MSC505 - Stochastic Programming Lab",
+    name: "WS PHC206 - Applied Optics"
   },
   {
     id: 474,
-    name: "MS MSC507 - Decision Modelling",
+    name: "WS PHC207 - Nuclear Science and Engineering"
   },
   {
     id: 475,
-    name: "MS MSC508 - Business Analytics Lab",
+    name: "WS PHC208 - Electrodynamics"
   },
   {
     id: 476,
-    name: "MS MSC512 - Operations Management",
+    name: "WS PHC209 - Optics Lab"
   },
   {
     id: 477,
-    name: "MS MSC521 - Productivity Management",
+    name: "WS PHC210 - Electricity and Magnetism Lab"
   },
   {
     id: 478,
-    name: "MS CED401 - Traffic Engineering and Management",
+    name: "WS PHE202 - Material Science and Engineering"
   },
   {
     id: 479,
-    name: "MS CED501 - Computational Solid Mechanics",
+    name: "WS CHC306 - Chemical Process Equipment Design"
   },
   {
     id: 480,
-    name: "MS CED531 - Advanced Design of Structures",
+    name: "WS CHC307 - Process Modelling and Simulation"
   },
   {
     id: 481,
-    name: "MS CEO301 - Reliability and Risk Assessment",
+    name: "WS CHC308 - Chemical Process Equipment Design Lab"
   },
   {
     id: 482,
-    name: "MS CEO401 - Flow and Transport through Porous Media",
+    name: "WS CHC309 - Process Simulation Lab"
   },
   {
     id: 483,
-    name: "MS EED401 - Power System Protection and Switchgear",
+    name: "WS CHD402 - Polymers Science and Engineering"
   },
   {
     id: 484,
-    name: "MS EED403 - Industrial Power Electronics",
+    name: "WS CHO301 - Petroleum Refining"
   },
   {
     id: 485,
-    name: "MS EED404 - Reactive Power and Voltage Control",
+    name: "WS CHO302 - Industrial Safety and Hazards Management"
   },
   {
     id: 486,
-    name: "MS EED503 - Digital Control of Power Electronics & Drives",
+    name: "WS CSC305 - Computer Network"
   },
   {
     id: 487,
-    name: "MS EEO403 - Digital Signal Processing",
+    name: "WS CSC306 - Software Engineering"
   },
   {
     id: 488,
-    name: "MS EEO404 - Renewable Energy Systems and Energy Audit",
+    name: "WS CSC307 - Computer Networks Lab"
   },
   {
     id: 489,
-    name: "MS EEO405 - Industrial Automation",
+    name: "WS CSC308 - Software Engineering Lab"
   },
   {
     id: 490,
-    name: "MS MND400 - Rock Excavation Engineering",
+    name: "WS CSO302 - Graph Theory"
   },
   {
     id: 491,
-    name: "MS MND401 - Advanced Mine Ventilation",
+    name: "WS CSO304 - Digital Image Processing"
   },
   {
     id: 492,
-    name: "MS MND402 - Open Pit Slope Analysis and Design",
+    name: "WS CSO506 - Principles of Blockchain Technologies"
   },
   {
     id: 493,
-    name: "MS MND403 - Geospatial Technology in Mining",
+    name: "WS CEC305 - Design of Steel Structures"
   },
   {
     id: 494,
-    name: "MS MND404 - Mine System Engineering",
+    name: "WS CEC306 - Water Resources Engineering"
   },
   {
     id: 495,
-    name: "MS MND405 - Mine Safety Engineering",
+    name: "WS CEC307 - Structural Detailing Laboratory"
   },
   {
     id: 496,
-    name: "MS MND406 - Mine Environmental Engineering",
+    name: "WS CEC308 - Water Resources Engineering Laboratory"
   },
   {
     id: 497,
-    name: "MS MSD506 - Investment Analysis and Portfolio Management",
+    name: "WS CEO303 - Construction Management"
   },
   {
     id: 498,
-    name: "MS MSD513 - Managerial Psychology",
+    name: "WS CEO525 - Optimization Methods"
   },
   {
     id: 499,
-    name: "MS MED403 - Power Plant",
+    name: "WS CEO527 - Bridge Engineering"
   },
   {
     id: 500,
-    name: "MS MED505 - Fundamental of Classical and Statistical Thermodynamics",
+    name: "WS ECC306 - Digital Communication"
   },
   {
     id: 501,
-    name: "MS MED527 - Design of Tribological Components",
+    name: "WS ECC307 - Microwave Engineering"
   },
   {
     id: 502,
-    name: "MS MED540 - Fundamentals of Aeroacoustics",
+    name: "WS ECC308 - Digital Communication Lab"
   },
   {
     id: 503,
-    name: "MS MED549 - Cryogenic Engineering",
+    name: "WS ECC309 - Microwave Engineering Lab"
   },
   {
     id: 504,
-    name: "MS MED553 - Laser Processing of Materials",
+    name: "WS ECO301 - Microprocessor and its Application"
   },
   {
     id: 505,
-    name: "MS MEO534 - Automation and Control",
+    name: "WS ECO302 - Power Electronics"
   },
   {
     id: 506,
-    name: "MS MED401 - Energy Conversion Equipment",
+    name: "WS ECO402 - Optical Fiber Sensor"
   },
   {
     id: 507,
-    name: "MS MED503 - Finite Element Method",
+    name: "WS EEC311 - Power System Analysis and Control"
   },
   {
     id: 508,
-    name: "MS MED529 - Composite Materials",
+    name: "WS EEC312 - Electrical Drives and Applications"
   },
   {
     id: 509,
-    name: "MS MMD505 - Fluid Flow Machines in Mines",
+    name: "WS EEC377 - Power and Switchgear Lab"
   },
   {
     id: 510,
-    name: "MS PHD506 - Characterization Techniques",
+    name: "WS EEC378 - Power Electronics and Drives lab"
   },
   {
     id: 511,
-    name: "MS PHD509 - Advanced Condensed Matter Physics",
+    name: "WS EED505 - Power Electronics for Renewable Energy Systems"
   },
   {
     id: 512,
-    name: "MS PHO302 - Introduction to Astrophysics and Astronomy",
+    name: "WS EEO301 - Microprocessor & Microcontroller"
   },
   {
     id: 513,
-    name: "MS PHO504 - Optoelectronic Materials and Devices",
+    name: "WS EEO302 - Industrial Utilization of Electrical Power"
   },
   {
     id: 514,
-    name: "MS CEC301 - Structural Analysis - II",
+    name: "WS ESC311 - Solid Waste Management"
   },
   {
     id: 515,
-    name: "MS CEC302 - Foundation Engineering",
+    name: "WS ESC312 - Geoinformatics"
   },
   {
     id: 516,
-    name: "MS CEC303 - Structural Engineering Laboratory",
+    name: "WS ESC357 - Solid Waste Management Practical"
   },
   {
     id: 517,
-    name: "MS CEC304 - Geotechnical Engineering Laboratory",
+    name: "WS ESC358 - Geoinformatics Practical"
   },
   {
     id: 518,
-    name: "MS CED536 - Water Resources Systems Planning & Management",
+    name: "WS ESD404 - Water Resource Planning and Management"
   },
   {
     id: 519,
-    name: "MS CEO528 - Ground Improvement and Geosynthetics",
+    name: "WS ESD508 - Social Impact Assessment and R&R"
   },
   {
     id: 520,
-    name: "MS EEC308 - Electrical Machines - II",
+    name: "WS ESD513 - Energy Auditing and Management"
   },
   {
     id: 521,
-    name: "MS EEC309 - Modern Control",
+    name: "WS ESO301 - Applied Statistics for Environmental Engineering"
   },
   {
     id: 522,
-    name: "MS EEC310 - Power Electronics",
+    name: "WS FMC303 - Mechanical Metallurgy"
   },
   {
     id: 523,
-    name: "MS EEC375 - Microprocessor and Microcontrollers Lab",
+    name: "WS FMC304 - Coal and Mineral Processing Plant Design"
   },
   {
     id: 524,
-    name: "MS EEC376 - Electrical Machines and Control Lab",
+    name: "WS FMC305 - Coal and Mineral Processing Plant Design Laboratory"
   },
   {
     id: 525,
-    name: "MS EED402 - High Voltage Engineering and Applications",
+    name: "WS FMC352 - Heat Treatment and Mechanical Metallurgy Laboratory"
   },
   {
     id: 526,
-    name: "MS HSO301 - Ethical Issues in Science",
+    name: "WS FMD463 - Non Ferrous Extractive Metallurgy"
   },
   {
     id: 527,
-    name: "MS HSO309 - Fundamental of Sociology",
+    name: "WS FMD464 - Mineral Policy and Economics"
   },
   {
     id: 528,
-    name: "MS HSO310 - Psychology of Everyday Life",
+    name: "WS FMO431 - Elements of Mineral Engineering"
   },
   {
     id: 529,
-    name: "MS HSO501 - Cognitive Psychology",
+    name: "WS HSD512 - Gender Studies"
   },
   {
     id: 530,
-    name: "MS HSO506 - Indian Society and Culture",
+    name: "WS HSD533 - Introduction to Yoga Philosophy"
   },
   {
     id: 531,
-    name: "MS HSO510 - Judgement and Decision Making",
+    name: "WS HSO307 - Philosophy and Critical Thinking"
   },
   {
     id: 532,
-    name: "MS MNC300 - Surface Mining",
+    name: "WS HSO308 - Social Psychology"
   },
   {
     id: 533,
-    name: "MS MNC301 - Mine Planning and Economics",
+    name: "WS HSO320 - Principles of Sociology"
   },
   {
     id: 534,
-    name: "MS MNC302 - Computer Aided Mine Planning and Design",
+    name: "WS HSO511 - Brain and Behaviour"
   },
   {
     id: 535,
-    name: "MS MNC303 - Mine Ventilation Practical - II",
+    name: "WS HSO512 - Experience Psychology"
   },
   {
     id: 536,
-    name: "MS MNO301 - Modern Surveying Techniques",
+    name: "WS HSO514 - Introduction to Climate Change and Society"
   },
   {
     id: 537,
-    name: "MS MNO303 - Underground Construction Engineering",
+    name: "WS MNC304 - Mine Legislation and Safety"
   },
   {
     id: 538,
-    name: "MS MEC301 - Machine Design",
+    name: "WS MNC305 - Mine Automation and Data Analytics"
   },
   {
     id: 539,
-    name: "MS MEC302 - Machining and Machine Tools",
+    name: "WS MNC306 - Mine Data Analytics Practical"
   },
   {
     id: 540,
-    name: "MS MEC303 - Advanced Solid Mechanics",
+    name: "WS MNC307 - Numerical Modelling/Remote Sensing & GIS Practical"
   },
   {
     id: 541,
-    name: "MS MEC304 - Production Technology Lab",
+    name: "WS MNO302 - Seabed Mining and Asteroid Mining"
   },
   {
     id: 542,
-    name: "MS MEC305 - Machine Design Lab",
+    name: "WS MNO304 - Coal Mine Methane Recovery and Utilization"
   },
   {
     id: 543,
-    name: "MS MED539 - Fundamentals of Aerodynamics",
+    name: "WS MNO401 - Rock Engineering"
   },
   {
     id: 544,
-    name: "MS MED543 - Solar Energy",
+    name: "WS MEC306 - Computer Aided Manufacturing"
   },
   {
     id: 545,
-    name: "MS MEO522 - Condition Monitoring of Machines",
+    name: "WS MEC307 - IC Engines and Gas Turbines"
   },
   {
     id: 546,
-    name: "MS MED548 - Heat Exchanger Design",
+    name: "WS MEC308 - Computer Aided Manufacturing Lab"
   },
   {
     id: 547,
-    name: "MS MEO580 - Measurements in Thermal Engineering",
+    name: "WS MEC309 - Heat Power and Refrigeration Lab"
   },
   {
     id: 548,
-    name: "MS MEO583 - Design of Thermal Systems",
+    name: "WS MED519 - Engineering Tribology"
   },
   {
     id: 549,
-    name: "MS MMC301 - Mineral Beneficiation Equipment",
+    name: "WS MEO302 - Refrigeration and Air-conditioning"
   },
   {
     id: 550,
-    name: "MS MMC302 - Automation and Control in Mining Machineries",
+    name: "WS MEO586 - Additive Manufacturing"
   },
   {
     id: 551,
-    name: "MS MMC303 - Mine Electrical Technology Lab",
+    name: "WS MED545 - Turbomachinery"
   },
   {
     id: 552,
-    name: "MS MMC304 - Automation and Control Lab",
+    name: "WS MEO581 - Fundamentals of Combustion"
   },
   {
     id: 553,
-    name: "MS MMD512 - Mine Electrical Drives",
+    name: "WS MEO590 - Advanced Scientific Computing"
   },
   {
     id: 554,
-    name: "MS MMO301 - Automobile Engineering",
+    name: "WS MMC305 - Underground Mining Equipment"
   },
   {
     id: 555,
-    name: "MS PHC300 - Thermal Physics Lab",
+    name: "WS MMC306 - Opencast Mining Equipment"
   },
   {
     id: 556,
-    name: "MS PHC301 - Electronics Lab",
+    name: "WS MMC307 - Mining Machinery Lab"
   },
   {
     id: 557,
-    name: "MS PHC514 - Statistical Mechanics",
+    name: "WS MMC308 - Pumps Fans & Compressors Lab"
   },
   {
     id: 558,
-    name: "MS PHC515 - Laser Physics and Technology",
+    name: "WS PEC306 - Directional Drilling"
   },
   {
     id: 559,
-    name: "MS PHO300 - Sensors and Transducers",
+    name: "WS PEC307 - Oil and Gas Well Testing"
   },
   {
     id: 560,
-    name: "MS CEC201 - Surveying",
+    name: "WS PEC308 - Enhanced Oil Recovery Practical"
   },
   {
     id: 561,
-    name: "MS CEC202 - Environmental Engineering",
+    name: "WS PEC309 - Reservoir Characterization Practical"
   },
   {
     id: 562,
-    name: "MS CEC203 - Building Materials, Construction and Management",
+    name: "WS PEO301 - Heat and Mass Transfer in Petroleum Operations"
   },
   {
     id: 563,
-    name: "MS CEC204 - Material Testing Laboratory",
+    name: "WS PEO302 - Oil & Gas Field Development and Planning"
   },
   {
     id: 564,
-    name: "MS CEC205 - Environmental Engineering Laboratory",
+    name: "WS PEO502 - Flow Assurance"
   },
   {
     id: 565,
-    name: "MS CEE201 - Mechanics of Solid",
+    name: "WS PHC302 - Solid State Physics"
   },
   {
     id: 566,
-    name: "MS EEC201 - Signals, Systems and Networks",
+    name: "WS PHC303 - Applied Optics Lab"
   },
   {
     id: 567,
-    name: "MS EEC202 - Analog and Digital Electronics",
+    name: "WS PHC304 - Spectroscopy Lab"
   },
   {
     id: 568,
-    name: "MS EEC203 - Electromagnetic Theory and Applications",
+    name: "WS PHC510 - Atomic and Molecular Physics"
   },
   {
     id: 569,
-    name: "MS EEC271 - Networks Lab",
+    name: "WS PHO401 - Introduction to Quantum Devices"
   },
   {
     id: 570,
-    name: "MS EEC272 - Analog and Digital Electronics Lab",
+    name: "WS PHO403 - Energy Storage Technologies"
   },
   {
     id: 571,
-    name: "MS EEE202 - Utilization of Electrical Energy",
+    name: "WS CHD404 - Bioprocess Technology"
   },
   {
     id: 572,
-    name: "MS GLE203 - Geology for Engineering and Sciences Practical",
+    name: "WS CHD411 - Catalytic Reaction Engineering"
   },
   {
     id: 573,
-    name: "MS MNC200 - Elements of Mining",
+    name: "WS CHD417 - Membrane Science and Engineering"
   },
   {
     id: 574,
-    name: "MS MNC201 - Rock Breakage",
+    name: "WS CHO403 - Process Intensification"
   },
   {
     id: 575,
-    name: "MS MNC202 - Mine Surveying",
+    name: "WS CSD401 - Advanced Algorithms"
   },
   {
     id: 576,
-    name: "MS MNC203 - Mine Surveying Practical",
+    name: "WS CSD403 - Combinatorics and Graph Theory"
   },
   {
     id: 577,
-    name: "MS MNC204 - Rock Breakage Practical",
+    name: "WS CSD404 - Computer Graphics"
   },
   {
     id: 578,
-    name: "MS MNE201 - Introduction to Mining",
+    name: "WS CSD405 - Evolutionary Computation"
   },
   {
     id: 579,
-    name: "MS MEC201 - Kinematics of Machines",
+    name: "WS CSD508 - Distributed Systems"
   },
   {
     id: 580,
-    name: "MS MEC202 - Fluid Mechanics",
+    name: "WS CSD510 - Information Retrieval"
   },
   {
     id: 581,
-    name: "MS MEC203 - Applied Thermodynamics",
+    name: "WS CSD521 - Wireless Networks"
   },
   {
     id: 582,
-    name: "MS MEC204 - Applied Mechanics Lab",
+    name: "WS CSO505 - Soft Computing"
   },
   {
     id: 583,
-    name: "MS MEC205 - Thermodynamics and Fluid Mechanics Lab",
+    name: "WS CED404 - Environmental Engineering - II"
   },
   {
     id: 584,
-    name: "MS MEE201 - Engineering Materials",
+    name: "WS CED529 - Advanced Foundation Engineering"
   },
   {
     id: 585,
-    name: "MS MMC201 - Manufacturing Technology",
+    name: "WS CED542 - Prestressed Concrete Structures"
   },
   {
     id: 586,
-    name: "MS MMC202 - Theory of Machines",
+    name: "WS CEO526 - Geoinformatics for Civil Engineering"
   },
   {
     id: 587,
-    name: "MS MMC203 - Design of Machine Elements",
+    name: "WS ECD404 - Digital Image Processing"
   },
   {
     id: 588,
-    name: "MS MMC204 - Thermodynamics and Fluid Mechanics Lab",
+    name: "WS ECD419 - Satellite Communication"
   },
   {
     id: 589,
-    name: "MS MMC205 - Solid Mechanics and Theory of Machines Lab",
+    name: "WS ECO500 - Wireless Sensor Networks"
   },
   {
     id: 590,
-    name: "MS MME202 - Mining Machinery",
+    name: "WS ECO506 - Machine Learning"
   },
   {
     id: 591,
-    name: "MS PHC200 - Waves and Acoustics",
+    name: "WS EED405 - Instrumentation"
   },
   {
     id: 592,
-    name: "MS PHC201 - Classical Mechanics",
+    name: "WS EED406 - Special Purpose Electric Machines and Drives"
   },
   {
     id: 593,
-    name: "MS PHC202 - Mathematical Physics",
+    name: "WS EED511 - Power System Dynamics"
   },
   {
     id: 594,
-    name: "MS PHC203 - Mechanics Lab",
+    name: "WS EED513 - Power Quality"
   },
   {
     id: 595,
-    name: "MS PHC204 - Waves and Acoustics Lab",
+    name: "WS EEO504 - Condition Monitoring of Electrical Machines"
   },
   {
     id: 596,
-    name: "MS PHE200 - Biomedical Engineering",
+    name: "WS EEO505 - Modern Sensors and Signal Conditioning Circuits"
   },
   {
     id: 597,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS ESD402 - Industrial Waste Water Engineering"
   },
   {
     id: 598,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS ESD406 - Environmental Nano Technology"
   },
   {
     id: 599,
-    name: "MS HSI500 - Research and Technical Communication",
+    name: "WS ESD503 - Environmental Modelling"
   },
   {
     id: 600,
-    name: "WS CHC206 - Chemical Engineering Thermodynamics",
+    name: "WS ESO505 - Climate Change and Modelling"
   },
   {
     id: 601,
-    name: "WS CHC207 - Principles of Mass Transfer",
+    name: "WS FMD462 - Process Control and Plant Layout"
   },
   {
     id: 602,
-    name: "WS CHC208 - Chemical Process Technology",
+    name: "WS FMD522 - Coal Preparation"
   },
   {
     id: 603,
-    name: "WS CHC209 - Process Dynamics and Control",
+    name: "WS FMD530 - Biofuels"
   },
   {
     id: 604,
-    name: "WS CHC210 - Heat Transfer Lab",
+    name: "WS FMD536 - Surface Engineering"
   },
   {
     id: 605,
-    name: "WS CHC211 - Process Control Lab",
+    name: "WS MND407 - Underground Space Technology"
   },
   {
     id: 606,
-    name: "WS CHE202 - Transport Phenomena",
+    name: "WS MND408 - Innovative Mining Systems"
   },
   {
     id: 607,
-    name: "WS CSC206 - Algorithm Design & Analysis",
+    name: "WS MND409 - Introduction to Geographical Information System"
   },
   {
     id: 608,
-    name: "WS CSC207 - Computer Architecture",
+    name: "WS MND410 - Advanced Blasting Techniques"
   },
   {
     id: 609,
-    name: "WS CSC208 - Theory of Computation",
+    name: "WS MND411 - Advanced Underground Mining Methods"
   },
   {
     id: 610,
-    name: "WS CSC209 - Operating Systems",
+    name: "WS MND412 - Deep Coal Mining"
   },
   {
     id: 611,
-    name: "WS CSC210 - Algorithm Design & Analysis Lab",
+    name: "WS MED529 - Composite Materials"
   },
   {
     id: 612,
-    name: "WS CSC211 - Operating Systems Lab",
+    name: "WS MED531 - Fracture Mechanics"
   },
   {
     id: 613,
-    name: "WS CSE202 - Object Oriented Programming",
+    name: "WS MEO522 - Condition Monitoring of Machines"
   },
   {
     id: 614,
-    name: "WS CEC206 - Structural Analysis - I",
+    name: "WS MEO528 - Robotics"
   },
   {
     id: 615,
-    name: "WS CEC207 - Design of Concrete Structures",
+    name: "WS MED521 - Theory of Lubrication"
   },
   {
     id: 616,
-    name: "WS CEC208 - Geotechnical Engineering",
+    name: "WS MED541 - Microfluidics"
   },
   {
     id: 617,
-    name: "WS CEC209 - Transportation Engineering",
+    name: "WS MED542 - Finite Element Method in Thermal Engineering"
   },
   {
     id: 618,
-    name: "WS CEC210 - Surveying Laboratory",
+    name: "WS MMO504 - Advanced Fluid Power Systems and Control"
   },
   {
     id: 619,
-    name: "WS CEC211 - Transportation Engineering Laboratory",
+    name: "WS PED404 - Petroleum Engineering Design"
   },
   {
     id: 620,
-    name: "WS CEE202 - Fluid Mechanics and Machines",
+    name: "WS PED405 - Pipeline Engineering"
   },
   {
     id: 621,
-    name: "WS ECC206 - Analog Circuits",
+    name: "WS PED406 - Reservoir Modeling and Simulation"
   },
   {
     id: 622,
-    name: "WS ECC207 - Electromagnetic Theory",
+    name: "WS PED502 - Well Intervention, Workover and Stimulation Techniques"
   },
   {
     id: 623,
-    name: "WS ECC208 - Control Systems",
+    name: "WS PEO405 - Integrated Reservoir Management"
   },
   {
     id: 624,
-    name: "WS ECC209 - Microprocessors & Microcontrollers",
+    name: "WS PEO506 - Carbon Capture And Sequestration"
   },
   {
     id: 625,
-    name: "WS ECC210 - Electronic Devices and Circuits Lab",
+    name: "WS PHD503 - High Energy Physics"
   },
   {
     id: 626,
-    name: "WS ECC211 - Microprocessor & Microcontroller Lab",
+    name: "WS PHD511 - Astrophysics and Cosmology"
   },
   {
     id: 627,
-    name: "WS ECE201 - Measurements and Instrumentations",
+    name: "WS PHD512 - Nonlinear Optics"
   },
   {
     id: 628,
-    name: "WS EEC204 - Electrical Machines - I",
+    name: "WS PHD513 - Semiconductor Physics and Technology"
   },
   {
     id: 629,
-    name: "WS EEC205 - Electrical Measurements",
+    name: "WS PHO303 - Physics for Society"
   },
   {
     id: 630,
-    name: "WS EEC206 - Control System Engineering",
+    name: "WS PHO503 - Physics of Nanomaterials"
   },
   {
     id: 631,
-    name: "WS EEC207 - Power System Engineering",
+    name: "WS GLC205 - Introduction to Petrology"
   },
   {
     id: 632,
-    name: "WS EEC273 - Control and Measurement lab",
+    name: "WS GLC206 - Introduction to Stratigraphy and Paleontology"
   },
   {
     id: 633,
-    name: "WS EEC274 - Electrical Machines and Power lab",
+    name: "WS GLC207 - Descriptive Mineralogy"
   },
   {
     id: 634,
-    name: "WS EEE201 - Applied Electrical Engineering",
+    name: "WS GLC208 - Economic Geology and Indian Mineral Deposits"
   },
   {
     id: 635,
-    name: "WS ESC204 - Geology and Land use Planning",
+    name: "WS GLC209 - Petrology Practical"
   },
   {
     id: 636,
-    name: "WS ESC205 - Introduction Ecology and Environmental Microbiology",
+    name: "WS GLC210 - Economic Geology Practical"
   },
   {
     id: 637,
-    name: "WS ESC206 - Environmental Policy and Legislation",
+    name: "WS GLE202 - Resource Geology"
   },
   {
     id: 638,
-    name: "WS ESC207 - Air Pollution Control",
+    name: "WS GPC205 - Oceanography"
   },
   {
     id: 639,
-    name: "WS ESC253 - Geology  Practical",
+    name: "WS GPC206 - Mathematical Geophysics"
   },
   {
     id: 640,
-    name: "WS ESC254 - Soil  and Environmental Microbiology Practical",
+    name: "WS GPC207 - Radiometric Method"
   },
   {
     id: 641,
-    name: "WS ESE202 - Atmospheric  Science and Climate Change",
+    name: "WS GPC208 - Radiometric Method Practical"
   },
   {
     id: 642,
-    name: "WS FMC204 - Electrochemistry and Corrosion",
+    name: "WS GPE201 - Earth and Planetary System"
   },
   {
     id: 643,
-    name: "WS FMC205 - Thermodynamics and Kinetics",
+    name: "WS MCC205 - Linear Algebra"
   },
   {
     id: 644,
-    name: "WS FMC206 - Phase Transformation and Heat Treatment",
+    name: "WS MCC509 - Statistical  Inference"
   },
   {
     id: 645,
-    name: "WS FMC207 - Fine Particle Processing for Coal and Minerals",
+    name: "WS MCC510 - Operating Systems"
   },
   {
     id: 646,
-    name: "WS FMC253 - Fine Particle Processing Laboratory",
+    name: "WS MCC512 - Operating Systems Practical"
   },
   {
     id: 647,
-    name: "WS FMC254 - Introduction to Fuel Technology Laboratory",
+    name: "WS MCE301 - Operations Research"
   },
   {
     id: 648,
-    name: "WS FME222 - Introduction to Fuel Technology",
+    name: "WS MCO501 - Discrete Mathematics"
   },
   {
     id: 649,
-    name: "WS MNC205 - Rock Mechanics",
+    name: "WS GLC509 - Igneous Petrology"
   },
   {
     id: 650,
-    name: "WS MNC206 - Mine Ventilation",
+    name: "WS GLC510 - Metamorphic Petrology"
   },
   {
     id: 651,
-    name: "WS MNC207 - Underground Metal Mining",
+    name: "WS GLC514 - Igneous and Metamorphic Petrology Practical"
   },
   {
     id: 652,
-    name: "WS MNC208 - Underground Coal Mining",
+    name: "WS GLC515 - Sedimentology and Petroleum Geology Practical"
   },
   {
     id: 653,
-    name: "WS MNC209 - Rock Mechanics Practical",
+    name: "WS GLD530 - Geodynamics"
   },
   {
     id: 654,
-    name: "WS MNC210 - Mine Ventilation practical - I",
+    name: "WS GLD540 - Geomorphology"
   },
   {
     id: 655,
-    name: "WS MNE202 - Introductory Rock Mechanics",
+    name: "WS GPC508 - Earthquake Seismology"
   },
   {
     id: 656,
-    name: "WS MEC206 - Fluid Machines",
+    name: "WS GPC509 - Geoelectrical Method"
   },
   {
     id: 657,
-    name: "WS MEC207 - Dynamics of Machinery",
+    name: "WS GPC510 - Well Logging"
   },
   {
     id: 658,
-    name: "WS MEC208 - Heat and Mass Transfer",
+    name: "WS GPC511 - Seismic Data Acquisition"
   },
   {
     id: 659,
-    name: "WS MEC209 - Production Technology",
+    name: "WS GPC512 - Seismic Data Acquisition Practical"
   },
   {
     id: 660,
-    name: "WS MEC210 - Heat Transfer and Fluid Machines Lab",
+    name: "WS GPC513 - Geoelectrical Methods Practical"
   },
   {
     id: 661,
-    name: "WS MEC211 - Machine Dynamics and Solid Modeling Lab",
+    name: "WS GPC515 - Earthquake Seismology and Well Logging Practical"
   },
   {
     id: 662,
-    name: "WS MEE202 - Computer Aided Engineering Design",
+    name: "WS GPO503 - Artificial Intelligence and Machine Learning in Geosciences"
   },
   {
     id: 663,
-    name: "WS MMC206 - Mine Electrical Technology",
+    name: "WS MCC511 - Database Management Systems"
   },
   {
     id: 664,
-    name: "WS MMC207 - Bulk Material Handling Equipment",
+    name: "WS MCC513 - Database Management Systems Practical"
   },
   {
     id: 665,
-    name: "WS MMC208 - Design of Mining Equipment Components",
+    name: "WS MCD501 - Classical Mechanics"
   },
   {
     id: 666,
-    name: "WS MMC209 - Hydraulics & Pneumatics",
+    name: "WS MCD508 - Theory of Computation"
   },
   {
     id: 667,
-    name: "WS MMC210 - Hydraulics & Pneumatics Lab",
+    name: "WS MCD511 - Mathematical Ecology"
   },
   {
     id: 668,
-    name: "WS MMC211 - Manufacturing Technology and Soft Computing Lab",
+    name: "WS MCD560 - Orbital Mechanics"
   },
   {
     id: 669,
-    name: "WS MME201 - IC Engines",
+    name: "WS GLC513 - Coal Geology"
   },
   {
     id: 670,
-    name: "WS PEC206 - Elements of Petroleum Production Engineering",
+    name: "WS GLC516 - Coal Geology Practical"
   },
   {
     id: 671,
-    name: "WS PEC207 - Petroleum Formation Evaluation",
+    name: "WS GLC526 - Ore Geology"
   },
   {
     id: 672,
-    name: "WS PEC208 - Reservoir Fluid Thermodynamics",
+    name: "WS GLC533 - Ore Geology Practical"
   },
   {
     id: 673,
-    name: "WS PEC209 - Petroleum Product Testing Practical",
+    name: "WS GLD528 - Geotechnical Engineering"
   },
   {
     id: 674,
-    name: "WS PEC210 - Drilling Simulation Practical",
+    name: "WS GLD571 - Petroleum Exploration and Micropalaeontology"
   },
   {
     id: 675,
-    name: "WS PEE202 - Petroleum Environmental Management",
+    name: "WS GLO545 - Radiogenic and Stable Isotope Geology"
   },
   {
     id: 676,
-    name: "WS PHC205 - Introduction to Quantum Mechanics",
+    name: "WS GPC520 - Magnetic Method"
   },
   {
     id: 677,
-    name: "WS PHC206 - Applied Optics",
+    name: "WS GPC521 - Geoelectromagnetic Method"
   },
   {
     id: 678,
-    name: "WS PHC207 - Nuclear Science and Engineering",
+    name: "WS GPC522 - Magnetic Method Practical"
   },
   {
     id: 679,
-    name: "WS PHC208 - Electrodynamics",
+    name: "WS GPC523 - Geoelectromagnetic Method Practical"
   },
   {
     id: 680,
-    name: "WS PHC209 - Optics Lab",
+    name: "WS GPD507 - Geophysics for Mineral Exploration"
   },
   {
     id: 681,
-    name: "WS PHC210 - Electricity and Magnetism Lab",
+    name: "WS GPD508 - Seismological Data Analysis"
   },
   {
     id: 682,
-    name: "WS PHE202 - Material Science and Engineering",
+    name: "WS MCC401 - Software Engineering"
   },
   {
     id: 683,
-    name: "WS CHC306 - Chemical Process Equipment Design",
+    name: "WS MCC402 - Software Engineering Practical"
   },
   {
     id: 684,
-    name: "WS CHC307 - Process Modelling and Simulation",
+    name: "WS MCD502 - Graph Theory"
   },
   {
     id: 685,
-    name: "WS CHC308 - Chemical Process Equipment Design Lab",
+    name: "WS MCD510 - Complex Analysis"
   },
   {
     id: 686,
-    name: "WS CHC309 - Process Simulation Lab",
+    name: "WS MCD516 - Industrial Statistics"
   },
   {
     id: 687,
-    name: "WS CHD402 - Polymers Science and Engineering",
+    name: "WS MCO402 - Modelling and Simulation"
   },
   {
     id: 688,
-    name: "WS CHO301 - Petroleum Refining",
+    name: "WS  - "
   },
   {
     id: 689,
-    name: "WS CHO302 - Industrial Safety and Hazards Management",
+    name: "WS GPC537 - Remote Sensing: Principles and Data Acquisition System"
   },
   {
     id: 690,
-    name: "WS CSC305 - Computer Network",
+    name: "WS GPC538 - Advanced Numerical Methods"
   },
   {
     id: 691,
-    name: "WS CSC306 - Software Engineering",
+    name: "WS GPC539 - Remote Sensing: Principles and Data Acquisition System Practical"
   },
   {
     id: 692,
-    name: "WS CSC307 - Computer Networks Lab",
+    name: "WS GPC540 - Advanced Numerical Methods Practical"
   },
   {
     id: 693,
-    name: "WS CSC308 - Software Engineering Lab",
+    name: "WS GPD520 - Earthquake Statistics and Hazard"
   },
   {
     id: 694,
-    name: "WS CSO302 - Graph Theory",
+    name: "WS CHC530 - Reaction Engineering"
   },
   {
     id: 695,
-    name: "WS CSO304 - Digital Image Processing",
+    name: "WS CHC531 - Chemical Engineering Lab"
   },
   {
     id: 696,
-    name: "WS CSO506 - Principles of Blockchain Technologies",
+    name: "WS CYC529 - Formulation/Manufacturing Lab"
   },
   {
     id: 697,
-    name: "WS CEC305 - Design of Steel Structures",
+    name: "WS CYD524 - Basics of Chemical Biology"
   },
   {
     id: 698,
-    name: "WS CEC306 - Water Resources Engineering",
+    name: "WS CYD529 - Computer Aided Drug Discovery"
   },
   {
     id: 699,
-    name: "WS CEC307 - Structural Detailing Laboratory",
+    name: "WS CYD530 - Pharmacovigilance and Regulatory Affairs"
   },
   {
     id: 700,
-    name: "WS CEC308 - Water Resources Engineering Laboratory",
+    name: "WS CYD531 - Biotechnology in Pharmaceutical Sciences"
   },
   {
     id: 701,
-    name: "WS CEO303 - Construction Management",
+    name: "WS CHC508 - Advanced Mass transfer"
   },
   {
     id: 702,
-    name: "WS CEO525 - Optimization Methods",
+    name: "WS CHC509 - Computational Fluid Dynamics"
   },
   {
     id: 703,
-    name: "WS CEO527 - Bridge Engineering",
+    name: "WS CHC510 - Advanced Chemical Engineering Lab"
   },
   {
     id: 704,
-    name: "WS ECC306 - Digital Communication",
+    name: "WS CHC511 - Term Paper and Presentation"
   },
   {
     id: 705,
-    name: "WS ECC307 - Microwave Engineering",
+    name: "WS CHD504 - Process Optimization"
   },
   {
     id: 706,
-    name: "WS ECC308 - Digital Communication Lab",
+    name: "WS CHD505 - Interfacial and Colloidal Phenomena"
   },
   {
     id: 707,
-    name: "WS ECC309 - Microwave Engineering Lab",
+    name: "WS CHO501 - Rheology"
   },
   {
     id: 708,
-    name: "WS ECO301 - Microprocessor and its Application",
+    name: "WS CHO503 - Introduction to Granular Mechanics"
   },
   {
     id: 709,
-    name: "WS ECO302 - Power Electronics",
+    name: "WS CSC508 - Computing Lab - I"
   },
   {
     id: 710,
-    name: "WS ECO402 - Optical Fiber Sensor",
+    name: "WS CSC509 - Computing Lab - II"
   },
   {
     id: 711,
-    name: "WS EEC311 - Power System Analysis and Control",
+    name: "WS CSD505 - Cryptography and Network Security"
   },
   {
     id: 712,
-    name: "WS EEC312 - Electrical Drives and Applications",
+    name: "WS CSD509 - Image and Video Processing"
   },
   {
     id: 713,
-    name: "WS EEC377 - Power and Switchgear Lab",
+    name: "WS CSD513 - Internet of Things"
   },
   {
     id: 714,
-    name: "WS EEC378 - Power Electronics and Drives lab",
+    name: "WS CSD516 - Optimization Techniques"
   },
   {
     id: 715,
-    name: "WS EED505 - Power Electronics for Renewable Energy Systems",
+    name: "WS CSD517 - Parallel Computing"
   },
   {
     id: 716,
-    name: "WS EEO301 - Microprocessor & Microcontroller",
+    name: "WS CSO501 - Principles of Artificial Intelligence"
   },
   {
     id: 717,
-    name: "WS EEO302 - Industrial Utilization of Electrical Power",
+    name: "WS CSO503 - Data Mining"
   },
   {
     id: 718,
-    name: "WS ESC311 - Solid Waste Management",
+    name: "WS CSO507 - Deep Learning"
   },
   {
     id: 719,
-    name: "WS ESC312 - Geoinformatics",
+    name: "WS CSO508 - Building Software Systems"
   },
   {
     id: 720,
-    name: "WS ESC357 - Solid Waste Management Practical",
+    name: "WS CEC509 - Advanced Testing Laboratory"
   },
   {
     id: 721,
-    name: "WS ESC358 - Geoinformatics Practical",
+    name: "WS CEC510 - Term Project"
   },
   {
     id: 722,
-    name: "WS ESD404 - Water Resource Planning and Management",
+    name: "WS CED528 - Structural Dynamics"
   },
   {
     id: 723,
-    name: "WS ESD508 - Social Impact Assessment and R&R",
+    name: "WS CED530 - Hydrogeology and Well Hydraulics"
   },
   {
     id: 724,
-    name: "WS ESD513 - Energy Auditing and Management",
+    name: "WS CED532 - Slope and Retaining Structure"
   },
   {
     id: 725,
-    name: "WS ESO301 - Applied Statistics for Environmental Engineering",
+    name: "WS CED533 - Hydroclimatology"
   },
   {
     id: 726,
-    name: "WS FMC303 - Mechanical Metallurgy",
+    name: "WS CED534 - Theory of Elastic Stability"
   },
   {
     id: 727,
-    name: "WS FMC304 - Coal and Mineral Processing Plant Design",
+    name: "WS CED535 - Soil Dynamics"
   },
   {
     id: 728,
-    name: "WS FMC305 - Coal and Mineral Processing Plant Design Laboratory",
+    name: "WS CED537 - Earthquake Engineering"
   },
   {
     id: 729,
-    name: "WS FMC352 - Heat Treatment and Mechanical Metallurgy Laboratory",
+    name: "WS CEO524 - Finite Element Method"
   },
   {
     id: 730,
-    name: "WS FMD463 - Non Ferrous Extractive Metallurgy",
+    name: "WS CEO531 - Railway Geotechnics"
   },
   {
     id: 731,
-    name: "WS FMD464 - Mineral Policy and Economics",
+    name: "WS ECC507 - Electronics Engineering - I Lab"
   },
   {
     id: 732,
-    name: "WS FMO431 - Elements of Mineral Engineering",
+    name: "WS ECC508 - Electronics Engineering - II Lab"
   },
   {
     id: 733,
-    name: "WS HSD512 - Gender Studies",
+    name: "WS ECD500 - Advanced Signal Processing"
   },
   {
     id: 734,
-    name: "WS HSD533 - Introduction to Yoga Philosophy",
+    name: "WS ECD501 - Metamaterials and CRLH Transmission Lines"
   },
   {
     id: 735,
-    name: "WS HSO307 - Philosophy and Critical Thinking",
+    name: "WS ECD503 - Wireless Communication Systems"
   },
   {
     id: 736,
-    name: "WS HSO308 - Social Psychology",
+    name: "WS ECD504 - Computer Communication Networks"
   },
   {
     id: 737,
-    name: "WS HSO320 - Principles of Sociology",
+    name: "WS ECD505 - CAD for VLSI"
   },
   {
     id: 738,
-    name: "WS HSO511 - Brain and Behaviour",
+    name: "WS ECD514 - Photonic Sensors"
   },
   {
     id: 739,
-    name: "WS HSO512 - Experience Psychology",
+    name: "WS ECD520 - Optoelectronic and Photonics Devices"
   },
   {
     id: 740,
-    name: "WS HSO514 - Introduction to Climate Change and Society",
+    name: "WS ECD531 - Photonic Integrated Circuits"
   },
   {
     id: 741,
-    name: "WS MNC304 - Mine Legislation and Safety",
+    name: "WS ECD540 - Advanced Antenna Theory"
   },
   {
     id: 742,
-    name: "WS MNC305 - Mine Automation and Data Analytics",
+    name: "WS ECD541 - Microwave Measurements"
   },
   {
     id: 743,
-    name: "WS MNC306 - Mine Data Analytics Practical",
+    name: "WS ECD560 - Analog IC Design"
   },
   {
     id: 744,
-    name: "WS MNC307 - Numerical Modelling/Remote Sensing & GIS Practical",
+    name: "WS ECD569 - MOS Device Physics and Modelling"
   },
   {
     id: 745,
-    name: "WS MNO302 - Seabed Mining and Asteroid Mining",
+    name: "WS ECO520 - Optical Networks"
   },
   {
     id: 746,
-    name: "WS MNO304 - Coal Mine Methane Recovery and Utilization",
+    name: "WS ECO560 - Test and Verification of VLSI Circuits"
   },
   {
     id: 747,
-    name: "WS MNO401 - Rock Engineering",
+    name: "WS EEC501 - Power System Analysis"
   },
   {
     id: 748,
-    name: "WS MEC306 - Computer Aided Manufacturing",
+    name: "WS EEC508 - Power Electronic Converters"
   },
   {
     id: 749,
-    name: "WS MEC307 - IC Engines and Gas Turbines",
+    name: "WS EEC513 - Advanced power System Simulation Lab"
   },
   {
     id: 750,
-    name: "WS MEC308 - Computer Aided Manufacturing Lab",
+    name: "WS EEC514 - Advanced Power System Protection Lab"
   },
   {
     id: 751,
-    name: "WS MEC309 - Heat Power and Refrigeration Lab",
+    name: "WS EED504 - Wireless Power Transfer"
   },
   {
     id: 752,
-    name: "WS MED519 - Engineering Tribology",
+    name: "WS EEO501 - Smart Grid Technology"
   },
   {
     id: 753,
-    name: "WS MEO302 - Refrigeration and Air-conditioning",
+    name: "WS EEO503 - Electric & Hybrid Electric Vehicles"
   },
   {
     id: 754,
-    name: "WS MEO586 - Additive Manufacturing",
+    name: "WS ESC506 - Environmental Laws and Impact Assessment"
   },
   {
     id: 755,
-    name: "WS MED545 - Turbomachinery",
+    name: "WS ESC507 - Municipal Solid Waste Management"
   },
   {
     id: 756,
-    name: "WS MEO581 - Fundamentals of Combustion",
+    name: "WS ESC523 - Water and Wastewater Engineering Practical"
   },
   {
     id: 757,
-    name: "WS MEO590 - Advanced Scientific Computing",
+    name: "WS ESC524 - Soil and Microbiology Practical"
   },
   {
     id: 758,
-    name: "WS MMC305 - Underground Mining Equipment",
+    name: "WS ESD505 - Advanced Water and Wastewater Treatment"
   },
   {
     id: 759,
-    name: "WS MMC306 - Opencast Mining Equipment",
+    name: "WS ESD512 - Groundwater Contaminant Transport"
   },
   {
     id: 760,
-    name: "WS MMC307 - Mining Machinery Lab",
+    name: "WS ESO501 - Environmental Management System and Auditing"
   },
   {
     id: 761,
-    name: "WS MMC308 - Pumps Fans & Compressors Lab",
+    name: "WS ESO502 - Environmental Aspects of Industries"
   },
   {
     id: 762,
-    name: "WS PEC306 - Directional Drilling",
+    name: "WS FMC553 - Fuel Technology Laboratory"
   },
   {
     id: 763,
-    name: "WS PEC307 - Oil and Gas Well Testing",
+    name: "WS FMC556 - Materials Characterization Laboratory"
   },
   {
     id: 764,
-    name: "WS PEC308 - Enhanced Oil Recovery Practical",
+    name: "WS FMD525 - Iron and Steel Making"
   },
   {
     id: 765,
-    name: "WS PEC309 - Reservoir Characterization Practical",
+    name: "WS FMD528 - Power Plant Engineering"
   },
   {
     id: 766,
-    name: "WS PEO301 - Heat and Mass Transfer in Petroleum Operations",
+    name: "WS FMD531 - Alternate Energy Systems"
   },
   {
     id: 767,
-    name: "WS PEO302 - Oil & Gas Field Development and Planning",
+    name: "WS FMD540 - Size Enlargement Processes"
   },
   {
     id: 768,
-    name: "WS PEO502 - Flow Assurance",
+    name: "WS FMD541 - Processing Equipment Selection"
   },
   {
     id: 769,
-    name: "WS PHC302 - Solid State Physics",
+    name: "WS MCC539 - Advanced DBMS"
   },
   {
     id: 770,
-    name: "WS PHC303 - Applied Optics Lab",
+    name: "WS MCC540 - Neural Networks and Deep Learning"
   },
   {
     id: 771,
-    name: "WS PHC304 - Spectroscopy Lab",
+    name: "WS MCC541 - Advanced DBMS Practical"
   },
   {
     id: 772,
-    name: "WS PHC510 - Atomic and Molecular Physics",
+    name: "WS MCC542 - Neural Networks and Deep Learning Practical"
   },
   {
     id: 773,
-    name: "WS PHO401 - Introduction to Quantum Devices",
+    name: "WS MCD543 - Missing Data Analysis in Survey Sampling"
   },
   {
     id: 774,
-    name: "WS PHO403 - Energy Storage Technologies",
+    name: "WS MCO531 - Stochastic Processes"
   },
   {
     id: 775,
-    name: "WS CHD404 - Bioprocess Technology",
+    name: "WS MCO532 - Advanced Multivariate Analysis"
   },
   {
     id: 776,
-    name: "WS CHD411 - Catalytic Reaction Engineering",
+    name: "WS MNC503 - Mine Planning and Design"
   },
   {
     id: 777,
-    name: "WS CHD417 - Membrane Science and Engineering",
+    name: "WS MNC506 - Computer Aided Mine Planning and Design Practical"
   },
   {
     id: 778,
-    name: "WS CHO403 - Process Intensification",
+    name: "WS MNC508 - Geostatistics and Mine Valuation"
   },
   {
     id: 779,
-    name: "WS CSD401 - Advanced Algorithms",
+    name: "WS MNC509 - Mine Simulation and Data analytics Practical"
   },
   {
     id: 780,
-    name: "WS CSD403 - Combinatorics and Graph Theory",
+    name: "WS MND500 - Managerial Decision Making"
   },
   {
     id: 781,
-    name: "WS CSD404 - Computer Graphics",
+    name: "WS MND556 - Computational Geomechanics"
   },
   {
     id: 782,
-    name: "WS CSD405 - Evolutionary Computation",
+    name: "WS MNO501 - Mining, Energy and Climate Change"
   },
   {
     id: 783,
-    name: "WS CSD508 - Distributed Systems",
+    name: "WS MNO510 - Rock Excavation Technology"
   },
   {
     id: 784,
-    name: "WS CSD510 - Information Retrieval",
+    name: "WS MEC509 - Mechanical Engineering Lab - I"
   },
   {
     id: 785,
-    name: "WS CSD521 - Wireless Networks",
+    name: "WS MEC510 - Mechanical Engineering Lab - II"
   },
   {
     id: 786,
-    name: "WS CSO505 - Soft Computing",
+    name: "WS MED513 - Thermo-Production Processes"
   },
   {
     id: 787,
-    name: "WS CED404 - Environmental Engineering - II",
+    name: "WS MED525 - Rotor Dynamics"
   },
   {
     id: 788,
-    name: "WS CED529 - Advanced Foundation Engineering",
+    name: "WS MED538 - Gas Dynamics"
   },
   {
     id: 789,
-    name: "WS CED542 - Prestressed Concrete Structures",
+    name: "WS MED546 - Conduction and Radiation"
   },
   {
     id: 790,
-    name: "WS CEO526 - Geoinformatics for Civil Engineering",
+    name: "WS MED547 - Convective and Two-phase Flow"
   },
   {
     id: 791,
-    name: "WS ECD404 - Digital Image Processing",
+    name: "WS MED554 - Surface Engineering"
   },
   {
     id: 792,
-    name: "WS ECD419 - Satellite Communication",
+    name: "WS MED555 - Computer Aided Manufacturing and Robotics"
   },
   {
     id: 793,
-    name: "WS ECO500 - Wireless Sensor Networks",
+    name: "WS MEO579 - Computational Fluid Dynamics"
   },
   {
     id: 794,
-    name: "WS ECO506 - Machine Learning",
+    name: "WS MSC515 - Software Lab"
   },
   {
     id: 795,
-    name: "WS EED405 - Instrumentation",
+    name: "WS MSC517 - Simulation Modelling & Analysis Lab"
   },
   {
     id: 796,
-    name: "WS EED406 - Special Purpose Electric Machines and Drives",
+    name: "WS MSC519 - Project Management"
   },
   {
     id: 797,
-    name: "WS EED511 - Power System Dynamics",
+    name: "WS MSC520 - Quality Management"
   },
   {
     id: 798,
-    name: "WS EED513 - Power Quality",
+    name: "WS MSC527 - Machine Learning"
   },
   {
     id: 799,
-    name: "WS EEO504 - Condition Monitoring of Electrical Machines",
+    name: "WS MSD512 - Service Operations Management"
   },
   {
     id: 800,
-    name: "WS EEO505 - Modern Sensors and Signal Conditioning Circuits",
+    name: "WS MSD526 - Supply Chain Management"
   },
   {
     id: 801,
-    name: "WS ESD402 - Industrial Waste Water Engineering",
+    name: "WS PEC508 - Petroleum Geomechanics and Hydraulic Fracturing"
   },
   {
     id: 802,
-    name: "WS ESD406 - Environmental Nano Technology",
+    name: "WS PEC509 - Advanced Drilling Technology"
   },
   {
     id: 803,
-    name: "WS ESD503 - Environmental Modelling",
+    name: "WS PEC510 - Petroleum Instrumentation and Measurements Practical"
   },
   {
     id: 804,
-    name: "WS ESO505 - Climate Change and Modelling",
+    name: "WS PEC511 - Development of Working Models Practical"
   },
   {
     id: 805,
-    name: "WS FMD462 - Process Control and Plant Layout",
+    name: "WS PED501 - Reservoir Simulation"
   },
   {
     id: 806,
-    name: "WS FMD522 - Coal Preparation",
+    name: "WS PEO501 - Fluid Flow through Porous Media"
   },
   {
     id: 807,
-    name: "WS FMD530 - Biofuels",
+    name: "WS PEO503 - Unconventional Hydrocarbon Resources"
   },
   {
     id: 808,
-    name: "WS FMD536 - Surface Engineering",
+    name: "WS CYC508 - Kinetics and Thermodynamics"
   },
   {
     id: 809,
-    name: "WS MND407 - Underground Space Technology",
+    name: "WS CYC509 - Methods in Organic Synthesis"
   },
   {
     id: 810,
-    name: "WS MND408 - Innovative Mining Systems",
+    name: "WS CYC510 - Organometallic Chemistry"
   },
   {
     id: 811,
-    name: "WS MND409 - Introduction to Geographical Information System",
+    name: "WS CYC511 - Group Theory & Electronic Spectroscopy"
   },
   {
     id: 812,
-    name: "WS MND410 - Advanced Blasting Techniques",
+    name: "WS CYC512 - Physical Chemistry Lab - I"
   },
   {
     id: 813,
-    name: "WS MND411 - Advanced Underground Mining Methods",
+    name: "WS CYC513 - Organic Chemistry Lab - II"
   },
   {
     id: 814,
-    name: "WS MND412 - Deep Coal Mining",
+    name: "WS CYD513 - Electroanalytical Methods"
   },
   {
     id: 815,
-    name: "WS MED529 - Composite Materials",
+    name: "WS CYO503 - Rechargeable Battery Science and Technology"
   },
   {
     id: 816,
-    name: "WS MED531 - Fracture Mechanics",
+    name: "WS MCC508 - Advanced Algebra"
   },
   {
     id: 817,
-    name: "WS MEO522 - Condition Monitoring of Machines",
+    name: "WS MCC509 - Statistical  Inference"
   },
   {
     id: 818,
-    name: "WS MEO528 - Robotics",
+    name: "WS MCC510 - Operating Systems"
   },
   {
     id: 819,
-    name: "WS MED521 - Theory of Lubrication",
+    name: "WS MCC511 - Database Management Systems"
   },
   {
     id: 820,
-    name: "WS MED541 - Microfluidics",
+    name: "WS MCC512 - Operating Systems Practical"
   },
   {
     id: 821,
-    name: "WS MED542 - Finite Element Method in Thermal Engineering",
+    name: "WS MCC513 - Database Management Systems Practical"
   },
   {
     id: 822,
-    name: "WS MMO504 - Advanced Fluid Power Systems and Control",
+    name: "WS MCD504 - Measure Theory"
   },
   {
     id: 823,
-    name: "WS PED404 - Petroleum Engineering Design",
+    name: "WS PHC508 - Quantum Mechanics"
   },
   {
     id: 824,
-    name: "WS PED405 - Pipeline Engineering",
+    name: "WS PHC509 - Electrodynamics and Radiation theory"
   },
   {
     id: 825,
-    name: "WS PED406 - Reservoir Modeling and Simulation",
+    name: "WS PHC510 - Atomic and Molecular Physics"
   },
   {
     id: 826,
-    name: "WS PED502 - Well Intervention, Workover and Stimulation Techniques",
+    name: "WS PHC511 - Condensed Matter Physics"
   },
   {
     id: 827,
-    name: "WS PEO405 - Integrated Reservoir Management",
+    name: "WS PHC512 - Experimental Physics - III"
   },
   {
     id: 828,
-    name: "WS PEO506 - Carbon Capture And Sequestration",
+    name: "WS PHC513 - Experimental Physics - IV"
   },
   {
     id: 829,
-    name: "WS PHD503 - High Energy Physics",
+    name: "WS PHD502 - Computational Physics"
   },
   {
     id: 830,
-    name: "WS PHD511 - Astrophysics and Cosmology",
+    name: "WS  - "
   },
   {
     id: 831,
-    name: "WS PHD512 - Nonlinear Optics",
+    name: "WS MSD514 - Financial Econometrics"
   },
   {
     id: 832,
-    name: "WS PHD513 - Semiconductor Physics and Technology",
+    name: "WS MSD515 - Services Marketing"
   },
   {
     id: 833,
-    name: "WS PHO303 - Physics for Society",
+    name: "WS MSD521 - Consumer Behaviour"
   },
   {
     id: 834,
-    name: "WS PHO503 - Physics of Nanomaterials",
+    name: "WS MSC510 - Corporate Finance"
   },
   {
     id: 835,
-    name: "WS GLC205 - Introduction to Petrology",
+    name: "WS MSC511 - Organizational Behaviour"
   },
   {
     id: 836,
-    name: "WS GLC206 - Introduction to Stratigraphy and Paleontology",
+    name: "WS MSC512 - Operations Management"
   },
   {
     id: 837,
-    name: "WS GLC207 - Descriptive Mineralogy",
+    name: "WS MSC513 - Marketing Management"
   },
   {
     id: 838,
-    name: "WS GLC208 - Economic Geology and Indian Mineral Deposits",
+    name: "WS MSC514 - Human Resources Management"
   },
   {
     id: 839,
-    name: "WS GLC209 - Petrology Practical",
+    name: "WS MSC515 - Software Lab"
   },
   {
     id: 840,
-    name: "WS GLC210 - Economic Geology Practical",
+    name: "WS MSC517 - Simulation Modelling & Analysis Lab"
   },
   {
     id: 841,
-    name: "WS GLE202 - Resource Geology",
+    name: "WS MCC539 - Advanced DBMS"
   },
   {
     id: 842,
-    name: "WS GPC205 - Oceanography",
+    name: "WS MCC541 - Advanced DBMS Practical"
   },
   {
     id: 843,
-    name: "WS GPC206 - Mathematical Geophysics",
+    name: "WS MCO531 - Stochastic Processes"
   },
   {
     id: 844,
-    name: "WS GPC207 - Radiometric Method",
+    name: "WS MSC510 - Corporate Finance"
   },
   {
     id: 845,
-    name: "WS GPC208 - Radiometric Method Practical",
+    name: "WS MSC524 - Marketing Management"
   },
   {
     id: 846,
-    name: "WS GPE201 - Earth and Planetary System",
+    name: "WS MSC525 - Human Resources Management"
   },
   {
     id: 847,
-    name: "WS MCC205 - Linear Algebra",
+    name: "WS MSC527 - Machine Learning"
   },
   {
     id: 848,
-    name: "WS MCC509 - Statistical  Inference",
+    name: "WS MSC528 - Machine Learning Lab"
   },
   {
     id: 849,
-    name: "WS MCC510 - Operating Systems",
+    name: "WS  - "
   },
   {
     id: 850,
-    name: "WS MCC512 - Operating Systems Practical",
+    name: "WS MSC529 - Big Data Lab"
   },
   {
     id: 851,
-    name: "WS MCE301 - Operations Research",
+    name: "WS MSD514 - Financial Econometrics"
   },
   {
     id: 852,
-    name: "WS MCO501 - Discrete Mathematics",
+    name: "WS MSD519 - International Finance"
   },
   {
     id: 853,
-    name: "WS GLC509 - Igneous Petrology",
+    name: "WS MSD520 - Merchant Banking and Financial Services"
   },
   {
     id: 854,
-    name: "WS GLC510 - Metamorphic Petrology",
+    name: "WS MSD524 - International Human Resource Management"
   },
   {
     id: 855,
-    name: "WS GLC514 - Igneous and Metamorphic Petrology Practical",
+    name: "WS MSD537 - HR Analytics"
   },
   {
     id: 856,
-    name: "WS GLC515 - Sedimentology and Petroleum Geology Practical",
+    name: "WS GLC509 - Igneous Petrology"
   },
   {
     id: 857,
-    name: "WS GLD530 - Geodynamics",
+    name: "WS GLC510 - Metamorphic Petrology"
   },
   {
     id: 858,
-    name: "WS GLD540 - Geomorphology",
+    name: "WS GLC511 - Applied Sedimentology"
   },
   {
     id: 859,
-    name: "WS GPC508 - Earthquake Seismology",
+    name: "WS GLC512 - Petroleum Geology"
   },
   {
     id: 860,
-    name: "WS GPC509 - Geoelectrical Method",
+    name: "WS GLC513 - Coal Geology"
   },
   {
     id: 861,
-    name: "WS GPC510 - Well Logging",
+    name: "WS GLC514 - Igneous and Metamorphic Petrology Practical"
   },
   {
     id: 862,
-    name: "WS GPC511 - Seismic Data Acquisition",
+    name: "WS GLC515 - Sedimentology and Petroleum Geology Practical"
   },
   {
     id: 863,
-    name: "WS GPC512 - Seismic Data Acquisition Practical",
+    name: "WS GLC516 - Coal Geology Practical"
   },
   {
     id: 864,
-    name: "WS GPC513 - Geoelectrical Methods Practical",
+    name: "WS GPC508 - Earthquake Seismology"
   },
   {
     id: 865,
-    name: "WS GPC515 - Earthquake Seismology and Well Logging Practical",
+    name: "WS GPC509 - Geoelectrical Method"
   },
   {
     id: 866,
-    name: "WS GPO503 - Artificial Intelligence and Machine Learning in Geosciences",
+    name: "WS GPC510 - Well Logging"
   },
   {
     id: 867,
-    name: "WS MCC511 - Database Management Systems",
+    name: "WS GPC511 - Seismic Data Acquisition"
   },
   {
     id: 868,
-    name: "WS MCC513 - Database Management Systems Practical",
+    name: "WS GPC512 - Seismic Data Acquisition Practical"
   },
   {
     id: 869,
-    name: "WS MCD501 - Classical Mechanics",
+    name: "WS GPC513 - Geoelectrical Methods Practical"
   },
   {
     id: 870,
-    name: "WS MCD508 - Theory of Computation",
+    name: "WS GPC515 - Earthquake Seismology and Well Logging Practical"
   },
   {
     id: 871,
-    name: "WS MCD511 - Mathematical Ecology",
+    name: "WS GLC526 - Ore Geology"
   },
   {
     id: 872,
-    name: "WS MCD560 - Orbital Mechanics",
+    name: "WS GLC527 - Exploration Geology and Mineral Economics"
   },
   {
     id: 873,
-    name: "WS GLC513 - Coal Geology",
+    name: "WS GLC533 - Ore Geology Practical"
   },
   {
     id: 874,
-    name: "WS GLC516 - Coal Geology Practical",
+    name: "WS GLC534 - Exploration Geology Practical"
   },
   {
     id: 875,
-    name: "WS GLC526 - Ore Geology",
+    name: "WS GLD531 - Sequence Stratigraphy and Basin Analysis"
   },
   {
     id: 876,
-    name: "WS GLC533 - Ore Geology Practical",
+    name: "WS GLD544 - Kinematics of Rock Deformation"
   },
   {
     id: 877,
-    name: "WS GLD528 - Geotechnical Engineering",
+    name: "WS GLO542 - Remote Sensing and GIS"
   },
   {
     id: 878,
-    name: "WS GLD571 - Petroleum Exploration and Micropalaeontology",
+    name: "WS GPC520 - Magnetic Method"
   },
   {
     id: 879,
-    name: "WS GLO545 - Radiogenic and Stable Isotope Geology",
+    name: "WS GPC521 - Geoelectromagnetic Method"
   },
   {
     id: 880,
-    name: "WS GPC520 - Magnetic Method",
+    name: "WS GPC522 - Magnetic Method Practical"
   },
   {
     id: 881,
-    name: "WS GPC521 - Geoelectromagnetic Method",
+    name: "WS GPC523 - Geoelectromagnetic Method Practical"
   },
   {
     id: 882,
-    name: "WS GPC522 - Magnetic Method Practical",
+    name: "WS GPD509 - Well Log and Electrofacies Analysis"
   },
   {
     id: 883,
-    name: "WS GPC523 - Geoelectromagnetic Method Practical",
+    name: "WS GPD510 - Reservoir Geophysics and Deep Water Imaging"
   },
   {
     id: 884,
-    name: "WS GPD507 - Geophysics for Mineral Exploration",
+    name: "WS GPO510 - Strong Motion Seismology and Structural Responses"
   },
   {
     id: 885,
-    name: "WS GPD508 - Seismological Data Analysis",
+    name: "WS CYP003 - Chemistry - II"
   },
   {
     id: 886,
-    name: "WS MCC401 - Software Engineering",
+    name: "WS CYP004 - Chemistry Lab - II"
   },
   {
     id: 887,
-    name: "WS MCC402 - Software Engineering Practical",
+    name: "WS HSP002 - English - II"
   },
   {
     id: 888,
-    name: "WS MCD502 - Graph Theory",
+    name: "WS MCP002 - Mathematics - II"
   },
   {
     id: 889,
-    name: "WS MCD510 - Complex Analysis",
+    name: "WS PHP003 - Physics - II"
   },
   {
     id: 890,
-    name: "WS MCD516 - Industrial Statistics",
+    name: "WS PHP004 - Physics Lab - II"
   },
   {
     id: 891,
-    name: "WS MCO402 - Modelling and Simulation",
+    name: "WS GPD521 - Time Series Analysis in Geosciences"
   },
   {
     id: 892,
-    name: "WS  - ",
+    name: "WS CYD518 - Metalloenzymes-Special Topics"
   },
   {
     id: 893,
-    name: "WS GPC537 - Remote Sensing: Principles and Data Acquisition System",
+    name: "WS CYD528 - Modern Separation Techniques"
   },
   {
     id: 894,
-    name: "WS GPC538 - Advanced Numerical Methods",
+    name: "WS CHD503 - Catalysts & Materials Characterization Techniques"
   },
   {
     id: 895,
-    name: "WS GPC539 - Remote Sensing: Principles and Data Acquisition System Practical",
+    name: "WS CHD507 - Modelling & Simulation"
   },
   {
     id: 896,
-    name: "WS GPC540 - Advanced Numerical Methods Practical",
+    name: "WS CHO504 - Electrochemical Energy Science and Engineering"
   },
   {
     id: 897,
-    name: "WS GPD520 - Earthquake Statistics and Hazard",
+    name: "WS CSD503 - Computational Number Theory"
   },
   {
     id: 898,
-    name: "WS CHC530 - Reaction Engineering",
+    name: "WS CSD518 - Pattern Recognition"
   },
   {
     id: 899,
-    name: "WS CHC531 - Chemical Engineering Lab",
+    name: "WS CSO502 - Data Analytics"
   },
   {
     id: 900,
-    name: "WS CYC529 - Formulation/Manufacturing Lab",
+    name: "WS CEO529 - Blast Protection of Structures"
   },
   {
     id: 901,
-    name: "WS CYD524 - Basics of Chemical Biology",
+    name: "WS CEO530 - Sustainable Engineering"
   },
   {
     id: 902,
-    name: "WS CYD529 - Computer Aided Drug Discovery",
+    name: "WS ECD510 - Quantum Computation"
   },
   {
     id: 903,
-    name: "WS CYD530 - Pharmacovigilance and Regulatory Affairs",
+    name: "WS ECD561 - ASIC Design"
   },
   {
     id: 904,
-    name: "WS CYD531 - Biotechnology in Pharmaceutical Sciences",
+    name: "WS ECO542 - Advanced Microwave Measurement & Instrument"
   },
   {
     id: 905,
-    name: "WS CHC508 - Advanced Mass transfer",
+    name: "WS EED501 - Design of Power Converters"
   },
   {
     id: 906,
-    name: "WS CHC509 - Computational Fluid Dynamics",
+    name: "WS EED502 - Advanced Machine Drives"
   },
   {
     id: 907,
-    name: "WS CHC510 - Advanced Chemical Engineering Lab",
+    name: "WS ESD506 - Biomedical and Hazardous Waste Management"
   },
   {
     id: 908,
-    name: "WS CHC511 - Term Paper and Presentation",
+    name: "WS ESD509 - Air and Noise Pollution Control"
   },
   {
     id: 909,
-    name: "WS CHD504 - Process Optimization",
+    name: "WS FMD534 - Metal Forming Technology"
   },
   {
     id: 910,
-    name: "WS CHD505 - Interfacial and Colloidal Phenomena",
+    name: "WS FMO541 - Characterization of Materials"
   },
   {
     id: 911,
-    name: "WS CHO501 - Rheology",
+    name: "WS MCD540 - Biostatistics"
   },
   {
     id: 912,
-    name: "WS CHO503 - Introduction to Granular Mechanics",
+    name: "WS MCO533 - Numerical Linear Algebra"
   },
   {
     id: 913,
-    name: "WS CSC508 - Computing Lab - I",
+    name: "WS MND504 - Modelling and Analysis of Geospatial data"
   },
   {
     id: 914,
-    name: "WS CSC509 - Computing Lab - II",
+    name: "WS MND505 - Geospatial Technologies for Natural Resources"
   },
   {
     id: 915,
-    name: "WS CSD505 - Cryptography and Network Security",
+    name: "WS MND511 - Modern Blasting Technology in Mining"
   },
   {
     id: 916,
-    name: "WS CSD509 - Image and Video Processing",
+    name: "WS MND547 - Mine Automation"
   },
   {
     id: 917,
-    name: "WS CSD513 - Internet of Things",
+    name: "WS MED503 - Finite Element Method"
   },
   {
     id: 918,
-    name: "WS CSD516 - Optimization Techniques",
+    name: "WS MED509 - Advanced Thermodynamics"
   },
   {
     id: 919,
-    name: "WS CSD517 - Parallel Computing",
+    name: "WS MED515 - Theory of Metal Forming"
   },
   {
     id: 920,
-    name: "WS CSO501 - Principles of Artificial Intelligence",
+    name: "WS MEO534 - Automation and Control"
   },
   {
     id: 921,
-    name: "WS CSO503 - Data Mining",
+    name: "WS MSD505 - Materials Management"
   },
   {
     id: 922,
-    name: "WS CSO507 - Deep Learning",
+    name: "WS MSD525 - Operations Analytics"
   },
   {
     id: 923,
-    name: "WS CSO508 - Building Software Systems",
+    name: "WS PED503 - Enhanced Oil and Gas Recovery Methods"
   },
   {
     id: 924,
-    name: "WS CEC509 - Advanced Testing Laboratory",
+    name: "WS PED504 - Profile Modification & Water Shutoff"
   },
   {
     id: 925,
-    name: "WS CEC510 - Term Project",
+    name: "WS CYD501 - Medicinal Chemistry"
   },
   {
     id: 926,
-    name: "WS CED528 - Structural Dynamics",
+    name: "WS CYD502 - Polymer Chemistry"
   },
   {
     id: 927,
-    name: "WS CED530 - Hydrogeology and Well Hydraulics",
+    name: "WS CYD505 - Asymmetric Synthesis"
   },
   {
     id: 928,
-    name: "WS CED532 - Slope and Retaining Structure",
+    name: "WS CYD506 - Computational Chemistry"
   },
   {
     id: 929,
-    name: "WS CED533 - Hydroclimatology",
+    name: "WS CYD512 - Modern Aspects of Catalysis and Surface Science"
   },
   {
     id: 930,
-    name: "WS CED534 - Theory of Elastic Stability",
+    name: "WS CYD520 - Advanced Fluorescence Spectroscopy"
   },
   {
     id: 931,
-    name: "WS CED535 - Soil Dynamics",
+    name: "WS MCD503 - Integral Equations and Calculus of Variations"
   },
   {
     id: 932,
-    name: "WS CED537 - Earthquake Engineering",
+    name: "WS MCD513 - Methods of Applied Mathematics"
   },
   {
     id: 933,
-    name: "WS CEO524 - Finite Element Method",
+    name: "WS PHD507 - Plasma and Space Physics"
   },
   {
     id: 934,
-    name: "WS CEO531 - Railway Geotechnics",
+    name: "WS PHO502 - Introduction to Biophysics"
   },
   {
     id: 935,
-    name: "WS ECC507 - Electronics Engineering - I Lab",
+    name: "WS GLD575 - Modern Instrumental Methods in Exploration Geosciences"
   },
   {
     id: 936,
-    name: "WS ECC508 - Electronics Engineering - II Lab",
+    name: "WS GLO501 - Image Processing and Data Analysis"
   },
   {
     id: 937,
-    name: "WS ECD500 - Advanced Signal Processing",
+    name: "WS GPD522 - Computational Seismology"
   },
   {
     id: 938,
-    name: "WS ECD501 - Metamaterials and CRLH Transmission Lines",
+    name: "WS GPO511 - Satellite Image Processing and Geographic Information System"
   },
   {
     id: 939,
-    name: "WS ECD503 - Wireless Communication Systems",
+    name: "WS  - "
   },
   {
     id: 940,
-    name: "WS ECD504 - Computer Communication Networks",
+    name: "WS GLD551 - Elements of Rock Engineering"
   },
   {
     id: 941,
-    name: "WS ECD505 - CAD for VLSI",
+    name: "WS  - "
   },
   {
     id: 942,
-    name: "WS ECD514 - Photonic Sensors",
+    name: "WS GPD505 - Near Surface Geophysics and Geotechnical Modelling"
   },
   {
     id: 943,
-    name: "WS ECD520 - Optoelectronic and Photonics Devices",
+    name: "WS MCD532 - Data Mining"
   },
   {
     id: 944,
-    name: "WS ECD531 - Photonic Integrated Circuits",
+    name: "WS MCD535 - Bioinformatics"
   },
   {
     id: 945,
-    name: "WS ECD540 - Advanced Antenna Theory",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 946,
-    name: "WS ECD541 - Microwave Measurements",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 947,
-    name: "WS ECD560 - Analog IC Design",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 948,
-    name: "WS ECD569 - MOS Device Physics and Modelling",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 949,
-    name: "WS ECO520 - Optical Networks",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 950,
-    name: "WS ECO560 - Test and Verification of VLSI Circuits",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 951,
-    name: "WS EEC501 - Power System Analysis",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 952,
-    name: "WS EEC508 - Power Electronic Converters",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 953,
-    name: "WS EEC513 - Advanced power System Simulation Lab",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 954,
-    name: "WS EEC514 - Advanced Power System Protection Lab",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 955,
-    name: "WS EED504 - Wireless Power Transfer",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 956,
-    name: "WS EEO501 - Smart Grid Technology",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 957,
-    name: "WS EEO503 - Electric & Hybrid Electric Vehicles",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 958,
-    name: "WS ESC506 - Environmental Laws and Impact Assessment",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 959,
-    name: "WS ESC507 - Municipal Solid Waste Management",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 960,
-    name: "WS ESC523 - Water and Wastewater Engineering Practical",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 961,
-    name: "WS ESC524 - Soil and Microbiology Practical",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 962,
-    name: "WS ESD505 - Advanced Water and Wastewater Treatment",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 963,
-    name: "WS ESD512 - Groundwater Contaminant Transport",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 964,
-    name: "WS ESO501 - Environmental Management System and Auditing",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 965,
-    name: "WS ESO502 - Environmental Aspects of Industries",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 966,
-    name: "WS FMC553 - Fuel Technology Laboratory",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 967,
-    name: "WS FMC556 - Materials Characterization Laboratory",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 968,
-    name: "WS FMD525 - Iron and Steel Making",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 969,
-    name: "WS FMD528 - Power Plant Engineering",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 970,
-    name: "WS FMD531 - Alternate Energy Systems",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 971,
-    name: "WS FMD540 - Size Enlargement Processes",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 972,
-    name: "WS FMD541 - Processing Equipment Selection",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 973,
-    name: "WS MCC539 - Advanced DBMS",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 974,
-    name: "WS MCC540 - Neural Networks and Deep Learning",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 975,
-    name: "WS MCC541 - Advanced DBMS Practical",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 976,
-    name: "WS MCC542 - Neural Networks and Deep Learning Practical",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 977,
-    name: "WS MCD543 - Missing Data Analysis in Survey Sampling",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 978,
-    name: "WS MCO531 - Stochastic Processes",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 979,
-    name: "WS MCO532 - Advanced Multivariate Analysis",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 980,
-    name: "WS MNC503 - Mine Planning and Design",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 981,
-    name: "WS MNC506 - Computer Aided Mine Planning and Design Practical",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 982,
-    name: "WS MNC508 - Geostatistics and Mine Valuation",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 983,
-    name: "WS MNC509 - Mine Simulation and Data analytics Practical",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 984,
-    name: "WS MND500 - Managerial Decision Making",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 985,
-    name: "WS MND556 - Computational Geomechanics",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 986,
-    name: "WS MNO501 - Mining, Energy and Climate Change",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 987,
-    name: "WS MNO510 - Rock Excavation Technology",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 988,
-    name: "WS MEC509 - Mechanical Engineering Lab - I",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 989,
-    name: "WS MEC510 - Mechanical Engineering Lab - II",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 990,
-    name: "WS MED513 - Thermo-Production Processes",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 991,
-    name: "WS MED525 - Rotor Dynamics",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 992,
-    name: "WS MED538 - Gas Dynamics",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 993,
-    name: "WS MED546 - Conduction and Radiation",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 994,
-    name: "WS MED547 - Convective and Two-phase Flow",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 995,
-    name: "WS MED554 - Surface Engineering",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 996,
-    name: "WS MED555 - Computer Aided Manufacturing and Robotics",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 997,
-    name: "WS MEO579 - Computational Fluid Dynamics",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 998,
-    name: "WS MSC515 - Software Lab",
+    name: "WS CEI101 - Engineering Graphics"
   },
   {
     id: 999,
-    name: "WS MSC517 - Simulation Modelling & Analysis Lab",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1000,
-    name: "WS MSC519 - Project Management",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 1001,
-    name: "WS MSC520 - Quality Management",
+    name: "WS MEI101 - Engineering Mechanics"
   },
   {
     id: 1002,
-    name: "WS MSC527 - Machine Learning",
+    name: "WS MSI101 - Engineering Economics and Finance"
   },
   {
     id: 1003,
-    name: "WS MSD512 - Service Operations Management",
+    name: "WS PHI101 - Physics"
   },
   {
     id: 1004,
-    name: "WS MSD526 - Supply Chain Management",
+    name: "WS PHI102 - Physics Lab"
   },
   {
     id: 1005,
-    name: "WS PEC508 - Petroleum Geomechanics and Hydraulic Fracturing",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1006,
-    name: "WS PEC509 - Advanced Drilling Technology",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1007,
-    name: "WS PEC510 - Petroleum Instrumentation and Measurements Practical",
+    name: "WS GLI101 - Earth Sciences"
   },
   {
     id: 1008,
-    name: "WS PEC511 - Development of Working Models Practical",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1009,
-    name: "WS PED501 - Reservoir Simulation",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1010,
-    name: "WS PEO501 - Fluid Flow through Porous Media",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 1011,
-    name: "WS PEO503 - Unconventional Hydrocarbon Resources",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1012,
-    name: "WS CYC508 - Kinetics and Thermodynamics",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 1013,
-    name: "WS CYC509 - Methods in Organic Synthesis",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 1014,
-    name: "WS CYC510 - Organometallic Chemistry",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1015,
-    name: "WS CYC511 - Group Theory & Electronic Spectroscopy",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1016,
-    name: "WS CYC512 - Physical Chemistry Lab - I",
+    name: "WS ESI101 - Environmental Sciences"
   },
   {
     id: 1017,
-    name: "WS CYC513 - Organic Chemistry Lab - II",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1018,
-    name: "WS CYD513 - Electroanalytical Methods",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1019,
-    name: "WS CYO503 - Rechargeable Battery Science and Technology",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1020,
-    name: "WS MCC508 - Advanced Algebra",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1021,
-    name: "WS MCC509 - Statistical  Inference",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1022,
-    name: "WS MCC510 - Operating Systems",
+    name: "WS GLI101 - Earth Sciences"
   },
   {
     id: 1023,
-    name: "WS MCC511 - Database Management Systems",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1024,
-    name: "WS MCC512 - Operating Systems Practical",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1025,
-    name: "WS MCC513 - Database Management Systems Practical",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 1026,
-    name: "WS MCD504 - Measure Theory",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1027,
-    name: "WS PHC508 - Quantum Mechanics",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 1028,
-    name: "WS PHC509 - Electrodynamics and Radiation theory",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 1029,
-    name: "WS PHC510 - Atomic and Molecular Physics",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1030,
-    name: "WS PHC511 - Condensed Matter Physics",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1031,
-    name: "WS PHC512 - Experimental Physics - III",
+    name: "WS ESI101 - Environmental Sciences"
   },
   {
     id: 1032,
-    name: "WS PHC513 - Experimental Physics - IV",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1033,
-    name: "WS PHD502 - Computational Physics",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1034,
-    name: "WS  - ",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1035,
-    name: "WS MSD514 - Financial Econometrics",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1036,
-    name: "WS MSD515 - Services Marketing",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1037,
-    name: "WS MSD521 - Consumer Behaviour",
+    name: "WS GLI101 - Earth Sciences"
   },
   {
     id: 1038,
-    name: "WS MSC510 - Corporate Finance",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1039,
-    name: "WS MSC511 - Organizational Behaviour",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1040,
-    name: "WS MSC512 - Operations Management",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 1041,
-    name: "WS MSC513 - Marketing Management",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1042,
-    name: "WS MSC514 - Human Resources Management",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 1043,
-    name: "WS MSC515 - Software Lab",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 1044,
-    name: "WS MSC517 - Simulation Modelling & Analysis Lab",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1045,
-    name: "WS MCC539 - Advanced DBMS",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1046,
-    name: "WS MCC541 - Advanced DBMS Practical",
+    name: "WS ESI101 - Environmental Sciences"
   },
   {
     id: 1047,
-    name: "WS MCO531 - Stochastic Processes",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1048,
-    name: "WS MSC510 - Corporate Finance",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1049,
-    name: "WS MSC524 - Marketing Management",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1050,
-    name: "WS MSC525 - Human Resources Management",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1051,
-    name: "WS MSC527 - Machine Learning",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1052,
-    name: "WS MSC528 - Machine Learning Lab",
+    name: "WS GLI101 - Earth Sciences"
   },
   {
     id: 1053,
-    name: "WS  - ",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1054,
-    name: "WS MSC529 - Big Data Lab",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1055,
-    name: "WS MSD514 - Financial Econometrics",
+    name: "WS MCI103 - Numerical Methods"
   },
   {
     id: 1056,
-    name: "WS MSD519 - International Finance",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1057,
-    name: "WS MSD520 - Merchant Banking and Financial Services",
+    name: "WS CSI101 - Computer Programming"
   },
   {
     id: 1058,
-    name: "WS MSD524 - International Human Resource Management",
+    name: "WS CSI102 - Computer Programming Lab"
   },
   {
     id: 1059,
-    name: "WS MSD537 - HR Analytics",
+    name: "WS CYI101 - Chemistry"
   },
   {
     id: 1060,
-    name: "WS GLC509 - Igneous Petrology",
+    name: "WS CYI102 - Chemistry Lab"
   },
   {
     id: 1061,
-    name: "WS GLC510 - Metamorphic Petrology",
+    name: "WS ESI101 - Environmental Sciences"
   },
   {
     id: 1062,
-    name: "WS GLC511 - Applied Sedimentology",
+    name: "WS HSI101 - Communication Skills"
   },
   {
     id: 1063,
-    name: "WS GLC512 - Petroleum Geology",
+    name: "WS MCI102 - Mathematics - II"
   },
   {
     id: 1064,
-    name: "WS GLC513 - Coal Geology",
+    name: "WS MEI102 - Manufacturing Processes"
   },
   {
     id: 1065,
-    name: "WS GLC514 - Igneous and Metamorphic Petrology Practical",
+    name: "WS GLC591 - Research Methodology"
   },
   {
     id: 1066,
-    name: "WS GLC515 - Sedimentology and Petroleum Geology Practical",
+    name: "WS GLD501 - Essentials of Mineral Geostatistics"
   },
   {
     id: 1067,
-    name: "WS GLC516 - Coal Geology Practical",
+    name: "WS GPC555 - Research Methodology and Statistics"
   },
   {
     id: 1068,
-    name: "WS GPC508 - Earthquake Seismology",
+    name: "WS CYC540 - Research Methodology and Statistics"
   },
   {
     id: 1069,
-    name: "WS GPC509 - Geoelectrical Method",
+    name: "WS CHC518 - Research Methodology"
   },
   {
     id: 1070,
-    name: "WS GPC510 - Well Logging",
+    name: "WS CSC516 - Research Methodology"
   },
   {
     id: 1071,
-    name: "WS GPC511 - Seismic Data Acquisition",
+    name: "WS CEC502 - Research Methodology and Statistics"
   },
   {
     id: 1072,
-    name: "WS GPC512 - Seismic Data Acquisition Practical",
+    name: "WS ECC581 - Research Methodology"
   },
   {
     id: 1073,
-    name: "WS GPC513 - Geoelectrical Methods Practical",
+    name: "WS EEC550 - Research Methodology and Statistics for Electrical Engineering"
   },
   {
     id: 1074,
-    name: "WS GPC515 - Earthquake Seismology and Well Logging Practical",
+    name: "WS ESC526 - Research Methodology"
   },
   {
     id: 1075,
-    name: "WS GLC526 - Ore Geology",
+    name: "WS HSD507 - Introduction to Drama, Theatre and Performance Studies"
   },
   {
     id: 1076,
-    name: "WS GLC527 - Exploration Geology and Mineral Economics",
+    name: "WS HSD521 - Vedanta Philosophy"
   },
   {
     id: 1077,
-    name: "WS GLC533 - Ore Geology Practical",
+    name: "WS HSD551 - Psychological Data Science"
   },
   {
     id: 1078,
-    name: "WS GLC534 - Exploration Geology Practical",
+    name: "WS MCC500 - Research Methodology"
   },
   {
     id: 1079,
-    name: "WS GLD531 - Sequence Stratigraphy and Basin Analysis",
+    name: "WS MCC500 - Research Methodology"
   },
   {
     id: 1080,
-    name: "WS GLD544 - Kinematics of Rock Deformation",
+    name: "WS MEC591 - Research Methodology and Statistics"
   },
   {
     id: 1081,
-    name: "WS GLO542 - Remote Sensing and GIS",
+    name: "WS PHC571 - Research Methodology and Statistics"
   },
   {
     id: 1082,
-    name: "WS GPC520 - Magnetic Method",
+    name: "WS HSC507 - Textual Analysis"
   },
   {
     id: 1083,
-    name: "WS GPC521 - Geoelectromagnetic Method",
+    name: "WS HSC516 - Quantitative Techniques Lab"
   },
   {
     id: 1084,
-    name: "WS GPC522 - Magnetic Method Practical",
+    name: "WS HSC520 - Introduction to Digital Humanities"
   },
   {
     id: 1085,
-    name: "WS GPC523 - Geoelectromagnetic Method Practical",
+    name: "WS HSC521 - Data Science Fundamentals"
   },
   {
     id: 1086,
-    name: "WS GPD509 - Well Log and Electrofacies Analysis",
+    name: "WS HSC527 - Digital Ethics"
   },
   {
     id: 1087,
-    name: "WS GPD510 - Reservoir Geophysics and Deep Water Imaging",
+    name: "WS HSC532 - Social Research Lab"
   },
   {
     id: 1088,
-    name: "WS GPO510 - Strong Motion Seismology and Structural Responses",
+    name: "WS HSD554 - Mixed Method Research"
   },
   {
     id: 1089,
-    name: "WS CYP003 - Chemistry - II",
+    name: "WS HSO508 - Digital Society"
   },
   {
     id: 1090,
-    name: "WS CYP004 - Chemistry Lab - II",
-  },
-  {
-    id: 1091,
-    name: "WS HSP002 - English - II",
-  },
-  {
-    id: 1092,
-    name: "WS MCP002 - Mathematics - II",
-  },
-  {
-    id: 1093,
-    name: "WS PHP003 - Physics - II",
-  },
-  {
-    id: 1094,
-    name: "WS PHP004 - Physics Lab - II",
-  },
-  {
-    id: 1095,
-    name: "WS GPD521 - Time Series Analysis in Geosciences",
-  },
-  {
-    id: 1096,
-    name: "WS CYD518 - Metalloenzymes-Special Topics",
-  },
-  {
-    id: 1097,
-    name: "WS CYD528 - Modern Separation Techniques",
-  },
-  {
-    id: 1098,
-    name: "WS CHD503 - Catalysts & Materials Characterization Techniques",
-  },
-  {
-    id: 1099,
-    name: "WS CHD507 - Modelling & Simulation",
-  },
-  {
-    id: 1100,
-    name: "WS CHO504 - Electrochemical Energy Science and Engineering",
-  },
-  {
-    id: 1101,
-    name: "WS CSD503 - Computational Number Theory",
-  },
-  {
-    id: 1102,
-    name: "WS CSD518 - Pattern Recognition",
-  },
-  {
-    id: 1103,
-    name: "WS CSO502 - Data Analytics",
-  },
-  {
-    id: 1104,
-    name: "WS CEO529 - Blast Protection of Structures",
-  },
-  {
-    id: 1105,
-    name: "WS CEO530 - Sustainable Engineering",
-  },
-  {
-    id: 1106,
-    name: "WS ECD510 - Quantum Computation",
-  },
-  {
-    id: 1107,
-    name: "WS ECD561 - ASIC Design",
-  },
-  {
-    id: 1108,
-    name: "WS ECO542 - Advanced Microwave Measurement & Instrument",
-  },
-  {
-    id: 1109,
-    name: "WS EED501 - Design of Power Converters",
-  },
-  {
-    id: 1110,
-    name: "WS EED502 - Advanced Machine Drives",
-  },
-  {
-    id: 1111,
-    name: "WS ESD506 - Biomedical and Hazardous Waste Management",
-  },
-  {
-    id: 1112,
-    name: "WS ESD509 - Air and Noise Pollution Control",
-  },
-  {
-    id: 1113,
-    name: "WS FMD534 - Metal Forming Technology",
-  },
-  {
-    id: 1114,
-    name: "WS FMO541 - Characterization of Materials",
-  },
-  {
-    id: 1115,
-    name: "WS MCD540 - Biostatistics",
-  },
-  {
-    id: 1116,
-    name: "WS MCO533 - Numerical Linear Algebra",
-  },
-  {
-    id: 1117,
-    name: "WS MND504 - Modelling and Analysis of Geospatial data",
-  },
-  {
-    id: 1118,
-    name: "WS MND505 - Geospatial Technologies for Natural Resources",
-  },
-  {
-    id: 1119,
-    name: "WS MND511 - Modern Blasting Technology in Mining",
-  },
-  {
-    id: 1120,
-    name: "WS MND547 - Mine Automation",
-  },
-  {
-    id: 1121,
-    name: "WS MED503 - Finite Element Method",
-  },
-  {
-    id: 1122,
-    name: "WS MED509 - Advanced Thermodynamics",
-  },
-  {
-    id: 1123,
-    name: "WS MED515 - Theory of Metal Forming",
-  },
-  {
-    id: 1124,
-    name: "WS MEO534 - Automation and Control",
-  },
-  {
-    id: 1125,
-    name: "WS MSD505 - Materials Management",
-  },
-  {
-    id: 1126,
-    name: "WS MSD525 - Operations Analytics",
-  },
-  {
-    id: 1127,
-    name: "WS PED503 - Enhanced Oil and Gas Recovery Methods",
-  },
-  {
-    id: 1128,
-    name: "WS PED504 - Profile Modification & Water Shutoff",
-  },
-  {
-    id: 1129,
-    name: "WS CYD501 - Medicinal Chemistry",
-  },
-  {
-    id: 1130,
-    name: "WS CYD502 - Polymer Chemistry",
-  },
-  {
-    id: 1131,
-    name: "WS CYD505 - Asymmetric Synthesis",
-  },
-  {
-    id: 1132,
-    name: "WS CYD506 - Computational Chemistry",
-  },
-  {
-    id: 1133,
-    name: "WS CYD512 - Modern Aspects of Catalysis and Surface Science",
-  },
-  {
-    id: 1134,
-    name: "WS CYD520 - Advanced Fluorescence Spectroscopy",
-  },
-  {
-    id: 1135,
-    name: "WS MCD503 - Integral Equations and Calculus of Variations",
-  },
-  {
-    id: 1136,
-    name: "WS MCD513 - Methods of Applied Mathematics",
-  },
-  {
-    id: 1137,
-    name: "WS PHD507 - Plasma and Space Physics",
-  },
-  {
-    id: 1138,
-    name: "WS PHO502 - Introduction to Biophysics",
-  },
-  {
-    id: 1139,
-    name: "WS GLD575 - Modern Instrumental Methods in Exploration Geosciences",
-  },
-  {
-    id: 1140,
-    name: "WS GLO501 - Image Processing and Data Analysis",
-  },
-  {
-    id: 1141,
-    name: "WS GPD522 - Computational Seismology",
-  },
-  {
-    id: 1142,
-    name: "WS GPO511 - Satellite Image Processing and Geographic Information System",
-  },
-  {
-    id: 1143,
-    name: "WS  - ",
-  },
-  {
-    id: 1144,
-    name: "WS GLD551 - Elements of Rock Engineering",
-  },
-  {
-    id: 1145,
-    name: "WS  - ",
-  },
-  {
-    id: 1146,
-    name: "WS GPD505 - Near Surface Geophysics and Geotechnical Modelling",
-  },
-  {
-    id: 1147,
-    name: "WS MCD532 - Data Mining",
-  },
-  {
-    id: 1148,
-    name: "WS MCD535 - Bioinformatics",
-  },
-  {
-    id: 1149,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1150,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1151,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1152,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1153,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1154,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1155,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1156,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1157,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1158,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1159,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1160,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1161,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1162,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1163,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1164,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1165,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1166,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1167,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1168,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1169,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1170,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1171,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1172,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1173,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1174,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1175,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1176,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1177,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1178,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1179,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1180,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1181,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1182,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1183,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1184,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1185,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1186,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1187,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1188,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1189,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1190,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1191,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1192,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1193,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1194,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1195,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1196,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1197,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1198,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1199,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1200,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1201,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1202,
-    name: "WS CEI101 - Engineering Graphics",
-  },
-  {
-    id: 1203,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1204,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1205,
-    name: "WS MEI101 - Engineering Mechanics",
-  },
-  {
-    id: 1206,
-    name: "WS MSI101 - Engineering Economics and Finance",
-  },
-  {
-    id: 1207,
-    name: "WS PHI101 - Physics",
-  },
-  {
-    id: 1208,
-    name: "WS PHI102 - Physics Lab",
-  },
-  {
-    id: 1209,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1210,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1211,
-    name: "WS GLI101 - Earth Sciences",
-  },
-  {
-    id: 1212,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1213,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1214,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1215,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1216,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1217,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1218,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1219,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1220,
-    name: "WS ESI101 - Environmental Sciences",
-  },
-  {
-    id: 1221,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1222,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1223,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1224,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1225,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1226,
-    name: "WS GLI101 - Earth Sciences",
-  },
-  {
-    id: 1227,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1228,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1229,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1230,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1231,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1232,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1233,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1234,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1235,
-    name: "WS ESI101 - Environmental Sciences",
-  },
-  {
-    id: 1236,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1237,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1238,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1239,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1240,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1241,
-    name: "WS GLI101 - Earth Sciences",
-  },
-  {
-    id: 1242,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1243,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1244,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1245,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1246,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1247,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1248,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1249,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1250,
-    name: "WS ESI101 - Environmental Sciences",
-  },
-  {
-    id: 1251,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1252,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1253,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1254,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1255,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1256,
-    name: "WS GLI101 - Earth Sciences",
-  },
-  {
-    id: 1257,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1258,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1259,
-    name: "WS MCI103 - Numerical Methods",
-  },
-  {
-    id: 1260,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1261,
-    name: "WS CSI101 - Computer Programming",
-  },
-  {
-    id: 1262,
-    name: "WS CSI102 - Computer Programming Lab",
-  },
-  {
-    id: 1263,
-    name: "WS CYI101 - Chemistry",
-  },
-  {
-    id: 1264,
-    name: "WS CYI102 - Chemistry Lab",
-  },
-  {
-    id: 1265,
-    name: "WS ESI101 - Environmental Sciences",
-  },
-  {
-    id: 1266,
-    name: "WS HSI101 - Communication Skills",
-  },
-  {
-    id: 1267,
-    name: "WS MCI102 - Mathematics - II",
-  },
-  {
-    id: 1268,
-    name: "WS MEI102 - Manufacturing Processes",
-  },
-  {
-    id: 1269,
-    name: "WS GLC591 - Research Methodology",
-  },
-  {
-    id: 1270,
-    name: "WS GLD501 - Essentials of Mineral Geostatistics",
-  },
-  {
-    id: 1271,
-    name: "WS GPC555 - Research Methodology and Statistics",
-  },
-  {
-    id: 1272,
-    name: "WS CYC540 - Research Methodology and Statistics",
-  },
-  {
-    id: 1273,
-    name: "WS CHC518 - Research Methodology",
-  },
-  {
-    id: 1274,
-    name: "WS CSC516 - Research Methodology",
-  },
-  {
-    id: 1275,
-    name: "WS CEC502 - Research Methodology and Statistics",
-  },
-  {
-    id: 1276,
-    name: "WS ECC581 - Research Methodology",
-  },
-  {
-    id: 1277,
-    name: "WS EEC550 - Research Methodology and Statistics for Electrical Engineering",
-  },
-  {
-    id: 1278,
-    name: "WS ESC526 - Research Methodology",
-  },
-  {
-    id: 1279,
-    name: "WS HSD507 - Introduction to Drama, Theatre and Performance Studies",
-  },
-  {
-    id: 1280,
-    name: "WS HSD521 - Vedanta Philosophy",
-  },
-  {
-    id: 1281,
-    name: "WS HSD551 - Psychological Data Science",
-  },
-  {
-    id: 1282,
-    name: "WS MCC500 - Research Methodology",
-  },
-  {
-    id: 1283,
-    name: "WS MCC500 - Research Methodology",
-  },
-  {
-    id: 1284,
-    name: "WS MEC591 - Research Methodology and Statistics",
-  },
-  {
-    id: 1285,
-    name: "WS PHC571 - Research Methodology and Statistics",
-  },
-  {
-    id: 1286,
-    name: "WS HSC507 - Textual Analysis",
-  },
-  {
-    id: 1287,
-    name: "WS HSC516 - Quantitative Techniques Lab",
-  },
-  {
-    id: 1288,
-    name: "WS HSC520 - Introduction to Digital Humanities",
-  },
-  {
-    id: 1289,
-    name: "WS HSC521 - Data Science Fundamentals",
-  },
-  {
-    id: 1290,
-    name: "WS HSC527 - Digital Ethics",
-  },
-  {
-    id: 1291,
-    name: "WS HSC532 - Social Research Lab",
-  },
-  {
-    id: 1292,
-    name: "WS HSD554 - Mixed Method Research",
-  },
-  {
-    id: 1293,
-    name: "WS HSO508 - Digital Society",
-  },
-  {
-    id: 1294,
-    name: "WS HSO513 - Environment, Development and Politics",
-  },
-];
-
-export default courses;
+    name: "WS HSO513 - Environment, Development and Politics"
+  }
+]

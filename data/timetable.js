@@ -1,4 +1,4 @@
- const data = [
+const data = [
   {
     id: 0,
     code: "CHD401",
@@ -9,38 +9,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "CHE-401"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "CHE-401"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "CHE-401"
-      ]
+      ["Monday", "10:00-10:50", "CHE-401"],
+      ["Monday", "09:00-09:50", "CHE-401"],
+      ["Tuesday", "11:00-11:50", "CHE-401"],
+      ["Wednesday", "11:00-11:50", "CHE-401"],
+      ["Wednesday", "09:00-09:50", "CHE-401"],
+      ["Friday", "10:00-10:50", "CHE-401"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 1,
@@ -52,28 +28,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD408.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "CHE-401"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "CHE-401"
-      ]
+      ["Monday", "12:00-12:50", "CHE-401"],
+      ["Tuesday", "09:00-09:50", "CHE-401"],
+      ["Wednesday", "12:00-12:50", "CHE-401"],
+      ["Friday", "12:00-12:50", "CHE-401"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 2,
@@ -85,38 +45,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD411.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "CHE-423"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "CHE-423"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "CHE-423"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "CHE-423"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "CHE-423"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "CHE-423"
-      ]
+      ["Tuesday", "12:00-12:50", "CHE-423"],
+      ["Wednesday", "10:00-10:50", "CHE-423"],
+      ["Wednesday", "11:00-11:50", "CHE-423"],
+      ["Thursday", "09:00-09:50", "CHE-423"],
+      ["Thursday", "12:00-12:50", "CHE-423"],
+      ["Friday", "09:00-09:50", "CHE-423"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 3,
@@ -128,23 +64,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "CHE-401"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "CHE-401"
-      ]
+      ["Tuesday", "12:00-12:50", "CHE-401"],
+      ["Thursday", "11:00-11:50", "CHE-401"],
+      ["Friday", "11:00-11:50", "CHE-401"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 4,
@@ -156,28 +80,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO402.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "CHE-401"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "CHE-401"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "CHE-401"
-      ]
+      ["Tuesday", "10:00-10:50", "CHE-401"],
+      ["Wednesday", "10:00-10:50", "CHE-401"],
+      ["Thursday", "12:00-12:50", "CHE-401"],
+      ["Thursday", "10:00-10:50", "CHE-401"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 5,
@@ -189,38 +97,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "PET 3"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "PET 3"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "PET 3"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "PET 3"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "PET 3"
-      ]
+      ["Monday", "09:00-09:50", "PET 3"],
+      ["Monday", "12:00-12:50", "PET 3"],
+      ["Tuesday", "09:00-09:50", "PET 3"],
+      ["Wednesday", "09:00-09:50", "PET 3"],
+      ["Wednesday", "12:00-12:50", "PET 3"],
+      ["Friday", "12:00-12:50", "PET 3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 6,
@@ -232,38 +116,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD411.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        " "
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        " "
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        " "
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        " "
-      ]
+      ["Monday", "09:00-09:50", " "],
+      ["Monday", "12:00-12:50", " "],
+      ["Tuesday", "09:00-09:50", " "],
+      ["Wednesday", "09:00-09:50", " "],
+      ["Wednesday", "12:00-12:50", " "],
+      ["Friday", "12:00-12:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 7,
@@ -275,38 +135,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-G14"],
+      ["Wednesday", "10:00-10:50", "LC-II-G14"],
+      ["Wednesday", "11:00-11:50", "LC-II-G14"],
+      ["Thursday", "09:00-09:50", "LC-II-G14"],
+      ["Thursday", "12:00-12:50", "LC-II-G14"],
+      ["Friday", "09:00-09:50", "LC-II-G14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 8,
@@ -318,38 +154,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD520.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        " "
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        " "
-      ]
+      ["Tuesday", "12:00-12:50", " "],
+      ["Wednesday", "11:00-11:50", " "],
+      ["Wednesday", "10:00-10:50", " "],
+      ["Thursday", "12:00-12:50", " "],
+      ["Thursday", "09:00-09:50", " "],
+      ["Friday", "09:00-09:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 9,
@@ -361,33 +173,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G15"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G15"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G15"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G15"],
+      ["Wednesday", "10:00-10:50", "LC-II-G15"],
+      ["Thursday", "12:00-12:50", "LC-II-G15"],
+      ["Thursday", "10:00-10:50", "LC-II-G15"],
+      ["Friday", "12:00-12:50", "LC-II-G15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 10,
@@ -399,38 +191,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G15"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G15"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G15"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G15"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G15"],
+      ["Tuesday", "12:00-12:50", "LC-II-G15"],
+      ["Tuesday", "11:00-11:50", "LC-II-G15"],
+      ["Wednesday", "12:00-12:50", "LC-II-G15"],
+      ["Thursday", "11:00-11:50", "LC-II-G15"],
+      ["Friday", "11:00-11:50", "LC-II-G15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 11,
@@ -442,28 +210,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "PET 3"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "PET 3"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "PET 3"
-      ]
+      ["Monday", "10:00-10:50", "PET 3"],
+      ["Tuesday", "11:00-11:50", "PET 3"],
+      ["Wednesday", "11:00-11:50", "PET 3"],
+      ["Friday", "10:00-10:50", "PET 3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 12,
@@ -475,38 +227,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C12"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C12"],
+      ["Monday", "12:00-12:50", "LC-II-C12"],
+      ["Tuesday", "09:00-09:50", "LC-II-C12"],
+      ["Wednesday", "09:00-09:50", "LC-II-C12"],
+      ["Wednesday", "12:00-12:50", "LC-II-C12"],
+      ["Friday", "12:00-12:50", "LC-II-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 13,
@@ -518,23 +246,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        " "
-      ]
+      ["Tuesday", "11:00-11:50", " "],
+      ["Thursday", "11:00-11:50", " "],
+      ["Friday", "11:00-11:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 14,
@@ -546,28 +262,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C12"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C12"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C12"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C12"],
+      ["Wednesday", "10:00-10:50", "LC-II-C12"],
+      ["Thursday", "12:00-12:50", "LC-II-C12"],
+      ["Thursday", "10:00-10:50", "LC-II-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 15,
@@ -579,28 +279,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED531.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C12"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-C12"],
+      ["Wednesday", "11:00-11:50", "LC-II-C12"],
+      ["Thursday", "09:00-09:50", "LC-II-C12"],
+      ["Friday", "09:00-09:50", "LC-II-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 16,
@@ -612,38 +296,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO528.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C11"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C11"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C11"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C11"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C11"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C11"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C11"],
+      ["Monday", "10:00-10:50", "LC-II-C11"],
+      ["Tuesday", "11:00-11:50", "LC-II-C11"],
+      ["Wednesday", "09:00-09:50", "LC-II-C11"],
+      ["Wednesday", "11:00-11:50", "LC-II-C11"],
+      ["Friday", "10:00-10:50", "LC-II-C11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 17,
@@ -655,38 +315,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G14"],
+      ["Monday", "12:00-12:50", "LC-II-G14"],
+      ["Tuesday", "09:00-09:50", "LC-II-G14"],
+      ["Wednesday", "09:00-09:50", "LC-II-G14"],
+      ["Wednesday", "12:00-12:50", "LC-II-G14"],
+      ["Friday", "12:00-12:50", "LC-II-G14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 18,
@@ -698,38 +334,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-I-C12"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-I-C12"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-I-C12"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-I-C12"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-I-C12"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-I-C12"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-I-C12"],
+      ["Wednesday", "10:00-10:50", "LC-I-C12"],
+      ["Wednesday", "11:00-11:50", "LC-I-C12"],
+      ["Thursday", "09:00-09:50", "LC-I-C12"],
+      ["Thursday", "12:00-12:50", "LC-I-C12"],
+      ["Friday", "09:00-09:50", "LC-I-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 19,
@@ -741,38 +353,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD415.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G7"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G7"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G7"],
+      ["Tuesday", "12:00-12:50", "LC-II-G7"],
+      ["Tuesday", "11:00-11:50", "LC-II-G7"],
+      ["Wednesday", "12:00-12:50", "LC-II-G7"],
+      ["Thursday", "11:00-11:50", "LC-II-G7"],
+      ["Friday", "11:00-11:50", "LC-II-G7"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 20,
@@ -784,38 +372,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G13"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G13"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G13"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G13"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G13"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G13"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G13"],
+      ["Monday", "09:00-09:50", "LC-II-G13"],
+      ["Tuesday", "11:00-11:50", "LC-II-G13"],
+      ["Wednesday", "11:00-11:50", "LC-II-G13"],
+      ["Wednesday", "09:00-09:50", "LC-II-G13"],
+      ["Friday", "10:00-10:50", "LC-II-G13"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 21,
@@ -827,33 +391,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO561.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G7"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G7"],
+      ["Wednesday", "10:00-10:50", "LC-II-G7"],
+      ["Thursday", "12:00-12:50", "LC-II-G7"],
+      ["Thursday", "10:00-10:50", "LC-II-G7"],
+      ["Friday", "12:00-12:50", "LC-II-G7"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 22,
@@ -865,38 +409,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G3"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G3"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G3"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G3"],
+      ["Monday", "12:00-12:50", "LC-II-G3"],
+      ["Tuesday", "09:00-09:50", "LC-II-G3"],
+      ["Wednesday", "09:00-09:50", "LC-II-G3"],
+      ["Wednesday", "12:00-12:50", "LC-II-G3"],
+      ["Friday", "12:00-12:50", "LC-II-G3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 23,
@@ -908,38 +428,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-C2"],
+      ["Wednesday", "10:00-10:50", "LC-II-C2"],
+      ["Wednesday", "11:00-11:50", "LC-II-C2"],
+      ["Thursday", "09:00-09:50", "LC-II-C2"],
+      ["Thursday", "12:00-12:50", "LC-II-C2"],
+      ["Friday", "09:00-09:50", "LC-II-C2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 24,
@@ -951,33 +447,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C2"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-C2"],
+      ["Tuesday", "11:00-11:50", "LC-II-C2"],
+      ["Wednesday", "12:00-12:50", "LC-II-C2"],
+      ["Thursday", "11:00-11:50", "LC-II-C2"],
+      ["Friday", "11:00-11:50", "LC-II-C2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 25,
@@ -989,33 +465,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G10"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G10"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G10"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G10"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G10"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G10"],
+      ["Wednesday", "10:00-10:50", "LC-II-G10"],
+      ["Thursday", "12:00-12:50", "LC-II-G10"],
+      ["Thursday", "10:00-10:50", "LC-II-G10"],
+      ["Friday", "12:00-12:50", "LC-II-G10"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 26,
@@ -1027,28 +483,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C2"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C2"],
+      ["Monday", "09:00-09:50", "LC-II-C2"],
+      ["Wednesday", "09:00-09:50", "LC-II-C2"],
+      ["Friday", "10:00-10:50", "LC-II-C2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 27,
@@ -1060,38 +500,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G6"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G6"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G6"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G6"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G6"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G6"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-G6"],
+      ["Wednesday", "10:00-10:50", "LC-II-G6"],
+      ["Wednesday", "11:00-11:50", "LC-II-G6"],
+      ["Thursday", "09:00-09:50", "LC-II-G6"],
+      ["Thursday", "12:00-12:50", "LC-II-G6"],
+      ["Friday", "09:00-09:50", "LC-II-G6"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 28,
@@ -1103,33 +519,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G6"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G6"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G6"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G6"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G6"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G6"],
+      ["Tuesday", "11:00-11:50", "LC-II-G6"],
+      ["Wednesday", "12:00-12:50", "LC-II-G6"],
+      ["Thursday", "11:00-11:50", "LC-II-G6"],
+      ["Friday", "11:00-11:50", "LC-II-G6"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 29,
@@ -1141,28 +537,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G6"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G6"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G6"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G6"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G6"],
+      ["Tuesday", "09:00-09:50", "LC-II-G6"],
+      ["Wednesday", "09:00-09:50", "LC-II-G6"],
+      ["Friday", "12:00-12:50", "LC-II-G6"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 30,
@@ -1174,18 +554,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G6"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G6"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G6"],
+      ["Thursday", "10:00-10:50", "LC-II-G6"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 31,
@@ -1197,38 +569,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESO405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C5"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C5"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C5"],
+      ["Monday", "09:00-09:50", "LC-II-C5"],
+      ["Tuesday", "11:00-11:50", "LC-II-C5"],
+      ["Wednesday", "11:00-11:50", "LC-II-C5"],
+      ["Wednesday", "09:00-09:50", "LC-II-C5"],
+      ["Friday", "10:00-10:50", "LC-II-C5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 32,
@@ -1240,38 +588,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C10"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C10"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-C10"],
+      ["Wednesday", "10:00-10:50", "LC-II-C10"],
+      ["Wednesday", "11:00-11:50", "LC-II-C10"],
+      ["Thursday", "12:00-12:50", "LC-II-C10"],
+      ["Thursday", "09:00-09:50", "LC-II-C10"],
+      ["Friday", "09:00-09:50", "LC-II-C10"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 33,
@@ -1283,38 +607,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD461.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C10"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C10"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C10"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C10"],
+      ["Monday", "12:00-12:50", "LC-II-C10"],
+      ["Tuesday", "09:00-09:50", "LC-II-C10"],
+      ["Wednesday", "09:00-09:50", "LC-II-C10"],
+      ["Wednesday", "12:00-12:50", "LC-II-C10"],
+      ["Friday", "12:00-12:50", "LC-II-C10"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 34,
@@ -1326,18 +626,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD515.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        " "
-      ]
+      ["Tuesday", "10:00-10:50", " "],
+      ["Thursday", "10:00-10:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 35,
@@ -1349,38 +641,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMO545.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C9"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C9"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C9"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C9"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-C9"],
+      ["Tuesday", "12:00-12:50", "LC-II-C9"],
+      ["Tuesday", "11:00-11:50", "LC-II-C9"],
+      ["Wednesday", "12:00-12:50", "LC-II-C9"],
+      ["Thursday", "11:00-11:50", "LC-II-C9"],
+      ["Friday", "11:00-11:50", "LC-II-C9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 36,
@@ -1392,23 +660,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMO547.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C10"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C10"],
+      ["Tuesday", "11:00-11:50", "LC-II-C10"],
+      ["Friday", "10:00-10:50", "LC-II-C10"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 37,
@@ -1420,38 +676,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND400.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G4"],
+      ["Monday", "12:00-12:50", "LC-II-G4"],
+      ["Tuesday", "09:00-09:50", "LC-II-G4"],
+      ["Wednesday", "09:00-09:50", "LC-II-G4"],
+      ["Wednesday", "12:00-12:50", "LC-II-G4"],
+      ["Friday", "12:00-12:50", "LC-II-G4"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 38,
@@ -1463,38 +695,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G2"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G2"],
+      ["Monday", "12:00-12:50", "LC-II-G2"],
+      ["Tuesday", "09:00-09:50", "LC-II-G2"],
+      ["Wednesday", "12:00-12:50", "LC-II-G2"],
+      ["Wednesday", "09:00-09:50", "LC-II-G2"],
+      ["Friday", "12:00-12:50", "LC-II-G2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 39,
@@ -1506,38 +714,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND402.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-G2"],
+      ["Wednesday", "10:00-10:50", "LC-II-G2"],
+      ["Wednesday", "11:00-11:50", "LC-II-G2"],
+      ["Thursday", "09:00-09:50", "LC-II-G2"],
+      ["Thursday", "12:00-12:50", "LC-II-G2"],
+      ["Friday", "09:00-09:50", "LC-II-G2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 40,
@@ -1549,28 +733,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G4"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-G4"],
+      ["Tuesday", "11:00-11:50", "LC-II-G4"],
+      ["Thursday", "11:00-11:50", "LC-II-G4"],
+      ["Friday", "11:00-11:50", "LC-II-G4"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 41,
@@ -1582,28 +750,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G4"],
+      ["Wednesday", "10:00-10:50", "LC-II-G4"],
+      ["Thursday", "12:00-12:50", "LC-II-G4"],
+      ["Thursday", "10:00-10:50", "LC-II-G4"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 42,
@@ -1615,23 +767,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND406.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G4"],
+      ["Wednesday", "11:00-11:50", "LC-II-G4"],
+      ["Friday", "10:00-10:50", "LC-II-G4"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 43,
@@ -1643,7 +783,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MSO401.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 44,
@@ -1655,7 +795,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MSO402.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 45,
@@ -1667,18 +807,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MSO403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        " "
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        " "
-      ]
+      ["Monday", "10:00-10:50", " "],
+      ["Friday", "10:00-10:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 46,
@@ -1690,7 +822,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSD405.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 47,
@@ -1702,23 +834,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSD525.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-G14"],
+      ["Thursday", "11:00-11:50", "LC-II-G14"],
+      ["Friday", "11:00-11:50", "LC-II-G14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 48,
@@ -1730,33 +850,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSO309.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C14"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C14"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C14"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C14"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C14"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C14"],
+      ["Wednesday", "10:00-10:50", "LC-II-C14"],
+      ["Thursday", "12:00-12:50", "LC-II-C14"],
+      ["Thursday", "10:00-10:50", "LC-II-C14"],
+      ["Friday", "12:00-12:50", "LC-II-C14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 49,
@@ -1768,7 +868,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSO402.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 50,
@@ -1780,7 +880,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSO403.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 51,
@@ -1792,7 +892,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSO404.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 52,
@@ -1804,38 +904,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED539.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C3"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C3"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C3"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C3"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C3"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-C3"],
+      ["Wednesday", "10:00-10:50", "LC-II-C3"],
+      ["Wednesday", "11:00-11:50", "LC-II-C3"],
+      ["Thursday", "09:00-09:50", "LC-II-C3"],
+      ["Thursday", "12:00-12:50", "LC-II-C3"],
+      ["Friday", "09:00-09:50", "LC-II-C3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 53,
@@ -1847,38 +923,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED540.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C15"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C15"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C15"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C15"],
+      ["Monday", "12:00-12:50", "LC-II-C15"],
+      ["Tuesday", "09:00-09:50", "LC-II-C15"],
+      ["Wednesday", "09:00-09:50", "LC-II-C15"],
+      ["Wednesday", "12:00-12:50", "LC-II-C15"],
+      ["Friday", "12:00-12:50", "LC-II-C15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 54,
@@ -1890,38 +942,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO528.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G16"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G16"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G16"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G16"],
+      ["Monday", "09:00-09:50", "LC-II-G16"],
+      ["Tuesday", "11:00-11:50", "LC-II-G16"],
+      ["Wednesday", "11:00-11:50", "LC-II-G16"],
+      ["Wednesday", "09:00-09:50", "LC-II-G16"],
+      ["Friday", "10:00-10:50", "LC-II-G16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 55,
@@ -1933,33 +961,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO579.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "Mech G2"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "Mech G2"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "Mech G2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "Mech G2"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "Mech G2"
-      ]
+      ["Tuesday", "10:00-10:50", "Mech G2"],
+      ["Wednesday", "10:00-10:50", "Mech G2"],
+      ["Thursday", "12:00-12:50", "Mech G2"],
+      ["Thursday", "10:00-10:50", "Mech G2"],
+      ["Friday", "12:00-12:50", "Mech G2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 56,
@@ -1971,28 +979,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C14"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C14"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C14"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C14"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-C14"],
+      ["Wednesday", "11:00-11:50", "LC-II-C14"],
+      ["Thursday", "09:00-09:50", "LC-II-C14"],
+      ["Friday", "09:00-09:50", "LC-II-C14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 57,
@@ -2004,38 +996,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED549.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-I-C8"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-I-C8"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-I-C8"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-I-C8"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-I-C8"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-I-C8"
-      ]
+      ["Monday", "09:00-09:50", "LC-I-C8"],
+      ["Monday", "12:00-12:50", "LC-I-C8"],
+      ["Tuesday", "09:00-09:50", "LC-I-C8"],
+      ["Wednesday", "09:00-09:50", "LC-I-C8"],
+      ["Wednesday", "12:00-12:50", "LC-I-C8"],
+      ["Friday", "12:00-12:50", "LC-I-C8"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 58,
@@ -2047,7 +1015,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO534.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 59,
@@ -2059,38 +1027,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMO504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "Mech G1"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "Mech G1"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "Mech G1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "Mech G1"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Mech G1"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "Mech G1"
-      ]
+      ["Monday", "12:00-12:50", "Mech G1"],
+      ["Tuesday", "12:00-12:50", "Mech G1"],
+      ["Tuesday", "11:00-11:50", "Mech G1"],
+      ["Wednesday", "12:00-12:50", "Mech G1"],
+      ["Thursday", "11:00-11:50", "Mech G1"],
+      ["Friday", "11:00-11:50", "Mech G1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 60,
@@ -2102,7 +1046,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED401.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 61,
@@ -2114,38 +1058,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED402.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "PET 1"
-      ]
+      ["Tuesday", "12:00-12:50", "PET 1"],
+      ["Wednesday", "10:00-10:50", "PET 1"],
+      ["Wednesday", "11:00-11:50", "PET 1"],
+      ["Thursday", "12:00-12:50", "PET 1"],
+      ["Thursday", "09:00-09:50", "PET 1"],
+      ["Friday", "09:00-09:50", "PET 1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 62,
@@ -2157,33 +1077,13 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "PET 1"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "PET 1"
-      ]
+      ["Monday", "12:00-12:50", "PET 1"],
+      ["Tuesday", "11:00-11:50", "PET 1"],
+      ["Wednesday", "12:00-12:50", "PET 1"],
+      ["Thursday", "11:00-11:50", "PET 1"],
+      ["Friday", "11:00-11:50", "PET 1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 63,
@@ -2195,23 +1095,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO402.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "PET 1"
-      ]
+      ["Tuesday", "10:00-10:50", "PET 1"],
+      ["Thursday", "10:00-10:50", "PET 1"],
+      ["Friday", "12:00-12:50", "PET 1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 64,
@@ -2223,28 +1111,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO406.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "PET 1"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "PET 1"
-      ]
+      ["Monday", "09:00-09:50", "PET 1"],
+      ["Monday", "10:00-10:50", "PET 1"],
+      ["Wednesday", "09:00-09:50", "PET 1"],
+      ["Friday", "10:00-10:50", "PET 1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 65,
@@ -2256,38 +1128,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "NAC Hall"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "NAC Hall"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "NAC Hall"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "NAC Hall"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "NAC Hall"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "NAC Hall"
-      ]
+      ["Monday", "09:00-09:50", "NAC Hall"],
+      ["Monday", "12:00-12:50", "NAC Hall"],
+      ["Tuesday", "09:00-09:50", "NAC Hall"],
+      ["Wednesday", "09:00-09:50", "NAC Hall"],
+      ["Wednesday", "12:00-12:50", "NAC Hall"],
+      ["Friday", "12:00-12:50", "NAC Hall"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 66,
@@ -2299,38 +1147,14 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD506.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-I-C9"
-      ],
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-I-C9"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-I-C9"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ]
+      ["Monday", "09:00-09:50", "LC-I-C9"],
+      ["Monday", "12:00-12:50", "LC-I-C9"],
+      ["Tuesday", "09:00-09:50", "LC-I-C9"],
+      ["Wednesday", "12:00-12:50", "LC-I-C9"],
+      ["Wednesday", "09:00-09:50", "LC-I-C9"],
+      ["Friday", "12:00-12:50", "LC-I-C9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 67,
@@ -2342,7 +1166,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD577.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 68,
@@ -2354,28 +1178,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO400.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-I-C9"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-I-C9"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-I-C9"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-I-C9"],
+      ["Wednesday", "10:00-10:50", "LC-I-C9"],
+      ["Thursday", "12:00-12:50", "LC-I-C9"],
+      ["Thursday", "10:00-10:50", "LC-I-C9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 69,
@@ -2387,28 +1195,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-I-C9"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-I-C9"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-I-C9"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-I-C9"],
+      ["Tuesday", "11:00-11:50", "LC-I-C9"],
+      ["Thursday", "11:00-11:50", "LC-I-C9"],
+      ["Friday", "11:00-11:50", "LC-I-C9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 70,
@@ -2420,23 +1212,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "Petrology Lab"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "Petrology Lab"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "Petrology Lab"
-      ]
+      ["Monday", "10:00-10:50", "Petrology Lab"],
+      ["Tuesday", "11:00-11:50", "Petrology Lab"],
+      ["Wednesday", "11:00-11:50", "Petrology Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 71,
@@ -2447,14 +1227,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC202.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Monday", "11:00-11:50", " "]],
+    semester: "MS",
   },
   {
     id: 72,
@@ -2466,18 +1240,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC203.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "Petrology Lab"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "Petrology Lab"
-      ]
+      ["Monday", "05:00-05:50", "Petrology Lab"],
+      ["Monday", "04:00-04:50", "Petrology Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 73,
@@ -2489,18 +1255,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC204.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "Petrology Lab"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Petrology Lab"
-      ]
+      ["Thursday", "05:00-05:50", "Petrology Lab"],
+      ["Thursday", "04:00-04:50", "Petrology Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 74,
@@ -2512,7 +1270,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLE201.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 75,
@@ -2524,23 +1282,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GPC501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        " "
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        " "
-      ]
+      ["Tuesday", "04:00-04:50", " "],
+      ["Wednesday", "05:00-05:50", " "],
+      ["Friday", "04:00-04:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 76,
@@ -2552,7 +1298,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GLC202.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 77,
@@ -2564,23 +1310,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GLE203.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        " "
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "Coal Geology Lab"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "Coal Geology Lab"
-      ]
+      ["Tuesday", "05:00-05:50", " "],
+      ["Tuesday", "05:00-05:50", "Coal Geology Lab"],
+      ["Tuesday", "04:00-04:50", "Coal Geology Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 78,
@@ -2592,23 +1326,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "AGP Annexure 1st Floor"
-      ]
+      ["Tuesday", "10:00-10:50", "AGP Annexure 1st Floor"],
+      ["Thursday", "11:00-11:50", "AGP Annexure 1st Floor"],
+      ["Friday", "10:00-10:50", "AGP Annexure 1st Floor"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 79,
@@ -2620,23 +1342,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "Annexe 102"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "Annexe 102"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "Annexe 102"
-      ]
+      ["Monday", "10:00-10:50", "Annexe 102"],
+      ["Tuesday", "11:00-11:50", "Annexe 102"],
+      ["Wednesday", "11:00-11:50", "Annexe 102"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 80,
@@ -2648,18 +1358,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC203.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "AGP Annexure 1st Floor"
-      ]
+      ["Monday", "05:00-05:50", "AGP Annexure 1st Floor"],
+      ["Monday", "04:00-04:50", "AGP Annexure 1st Floor"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 81,
@@ -2671,18 +1373,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC204.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "Remote Sensing Gravity Magnetic Lab"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Remote Sensing Gravity Magnetic Lab"
-      ]
+      ["Thursday", "05:00-05:50", "Remote Sensing Gravity Magnetic Lab"],
+      ["Thursday", "04:00-04:50", "Remote Sensing Gravity Magnetic Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 82,
@@ -2694,23 +1388,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G1"],
+      ["Tuesday", "09:00-09:50", "LC-II-G1"],
+      ["Wednesday", "09:00-09:50", "LC-II-G1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 83,
@@ -2722,23 +1404,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-I-C18"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-I-C18"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-I-C18"
-      ]
+      ["Monday", "11:00-11:50", "LC-I-C18"],
+      ["Thursday", "10:00-10:50", "LC-I-C18"],
+      ["Friday", "11:00-11:50", "LC-I-C18"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 84,
@@ -2750,23 +1420,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-I-C18"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-I-C18"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-I-C18"
-      ]
+      ["Monday", "10:00-10:50", "LC-I-C18"],
+      ["Tuesday", "11:00-11:50", "LC-I-C18"],
+      ["Wednesday", "11:00-11:50", "LC-I-C18"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 85,
@@ -2778,23 +1436,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-I-C18"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-I-C18"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-I-C18"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-I-C18"],
+      ["Thursday", "11:00-11:50", "LC-I-C18"],
+      ["Friday", "10:00-10:50", "LC-I-C18"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 86,
@@ -2806,30 +1452,23 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC204.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "UG Lab-1"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "UG Lab-1"
-      ]
+      ["Monday", "05:00-05:50", "UG Lab-1"],
+      ["Monday", "04:00-04:50", "UG Lab-1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 87,
     code: "MCC505",
     name: "Probability & Statistics",
-    instructor: "Nabakumar Jana,Atul Kumar Verma,Subhashis Chatterjee,Shuvashree Mondal",
+    instructor:
+      "Nabakumar Jana,Atul Kumar Verma,Subhashis Chatterjee,Shuvashree Mondal",
     department: "Mathematics and Computing",
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC505.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 88,
@@ -2841,23 +1480,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "AGL-3"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "AGL-3"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "AGL-3"
-      ]
+      ["Monday", "03:00-03:50", "AGL-3"],
+      ["Tuesday", "05:00-05:50", "AGL-3"],
+      ["Thursday", "03:00-03:50", "AGL-3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 89,
@@ -2869,23 +1496,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "AGL-3"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "AGL-3"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "AGL-3"
-      ]
+      ["Tuesday", "03:00-03:50", "AGL-3"],
+      ["Wednesday", "04:00-04:50", "AGL-3"],
+      ["Friday", "03:00-03:50", "AGL-3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 90,
@@ -2897,23 +1512,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "AGL-3"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "AGL-3"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "AGL-3"
-      ]
+      ["Tuesday", "04:00-04:50", "AGL-3"],
+      ["Wednesday", "05:00-05:50", "AGL-3"],
+      ["Friday", "04:00-04:50", "AGL-3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 91,
@@ -2924,14 +1527,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC506.pdf",
     credits: "0-0-3",
-    timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "Petrology Lab"
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Monday", "11:00-11:50", "Petrology Lab"]],
+    semester: "MS",
   },
   {
     id: 92,
@@ -2943,18 +1540,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC507.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "12:00-12:50",
-        "AGL-3"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "AGL-3"
-      ]
+      ["Thursday", "12:00-12:50", "AGL-3"],
+      ["Thursday", "11:00-11:50", "AGL-3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 93,
@@ -2966,18 +1555,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC508.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Friday",
-        "11:00-11:50",
-        "Paleontology Lab"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "Paleontology Lab"
-      ]
+      ["Friday", "11:00-11:50", "Paleontology Lab"],
+      ["Friday", "10:00-10:50", "Paleontology Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 94,
@@ -2989,23 +1570,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLO532.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G10"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G10"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G10"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-G10"],
+      ["Thursday", "02:00-02:50", "LC-II-G10"],
+      ["Friday", "02:00-02:50", "LC-II-G10"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 95,
@@ -3017,7 +1586,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC501.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 96,
@@ -3029,23 +1598,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "AGP 516"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "AGP 516"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "AGP 516"
-      ]
+      ["Tuesday", "03:00-03:50", "AGP 516"],
+      ["Wednesday", "04:00-04:50", "AGP 516"],
+      ["Friday", "03:00-03:50", "AGP 516"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 97,
@@ -3057,23 +1614,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "AGP 516"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "AGP 516"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "AGP 516"
-      ]
+      ["Monday", "03:00-03:50", "AGP 516"],
+      ["Tuesday", "05:00-05:50", "AGP 516"],
+      ["Thursday", "03:00-03:50", "AGP 516"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 98,
@@ -3085,18 +1630,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC505.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "Remote Sensing Gravity Magnetic Lab"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "Remote Sensing Gravity Magnetic Lab"
-      ]
+      ["Monday", "11:00-11:50", "Remote Sensing Gravity Magnetic Lab"],
+      ["Monday", "10:00-10:50", "Remote Sensing Gravity Magnetic Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 99,
@@ -3108,18 +1645,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC507.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "12:00-12:50",
-        "Geophysical Inversion lab"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Geophysical Inversion lab"
-      ]
+      ["Thursday", "12:00-12:50", "Geophysical Inversion lab"],
+      ["Thursday", "11:00-11:50", "Geophysical Inversion lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 100,
@@ -3131,23 +1660,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G1"],
+      ["Tuesday", "02:00-02:50", "LC-II-G1"],
+      ["Wednesday", "02:00-02:50", "LC-II-G1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 101,
@@ -3159,18 +1676,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPE203.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Friday",
-        "11:00-11:50",
-        "Instrumentation lab"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "Instrumentation lab"
-      ]
+      ["Friday", "11:00-11:50", "Instrumentation lab"],
+      ["Friday", "10:00-10:50", "Instrumentation lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 102,
@@ -3182,23 +1691,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G13"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G13"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G13"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G13"],
+      ["Wednesday", "04:00-04:50", "LC-II-G13"],
+      ["Friday", "03:00-03:50", "LC-II-G13"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 103,
@@ -3210,18 +1707,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC302.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "CSE LAB - III"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "CSE LAB - III"
-      ]
+      ["Monday", "11:00-11:50", "CSE LAB - III"],
+      ["Monday", "10:00-10:50", "CSE LAB - III"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 104,
@@ -3233,18 +1722,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G13"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G13"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G13"],
+      ["Tuesday", "12:00-12:50", "LC-II-G13"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 105,
@@ -3256,23 +1737,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD541.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G13"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G13"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G13"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G13"],
+      ["Tuesday", "05:00-05:50", "LC-II-G13"],
+      ["Thursday", "03:00-03:50", "LC-II-G13"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 106,
@@ -3284,23 +1753,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G13"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G13"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G13"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-G13"],
+      ["Thursday", "02:00-02:50", "LC-II-G13"],
+      ["Friday", "02:00-02:50", "LC-II-G13"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 107,
@@ -3312,7 +1769,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC518.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 108,
@@ -3324,7 +1781,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC519.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 109,
@@ -3336,7 +1793,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC520.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 110,
@@ -3347,14 +1804,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC524.pdf",
     credits: "0-0-2",
-    timetable: [
-      [
-        "Wednesday",
-        "04:00-04:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Wednesday", "04:00-04:50", " "]],
+    semester: "MS",
   },
   {
     id: 111,
@@ -3365,14 +1816,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC525.pdf",
     credits: "0-0-3",
-    timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Tuesday", "03:00-03:50", " "]],
+    semester: "MS",
   },
   {
     id: 112,
@@ -3384,23 +1829,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD521.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "AGL-3"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "AGL-3"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "AGL-3"
-      ]
+      ["Monday", "12:00-12:50", "AGL-3"],
+      ["Tuesday", "12:00-12:50", "AGL-3"],
+      ["Wednesday", "12:00-12:50", "AGL-3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 113,
@@ -3412,23 +1845,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD522.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "AGL-1"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "AGL-1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "AGL-1"
-      ]
+      ["Monday", "12:00-12:50", "AGL-1"],
+      ["Tuesday", "12:00-12:50", "AGL-1"],
+      ["Wednesday", "12:00-12:50", "AGL-1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 114,
@@ -3440,23 +1861,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLO523.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "AGL-2"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "AGL-2"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "AGL-2"
-      ]
+      ["Tuesday", "10:00-10:50", "AGL-2"],
+      ["Thursday", "12:00-12:50", "AGL-2"],
+      ["Friday", "12:00-12:50", "AGL-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 115,
@@ -3468,23 +1877,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC516.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "AGP Annexure 1st Floor"
-      ]
+      ["Wednesday", "10:00-10:50", "AGP Annexure 1st Floor"],
+      ["Thursday", "09:00-09:50", "AGP Annexure 1st Floor"],
+      ["Friday", "09:00-09:50", "AGP Annexure 1st Floor"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 116,
@@ -3496,23 +1893,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC517.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "AGP Annexure 1st Floor"
-      ]
+      ["Monday", "09:00-09:50", "AGP Annexure 1st Floor"],
+      ["Tuesday", "09:00-09:50", "AGP Annexure 1st Floor"],
+      ["Wednesday", "09:00-09:50", "AGP Annexure 1st Floor"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 117,
@@ -3524,18 +1909,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC518.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "Geophysical Inversion lab"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "Geophysical Inversion lab"
-      ]
+      ["Tuesday", "05:00-05:50", "Geophysical Inversion lab"],
+      ["Tuesday", "04:00-04:50", "Geophysical Inversion lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 118,
@@ -3547,18 +1924,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC519.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "Seismic data processing Lab"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "Seismic data processing Lab"
-      ]
+      ["Wednesday", "05:00-05:50", "Seismic data processing Lab"],
+      ["Wednesday", "04:00-04:50", "Seismic data processing Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 119,
@@ -3570,23 +1939,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "AGP 516"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "AGP 516"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "AGP 516"
-      ]
+      ["Monday", "12:00-12:50", "AGP 516"],
+      ["Tuesday", "12:00-12:50", "AGP 516"],
+      ["Wednesday", "12:00-12:50", "AGP 516"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 120,
@@ -3598,23 +1955,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "AGP Annexure 1st Floor"
-      ]
+      ["Monday", "10:00-10:50", "AGP Annexure 1st Floor"],
+      ["Tuesday", "11:00-11:50", "AGP Annexure 1st Floor"],
+      ["Wednesday", "11:00-11:50", "AGP Annexure 1st Floor"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 121,
@@ -3626,23 +1971,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "AGP 516"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "AGP 516"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "AGP 516"
-      ]
+      ["Monday", "10:00-10:50", "AGP 516"],
+      ["Tuesday", "11:00-11:50", "AGP 516"],
+      ["Wednesday", "11:00-11:50", "AGP 516"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 122,
@@ -3654,18 +1987,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Thursday",
-        "12:00-12:50",
-        "AGP Annexure 1st Floor"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "AGP Annexure 1st Floor"
-      ]
+      ["Thursday", "12:00-12:50", "AGP Annexure 1st Floor"],
+      ["Friday", "12:00-12:50", "AGP Annexure 1st Floor"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 123,
@@ -3677,7 +2002,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC503.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 124,
@@ -3689,7 +2014,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC506.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 125,
@@ -3701,7 +2026,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD531.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 126,
@@ -3713,23 +2038,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD557.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-I-C16"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-I-C16"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-I-C16"
-      ]
+      ["Monday", "10:00-10:50", "LC-I-C16"],
+      ["Tuesday", "11:00-11:50", "LC-I-C16"],
+      ["Wednesday", "11:00-11:50", "LC-I-C16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 127,
@@ -3741,23 +2054,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-I-C16"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-I-C16"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-I-C16"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-I-C16"],
+      ["Thursday", "12:00-12:50", "LC-I-C16"],
+      ["Friday", "12:00-12:50", "LC-I-C16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 128,
@@ -3769,23 +2070,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-I-C16"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-I-C16"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-I-C16"
-      ]
+      ["Monday", "09:00-09:50", "LC-I-C16"],
+      ["Tuesday", "09:00-09:50", "LC-I-C16"],
+      ["Wednesday", "09:00-09:50", "LC-I-C16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 129,
@@ -3797,23 +2086,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC514.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C8"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-C8"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C8"],
+      ["Thursday", "04:00-04:50", "LC-II-C8"],
+      ["Friday", "02:00-02:50", "LC-II-C8"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 130,
@@ -3825,23 +2102,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC515.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C8"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C8"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-C8"],
+      ["Wednesday", "03:00-03:50", "LC-II-C8"],
+      ["Friday", "03:00-03:50", "LC-II-C8"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 131,
@@ -3853,23 +2118,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC516.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C8"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C8"],
+      ["Wednesday", "04:00-04:50", "LC-II-C8"],
+      ["Thursday", "02:00-02:50", "LC-II-C8"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 132,
@@ -3881,18 +2134,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC517.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "PG Lab"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "PG Lab"
-      ]
+      ["Monday", "11:00-11:50", "PG Lab"],
+      ["Monday", "10:00-10:50", "PG Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 133,
@@ -3904,18 +2149,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC518.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PG Lab"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "PG Lab"
-      ]
+      ["Wednesday", "11:00-11:50", "PG Lab"],
+      ["Wednesday", "10:00-10:50", "PG Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 134,
@@ -3927,23 +2164,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD512.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "CECR2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "CECR2"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "CECR2"
-      ]
+      ["Tuesday", "03:00-03:50", "CECR2"],
+      ["Thursday", "03:00-03:50", "CECR2"],
+      ["Friday", "04:00-04:50", "CECR2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 135,
@@ -3954,14 +2179,8 @@
     type: "Department Elective (DE)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD515.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Thursday",
-        "03:00-03:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Thursday", "03:00-03:50", " "]],
+    semester: "MS",
   },
   {
     id: 136,
@@ -3973,23 +2192,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD522.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C3"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C3"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C3"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C3"],
+      ["Tuesday", "02:00-02:50", "LC-II-C3"],
+      ["Wednesday", "02:00-02:50", "LC-II-C3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 137,
@@ -4001,23 +2208,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD532.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C4"],
+      ["Tuesday", "02:00-02:50", "LC-II-C4"],
+      ["Wednesday", "02:00-02:50", "LC-II-C4"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 138,
@@ -4029,23 +2224,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD534.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C8"],
+      ["Tuesday", "02:00-02:50", "LC-II-C8"],
+      ["Wednesday", "02:00-02:50", "LC-II-C8"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 139,
@@ -4057,23 +2240,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD536.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G10"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G10"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G10"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G10"],
+      ["Thursday", "03:00-03:50", "LC-II-G10"],
+      ["Friday", "04:00-04:50", "LC-II-G10"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 140,
@@ -4085,23 +2256,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC514.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-I-C15"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-I-C15"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-I-C15"
-      ]
+      ["Monday", "04:00-04:50", "LC-I-C15"],
+      ["Thursday", "04:00-04:50", "LC-I-C15"],
+      ["Friday", "02:00-02:50", "LC-I-C15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 141,
@@ -4113,23 +2272,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC515.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-I-C15"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-I-C15"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C15"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-I-C15"],
+      ["Wednesday", "03:00-03:50", "LC-I-C15"],
+      ["Friday", "03:00-03:50", "LC-I-C15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 142,
@@ -4141,23 +2288,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC516.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-I-C15"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-I-C15"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-I-C15"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-I-C15"],
+      ["Thursday", "03:00-03:50", "LC-I-C15"],
+      ["Friday", "04:00-04:50", "LC-I-C15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 143,
@@ -4169,23 +2304,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC517.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-I-C15"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-I-C15"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-I-C15"
-      ]
+      ["Monday", "03:00-03:50", "LC-I-C15"],
+      ["Wednesday", "04:00-04:50", "LC-I-C15"],
+      ["Thursday", "02:00-02:50", "LC-I-C15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 144,
@@ -4197,18 +2320,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC518.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "UG Lab-1"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "UG Lab-1"
-      ]
+      ["Monday", "11:00-11:50", "UG Lab-1"],
+      ["Monday", "10:00-10:50", "UG Lab-1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 145,
@@ -4220,18 +2335,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC519.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "UG Lab-1"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "UG Lab-1"
-      ]
+      ["Wednesday", "11:00-11:50", "UG Lab-1"],
+      ["Wednesday", "10:00-10:50", "UG Lab-1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 146,
@@ -4243,23 +2350,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD533.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-I-C18"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-I-C18"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-I-C18"
-      ]
+      ["Monday", "02:00-02:50", "LC-I-C18"],
+      ["Tuesday", "02:00-02:50", "LC-I-C18"],
+      ["Wednesday", "02:00-02:50", "LC-I-C18"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 147,
@@ -4271,18 +2366,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC514.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        " "
-      ]
+      ["Monday", "03:00-03:50", " "],
+      ["Thursday", "05:00-05:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 148,
@@ -4294,23 +2381,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC515.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        " "
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        " "
-      ]
+      ["Monday", "04:00-04:50", " "],
+      ["Thursday", "04:00-04:50", " "],
+      ["Friday", "05:00-05:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 149,
@@ -4322,23 +2397,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC516.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "NAC Hall"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "NAC Hall"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "NAC Hall"
-      ]
+      ["Tuesday", "04:00-04:50", "NAC Hall"],
+      ["Wednesday", "03:00-03:50", "NAC Hall"],
+      ["Friday", "03:00-03:50", "NAC Hall"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 150,
@@ -4350,18 +2413,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC517.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "NLHC Computer Lab - II"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "NLHC Computer Lab - II"
-      ]
+      ["Monday", "11:00-11:50", "NLHC Computer Lab - II"],
+      ["Monday", "10:00-10:50", "NLHC Computer Lab - II"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 151,
@@ -4373,18 +2428,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC518.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PHPG LAB"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "PHPG LAB"
-      ]
+      ["Wednesday", "11:00-11:50", "PHPG LAB"],
+      ["Wednesday", "10:00-10:50", "PHPG LAB"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 152,
@@ -4396,23 +2443,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-I-C9"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-I-C9"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-I-C9"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-I-C9"],
+      ["Thursday", "03:00-03:50", "LC-I-C9"],
+      ["Friday", "04:00-04:50", "LC-I-C9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 153,
@@ -4424,23 +2459,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "NAC Hall"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "NAC Hall"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "NAC Hall"
-      ]
+      ["Tuesday", "03:00-03:50", "NAC Hall"],
+      ["Thursday", "03:00-03:50", "NAC Hall"],
+      ["Friday", "04:00-04:50", "NAC Hall"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 154,
@@ -4452,23 +2475,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD575.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        " "
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        " "
-      ]
+      ["Monday", "02:00-02:50", " "],
+      ["Tuesday", "02:00-02:50", " "],
+      ["Wednesday", "02:00-02:50", " "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 155,
@@ -4480,7 +2491,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD576.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 156,
@@ -4492,7 +2503,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC518.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 157,
@@ -4504,7 +2515,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC519.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 158,
@@ -4516,7 +2527,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC520.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 159,
@@ -4528,7 +2539,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC524.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 160,
@@ -4540,7 +2551,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC525.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 161,
@@ -4552,23 +2563,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD576.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "AGL Library"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "AGL Library"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "AGL Library"
-      ]
+      ["Monday", "12:00-12:50", "AGL Library"],
+      ["Tuesday", "12:00-12:50", "AGL Library"],
+      ["Wednesday", "12:00-12:50", "AGL Library"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 162,
@@ -4580,23 +2579,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD591.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "AGL-2"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "AGL-2"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "AGL-2"
-      ]
+      ["Monday", "12:00-12:50", "AGL-2"],
+      ["Tuesday", "12:00-12:50", "AGL-2"],
+      ["Wednesday", "12:00-12:50", "AGL-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 163,
@@ -4608,7 +2595,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC516.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 164,
@@ -4620,7 +2607,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC517.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 165,
@@ -4632,7 +2619,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC518.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 166,
@@ -4644,7 +2631,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC519.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 167,
@@ -4656,7 +2643,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC591.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 168,
@@ -4668,7 +2655,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 169,
@@ -4680,23 +2667,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/HSI500.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G8"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G8"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G8"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G8"],
+      ["Tuesday", "09:00-09:50", "LC-II-G8"],
+      ["Wednesday", "09:00-09:50", "LC-II-G8"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 170,
@@ -4708,7 +2683,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 171,
@@ -4720,7 +2695,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 172,
@@ -4732,7 +2707,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 173,
@@ -4744,7 +2719,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 174,
@@ -4756,7 +2731,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 175,
@@ -4768,7 +2743,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 176,
@@ -4780,7 +2755,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 177,
@@ -4792,7 +2767,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 178,
@@ -4804,7 +2779,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 179,
@@ -4816,7 +2791,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 180,
@@ -4828,7 +2803,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 181,
@@ -4840,7 +2815,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 182,
@@ -4852,23 +2827,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC550.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "Conference Room"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "Conference Room"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "Conference Room"
-      ]
+      ["Monday", "12:00-12:50", "Conference Room"],
+      ["Tuesday", "12:00-12:50", "Conference Room"],
+      ["Wednesday", "12:00-12:50", "Conference Room"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 183,
@@ -4880,7 +2843,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 184,
@@ -4892,7 +2855,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 185,
@@ -4904,7 +2867,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 186,
@@ -4916,7 +2879,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 187,
@@ -4928,23 +2891,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "FME-2"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "FME-2"
-      ]
+      ["Monday", "12:00-12:50", "FME-2"],
+      ["Tuesday", "12:00-12:50", "FME-2"],
+      ["Wednesday", "12:00-12:50", "FME-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 188,
@@ -4956,7 +2907,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 189,
@@ -4968,7 +2919,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 190,
@@ -4980,23 +2931,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "HSS class room -1"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "HSS class room -1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "HSS class room -1"
-      ]
+      ["Tuesday", "11:00-11:50", "HSS class room -1"],
+      ["Wednesday", "11:00-11:50", "HSS class room -1"],
+      ["Friday", "10:00-10:50", "HSS class room -1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 191,
@@ -5008,7 +2947,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 192,
@@ -5020,7 +2959,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 193,
@@ -5032,7 +2971,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC501.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 194,
@@ -5044,7 +2983,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 195,
@@ -5056,7 +2995,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 196,
@@ -5068,7 +3007,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC501.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 197,
@@ -5080,7 +3019,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 198,
@@ -5092,7 +3031,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 199,
@@ -5104,7 +3043,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC501.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 200,
@@ -5116,7 +3055,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 201,
@@ -5128,7 +3067,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 202,
@@ -5140,7 +3079,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 203,
@@ -5152,7 +3091,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 204,
@@ -5164,7 +3103,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 205,
@@ -5176,7 +3115,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 206,
@@ -5188,7 +3127,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 207,
@@ -5200,7 +3139,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 208,
@@ -5212,23 +3151,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC700.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "MIN- Seminar Hall"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "MIN- Seminar Hall"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "MIN- Seminar Hall"
-      ]
+      ["Monday", "12:00-12:50", "MIN- Seminar Hall"],
+      ["Tuesday", "12:00-12:50", "MIN- Seminar Hall"],
+      ["Wednesday", "12:00-12:50", "MIN- Seminar Hall"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 209,
@@ -5240,7 +3167,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 210,
@@ -5252,7 +3179,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 211,
@@ -5264,23 +3191,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC591.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "MME-C2"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "MME-C2"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "MME-C2"
-      ]
+      ["Monday", "12:00-12:50", "MME-C2"],
+      ["Tuesday", "12:00-12:50", "MME-C2"],
+      ["Wednesday", "12:00-12:50", "MME-C2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 212,
@@ -5292,7 +3207,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 213,
@@ -5304,7 +3219,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 214,
@@ -5316,7 +3231,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC591.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 215,
@@ -5328,7 +3243,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 216,
@@ -5340,7 +3255,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 217,
@@ -5352,7 +3267,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 218,
@@ -5364,7 +3279,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 219,
@@ -5376,7 +3291,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 220,
@@ -5388,7 +3303,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 221,
@@ -5400,7 +3315,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 222,
@@ -5412,7 +3327,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/HSI500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 223,
@@ -5423,14 +3338,8 @@
     type: "Department Elective (DE)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD501.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Wednesday", "03:00-03:50", " "]],
+    semester: "MS",
   },
   {
     id: 224,
@@ -5442,7 +3351,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD502.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 225,
@@ -5454,23 +3363,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "MS 209"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "MS 209"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "MS 209"
-      ]
+      ["Tuesday", "03:00-03:50", "MS 209"],
+      ["Wednesday", "03:00-03:50", "MS 209"],
+      ["Thursday", "03:00-03:50", "MS 209"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 226,
@@ -5482,23 +3379,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "MS 011"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MS 011"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "MS 011"
-      ]
+      ["Monday", "02:00-02:50", "MS 011"],
+      ["Tuesday", "02:00-02:50", "MS 011"],
+      ["Wednesday", "02:00-02:50", "MS 011"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 227,
@@ -5510,23 +3395,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD506.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "MS 210"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "MS 210"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "MS 210"
-      ]
+      ["Monday", "03:00-03:50", "MS 210"],
+      ["Thursday", "02:00-02:50", "MS 210"],
+      ["Friday", "02:00-02:50", "MS 210"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 228,
@@ -5538,23 +3411,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-I-C12"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-I-C12"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C12"
-      ]
+      ["Monday", "04:00-04:50", "LC-I-C12"],
+      ["Tuesday", "04:00-04:50", "LC-I-C12"],
+      ["Friday", "03:00-03:50", "LC-I-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 229,
@@ -5566,7 +3427,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD508.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 230,
@@ -5578,23 +3439,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "MS 209"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "MS 209"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "MS 209"
-      ]
+      ["Monday", "03:00-03:50", "MS 209"],
+      ["Thursday", "02:00-02:50", "MS 209"],
+      ["Friday", "02:00-02:50", "MS 209"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 231,
@@ -5606,23 +3455,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-I-C12"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-I-C12"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-I-C12"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-I-C12"],
+      ["Wednesday", "03:00-03:50", "LC-I-C12"],
+      ["Thursday", "03:00-03:50", "LC-I-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 232,
@@ -5634,23 +3471,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD512.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G2"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G2"],
+      ["Wednesday", "03:00-03:50", "LC-II-G2"],
+      ["Thursday", "03:00-03:50", "LC-II-G2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 233,
@@ -5662,23 +3487,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "MS 210"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "MS 210"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "MS 210"
-      ]
+      ["Monday", "04:00-04:50", "MS 210"],
+      ["Tuesday", "04:00-04:50", "MS 210"],
+      ["Friday", "03:00-03:50", "MS 210"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 234,
@@ -5690,7 +3503,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD516.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 235,
@@ -5701,14 +3514,8 @@
     type: "Department Elective (DE)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD517.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Friday",
-        "03:00-03:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Friday", "03:00-03:50", " "]],
+    semester: "MS",
   },
   {
     id: 236,
@@ -5720,23 +3527,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD530.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-I-C16"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-I-C16"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-I-C16"
-      ]
+      ["Monday", "03:00-03:50", "LC-I-C16"],
+      ["Thursday", "02:00-02:50", "LC-I-C16"],
+      ["Friday", "02:00-02:50", "LC-I-C16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 237,
@@ -5748,23 +3543,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD532.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "MS 210"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MS 210"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "MS 210"
-      ]
+      ["Monday", "02:00-02:50", "MS 210"],
+      ["Tuesday", "02:00-02:50", "MS 210"],
+      ["Wednesday", "02:00-02:50", "MS 210"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 238,
@@ -5776,23 +3559,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD533.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "MS 209"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MS 209"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "MS 209"
-      ]
+      ["Monday", "02:00-02:50", "MS 209"],
+      ["Tuesday", "02:00-02:50", "MS 209"],
+      ["Wednesday", "02:00-02:50", "MS 209"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 239,
@@ -5804,7 +3575,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD535.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 240,
@@ -5816,7 +3587,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC519.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 241,
@@ -5827,14 +3598,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC526.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Friday",
-        "02:00-02:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Friday", "02:00-02:50", " "]],
+    semester: "MS",
   },
   {
     id: 242,
@@ -5845,14 +3610,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC528.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Thursday",
-        "02:00-02:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Thursday", "02:00-02:50", " "]],
+    semester: "MS",
   },
   {
     id: 243,
@@ -5864,7 +3623,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC529.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 244,
@@ -5876,23 +3635,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSD507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G16"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G16"],
+      ["Tuesday", "02:00-02:50", "LC-II-G16"],
+      ["Wednesday", "02:00-02:50", "LC-II-G16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 245,
@@ -5904,7 +3651,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSD559.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 246,
@@ -5916,23 +3663,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G12"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G12"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G12"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G12"],
+      ["Tuesday", "11:00-11:50", "LC-II-G12"],
+      ["Wednesday", "11:00-11:50", "LC-II-G12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 247,
@@ -5944,23 +3679,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC202.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G12"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G12"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G12"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G12"],
+      ["Thursday", "10:00-10:50", "LC-II-G12"],
+      ["Friday", "11:00-11:50", "LC-II-G12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 248,
@@ -5972,23 +3695,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC203.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G12"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G12"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G12"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G12"],
+      ["Thursday", "11:00-11:50", "LC-II-G12"],
+      ["Friday", "10:00-10:50", "LC-II-G12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 249,
@@ -5999,14 +3710,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC204.pdf",
     credits: "0-0-2",
-    timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        " "
-      ]
-    ],
-    semester: "MS"
+    timetable: [["Monday", "05:00-05:50", " "]],
+    semester: "MS",
   },
   {
     id: 250,
@@ -6018,7 +3723,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC205.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 251,
@@ -6030,23 +3735,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G5"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G5"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G5"
-      ]
+      ["Wednesday", "10:00-10:50", "LC-II-G5"],
+      ["Thursday", "09:00-09:50", "LC-II-G5"],
+      ["Friday", "09:00-09:50", "LC-II-G5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 252,
@@ -6058,23 +3751,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G9"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G9"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G9"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G9"],
+      ["Tuesday", "11:00-11:50", "LC-II-G9"],
+      ["Wednesday", "11:00-11:50", "LC-II-G9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 253,
@@ -6086,23 +3767,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G9"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G9"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G9"],
+      ["Thursday", "10:00-10:50", "LC-II-G9"],
+      ["Friday", "11:00-11:50", "LC-II-G9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 254,
@@ -6114,23 +3783,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G9"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G9"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G9"],
+      ["Thursday", "11:00-11:50", "LC-II-G9"],
+      ["Friday", "10:00-10:50", "LC-II-G9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 255,
@@ -6142,7 +3799,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC204.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 256,
@@ -6154,7 +3811,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC205.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 257,
@@ -6166,23 +3823,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G5"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G5"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G5"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G5"],
+      ["Tuesday", "09:00-09:50", "LC-II-G5"],
+      ["Wednesday", "09:00-09:50", "LC-II-G5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 258,
@@ -6194,7 +3839,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC201.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 259,
@@ -6206,23 +3851,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C11"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C11"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C11"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C11"],
+      ["Thursday", "10:00-10:50", "LC-II-C11"],
+      ["Friday", "11:00-11:50", "LC-II-C11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 260,
@@ -6234,18 +3867,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC203.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C11"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C11"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C11"],
+      ["Thursday", "11:00-11:50", "LC-II-C11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 261,
@@ -6257,18 +3882,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC204.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "CEUG1"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "CEUG1"
-      ]
+      ["Monday", "05:00-05:50", "CEUG1"],
+      ["Monday", "04:00-04:50", "CEUG1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 262,
@@ -6280,18 +3897,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC205.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "CEUG2"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "CEUG2"
-      ]
+      ["Thursday", "05:00-05:50", "CEUG2"],
+      ["Thursday", "04:00-04:50", "CEUG2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 263,
@@ -6303,23 +3912,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "NAC Hall"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "NAC Hall"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "NAC Hall"
-      ]
+      ["Wednesday", "10:00-10:50", "NAC Hall"],
+      ["Thursday", "09:00-09:50", "NAC Hall"],
+      ["Friday", "09:00-09:50", "NAC Hall"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 264,
@@ -6331,23 +3928,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G5"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G5"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G5"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G5"],
+      ["Tuesday", "11:00-11:50", "LC-II-G5"],
+      ["Wednesday", "11:00-11:50", "LC-II-G5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 265,
@@ -6359,7 +3944,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC202.pdf",
     credits: "3-1-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 266,
@@ -6371,23 +3956,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G5"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G5"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G5"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G5"],
+      ["Thursday", "11:00-11:50", "LC-II-G5"],
+      ["Friday", "10:00-10:50", "LC-II-G5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 267,
@@ -6399,7 +3972,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC204.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 268,
@@ -6411,7 +3984,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC205.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 269,
@@ -6423,23 +3996,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECE301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C1"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C1"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C1"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C1"],
+      ["Tuesday", "09:00-09:50", "LC-II-C1"],
+      ["Wednesday", "09:00-09:50", "LC-II-C1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 270,
@@ -6451,23 +4012,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC201.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G3"],
+      ["Tuesday", "11:00-11:50", "LC-II-G3"],
+      ["Wednesday", "11:00-11:50", "LC-II-G3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 271,
@@ -6479,23 +4028,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G3"],
+      ["Thursday", "10:00-10:50", "LC-II-G3"],
+      ["Friday", "11:00-11:50", "LC-II-G3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 272,
@@ -6507,23 +4044,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G3"],
+      ["Thursday", "11:00-11:50", "LC-II-G3"],
+      ["Friday", "10:00-10:50", "LC-II-G3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 273,
@@ -6535,18 +4060,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC271.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "Elect. Tech. Lab"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "Elect. Tech. Lab"
-      ]
+      ["Monday", "05:00-05:50", "Elect. Tech. Lab"],
+      ["Monday", "04:00-04:50", "Elect. Tech. Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 274,
@@ -6558,18 +4075,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC272.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "DE Lab"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "DE Lab"
-      ]
+      ["Thursday", "05:00-05:50", "DE Lab"],
+      ["Thursday", "04:00-04:50", "DE Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 275,
@@ -6581,23 +4090,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G15"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G15"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G15"],
+      ["Tuesday", "09:00-09:50", "LC-II-G15"],
+      ["Wednesday", "09:00-09:50", "LC-II-G15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 276,
@@ -6609,7 +4106,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC201.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 277,
@@ -6621,23 +4118,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C5"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C5"],
+      ["Thursday", "10:00-10:50", "LC-II-C5"],
+      ["Friday", "11:00-11:50", "LC-II-C5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 278,
@@ -6649,18 +4134,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C5"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C5"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C5"],
+      ["Thursday", "11:00-11:50", "LC-II-C5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 279,
@@ -6672,18 +4149,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC251.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "Water Chemistry Lab"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "Water Chemistry Lab"
-      ]
+      ["Monday", "05:00-05:50", "Water Chemistry Lab"],
+      ["Monday", "04:00-04:50", "Water Chemistry Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 280,
@@ -6695,18 +4164,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC252.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "Air Lab"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Air Lab"
-      ]
+      ["Thursday", "05:00-05:50", "Air Lab"],
+      ["Thursday", "04:00-04:50", "Air Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 281,
@@ -6718,23 +4179,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G7"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G7"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G7"],
+      ["Tuesday", "09:00-09:50", "LC-II-G7"],
+      ["Wednesday", "09:00-09:50", "LC-II-G7"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 282,
@@ -6746,23 +4195,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "FME-2"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "FME-2"
-      ]
+      ["Monday", "10:00-10:50", "FME-2"],
+      ["Tuesday", "11:00-11:50", "FME-2"],
+      ["Wednesday", "11:00-11:50", "FME-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 283,
@@ -6774,23 +4211,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "FME-2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "FME-2"
-      ]
+      ["Monday", "11:00-11:50", "FME-2"],
+      ["Thursday", "10:00-10:50", "FME-2"],
+      ["Friday", "11:00-11:50", "FME-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 284,
@@ -6802,23 +4227,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "FME-2"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "FME-2"
-      ]
+      ["Tuesday", "10:00-10:50", "FME-2"],
+      ["Thursday", "11:00-11:50", "FME-2"],
+      ["Friday", "10:00-10:50", "FME-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 285,
@@ -6830,7 +4243,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC251.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 286,
@@ -6842,7 +4255,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC252.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 287,
@@ -6854,18 +4267,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FME221.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G7"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G7"
-      ]
+      ["Thursday", "09:00-09:50", "LC-II-G7"],
+      ["Friday", "09:00-09:50", "LC-II-G7"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 288,
@@ -6877,7 +4282,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/GLE203.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 289,
@@ -6889,18 +4294,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC200.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G2"],
+      ["Tuesday", "11:00-11:50", "LC-II-G2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 290,
@@ -6912,23 +4309,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G2"],
+      ["Thursday", "10:00-10:50", "LC-II-G2"],
+      ["Friday", "11:00-11:50", "LC-II-G2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 291,
@@ -6940,23 +4325,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G2"],
+      ["Thursday", "11:00-11:50", "LC-II-G2"],
+      ["Friday", "10:00-10:50", "LC-II-G2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 292,
@@ -6968,7 +4341,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC203.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 293,
@@ -6980,7 +4353,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC204.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 294,
@@ -6992,23 +4365,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G11"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G11"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G11"
-      ]
+      ["Wednesday", "10:00-10:50", "LC-II-G11"],
+      ["Thursday", "09:00-09:50", "LC-II-G11"],
+      ["Friday", "09:00-09:50", "LC-II-G11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 295,
@@ -7020,23 +4381,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "NLHC-G1"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "NLHC-G1"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "NLHC-G1"
-      ]
+      ["Monday", "10:00-10:50", "NLHC-G1"],
+      ["Tuesday", "11:00-11:50", "NLHC-G1"],
+      ["Wednesday", "11:00-11:50", "NLHC-G1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 296,
@@ -7048,23 +4397,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "NLHC-G1"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "NLHC-G1"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "NLHC-G1"
-      ]
+      ["Monday", "11:00-11:50", "NLHC-G1"],
+      ["Thursday", "10:00-10:50", "NLHC-G1"],
+      ["Friday", "11:00-11:50", "NLHC-G1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 297,
@@ -7076,47 +4413,37 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "NLHC-G1"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "NLHC-G1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "NLHC-G1"
-      ]
+      ["Tuesday", "10:00-10:50", "NLHC-G1"],
+      ["Thursday", "11:00-11:50", "NLHC-G1"],
+      ["Friday", "10:00-10:50", "NLHC-G1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 298,
     code: "MEC204",
     name: "Applied Mechanics Lab",
-    instructor: "Sarthak Sambit Singh,Sachin Kumar Singh,Aman Kumar,Shibayan Sarkar,Ashis Mallick,Sanjoy K Ghoshal",
+    instructor:
+      "Sarthak Sambit Singh,Sachin Kumar Singh,Aman Kumar,Shibayan Sarkar,Ashis Mallick,Sanjoy K Ghoshal",
     department: "Mechanical Engineering",
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC204.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 299,
     code: "MEC205",
     name: "Thermodynamics and Fluid Mechanics Lab",
-    instructor: "Ajay Bhandari,Sandipan Kumar Das,Randip Kumar Das,Rakesh Kumar,Subhankar Sen,Satyabrata  Sahoo,Subramanian  Narayan",
+    instructor:
+      "Ajay Bhandari,Sandipan Kumar Das,Randip Kumar Das,Rakesh Kumar,Subhankar Sen,Satyabrata  Sahoo,Subramanian  Narayan",
     department: "Mechanical Engineering",
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC205.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 300,
@@ -7128,7 +4455,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEE201.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 301,
@@ -7140,23 +4467,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C1"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C1"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C1"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C1"],
+      ["Tuesday", "11:00-11:50", "LC-II-C1"],
+      ["Wednesday", "11:00-11:50", "LC-II-C1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 302,
@@ -7168,23 +4483,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC202.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C1"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C1"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C1"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C1"],
+      ["Thursday", "10:00-10:50", "LC-II-C1"],
+      ["Friday", "11:00-11:50", "LC-II-C1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 303,
@@ -7196,23 +4499,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC203.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C1"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C1"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C1"],
+      ["Thursday", "11:00-11:50", "LC-II-C1"],
+      ["Friday", "10:00-10:50", "LC-II-C1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 304,
@@ -7224,18 +4515,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC204.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "ThE lab"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "ThE lab"
-      ]
+      ["Monday", "05:00-05:50", "ThE lab"],
+      ["Monday", "04:00-04:50", "ThE lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 305,
@@ -7247,18 +4530,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC205.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "SOM lab"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "SOM lab"
-      ]
+      ["Thursday", "05:00-05:50", "SOM lab"],
+      ["Thursday", "04:00-04:50", "SOM lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 306,
@@ -7270,7 +4545,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MME202.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 307,
@@ -7282,7 +4557,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/GLE203.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 308,
@@ -7294,23 +4569,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "PET 2"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "PET 2"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PET 2"
-      ]
+      ["Monday", "10:00-10:50", "PET 2"],
+      ["Tuesday", "11:00-11:50", "PET 2"],
+      ["Wednesday", "11:00-11:50", "PET 2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 309,
@@ -7322,23 +4585,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "PET 2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "PET 2"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "PET 2"
-      ]
+      ["Monday", "11:00-11:50", "PET 2"],
+      ["Thursday", "10:00-10:50", "PET 2"],
+      ["Friday", "11:00-11:50", "PET 2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 310,
@@ -7350,23 +4601,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC203.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "PET 2"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "PET 2"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "PET 2"
-      ]
+      ["Tuesday", "10:00-10:50", "PET 2"],
+      ["Thursday", "11:00-11:50", "PET 2"],
+      ["Friday", "10:00-10:50", "PET 2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 311,
@@ -7378,7 +4617,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC204.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 312,
@@ -7390,7 +4629,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC205.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 313,
@@ -7402,23 +4641,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G11"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G11"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G11"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G11"],
+      ["Tuesday", "09:00-09:50", "LC-II-G11"],
+      ["Wednesday", "09:00-09:50", "LC-II-G11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 314,
@@ -7430,18 +4657,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC200.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C3"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C3"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C3"],
+      ["Tuesday", "11:00-11:50", "LC-II-C3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 315,
@@ -7453,23 +4672,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C3"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C3"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C3"],
+      ["Thursday", "10:00-10:50", "LC-II-C3"],
+      ["Friday", "11:00-11:50", "LC-II-C3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 316,
@@ -7481,23 +4688,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C3"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C3"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C3"],
+      ["Thursday", "11:00-11:50", "LC-II-C3"],
+      ["Friday", "10:00-10:50", "LC-II-C3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 317,
@@ -7509,18 +4704,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC203.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "PHUG LAB 1 "
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "PHUG LAB 1 "
-      ]
+      ["Monday", "05:00-05:50", "PHUG LAB 1 "],
+      ["Monday", "04:00-04:50", "PHUG LAB 1 "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 318,
@@ -7532,18 +4719,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC204.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "PHUG LAB 1 "
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "PHUG LAB 1 "
-      ]
+      ["Thursday", "05:00-05:50", "PHUG LAB 1 "],
+      ["Thursday", "04:00-04:50", "PHUG LAB 1 "],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 319,
@@ -7555,23 +4734,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHE200.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G12"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G12"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G12"
-      ]
+      ["Wednesday", "10:00-10:50", "LC-II-G12"],
+      ["Thursday", "09:00-09:50", "LC-II-G12"],
+      ["Friday", "09:00-09:50", "LC-II-G12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 320,
@@ -7583,23 +4750,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G12"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G12"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G12"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G12"],
+      ["Tuesday", "05:00-05:50", "LC-II-G12"],
+      ["Thursday", "03:00-03:50", "LC-II-G12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 321,
@@ -7611,23 +4766,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC302.pdf",
     credits: "3-1-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G12"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G12"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G12"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G12"],
+      ["Wednesday", "04:00-04:50", "LC-II-G12"],
+      ["Friday", "03:00-03:50", "LC-II-G12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 322,
@@ -7639,23 +4782,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G12"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G12"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G12"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-G12"],
+      ["Wednesday", "05:00-05:50", "LC-II-G12"],
+      ["Friday", "04:00-04:50", "LC-II-G12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 323,
@@ -7667,7 +4798,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC304.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 324,
@@ -7679,7 +4810,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC305.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 325,
@@ -7691,23 +4822,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "CHE-401"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "CHE-401"
-      ]
+      ["Wednesday", "03:00-03:50", "CHE-401"],
+      ["Thursday", "02:00-02:50", "CHE-401"],
+      ["Friday", "02:00-02:50", "CHE-401"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 326,
@@ -7719,23 +4838,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G9"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G9"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G9"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G9"],
+      ["Tuesday", "05:00-05:50", "LC-II-G9"],
+      ["Thursday", "03:00-03:50", "LC-II-G9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 327,
@@ -7747,23 +4854,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G9"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G9"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G9"],
+      ["Wednesday", "04:00-04:50", "LC-II-G9"],
+      ["Friday", "03:00-03:50", "LC-II-G9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 328,
@@ -7775,18 +4870,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC303.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "NLHC Computer Lab - II"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "NLHC Computer Lab - II"
-      ]
+      ["Wednesday", "11:00-11:50", "NLHC Computer Lab - II"],
+      ["Wednesday", "12:00-12:50", "NLHC Computer Lab - II"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 329,
@@ -7798,18 +4885,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC304.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "NLHC Computer Lab - II"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "NLHC Computer Lab - II"
-      ]
+      ["Thursday", "11:00-11:50", "NLHC Computer Lab - II"],
+      ["Thursday", "10:00-10:50", "NLHC Computer Lab - II"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 330,
@@ -7821,23 +4900,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G9"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G9"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-G9"],
+      ["Wednesday", "05:00-05:50", "LC-II-G9"],
+      ["Friday", "04:00-04:50", "LC-II-G9"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 331,
@@ -7849,23 +4916,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO304.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C12"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C12"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-C12"],
+      ["Thursday", "02:00-02:50", "LC-II-C12"],
+      ["Friday", "02:00-02:50", "LC-II-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 332,
@@ -7877,23 +4932,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-C11"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C11"],
+      ["Tuesday", "05:00-05:50", "LC-II-C11"],
+      ["Thursday", "03:00-03:50", "LC-II-C11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 333,
@@ -7905,23 +4948,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C11"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-C11"],
+      ["Wednesday", "04:00-04:50", "LC-II-C11"],
+      ["Friday", "03:00-03:50", "LC-II-C11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 334,
@@ -7933,18 +4964,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC303.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "CEUG3"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "CEUG3"
-      ]
+      ["Monday", "11:00-11:50", "CEUG3"],
+      ["Monday", "10:00-10:50", "CEUG3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 335,
@@ -7956,18 +4979,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC304.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "CEDept"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "CEDept"
-      ]
+      ["Thursday", "11:00-11:50", "CEDept"],
+      ["Thursday", "10:00-10:50", "CEDept"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 336,
@@ -7979,7 +4994,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO301.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 337,
@@ -7991,23 +5006,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C12"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-C12"],
+      ["Wednesday", "05:00-05:50", "LC-II-C12"],
+      ["Friday", "04:00-04:50", "LC-II-C12"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 338,
@@ -8019,23 +5022,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G14"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G14"],
+      ["Tuesday", "05:00-05:50", "LC-II-G14"],
+      ["Thursday", "03:00-03:50", "LC-II-G14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 339,
@@ -8047,23 +5038,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G14"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G14"],
+      ["Wednesday", "04:00-04:50", "LC-II-G14"],
+      ["Friday", "03:00-03:50", "LC-II-G14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 340,
@@ -8075,23 +5054,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G14"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-G14"],
+      ["Wednesday", "05:00-05:50", "LC-II-G14"],
+      ["Friday", "04:00-04:50", "LC-II-G14"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 341,
@@ -8103,18 +5070,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC304.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "Digital Signal Processing Lab (216)"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "Digital Signal Processing Lab (216)"
-      ]
+      ["Monday", "11:00-11:50", "Digital Signal Processing Lab (216)"],
+      ["Monday", "10:00-10:50", "Digital Signal Processing Lab (216)"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 342,
@@ -8126,18 +5085,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC305.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Communication Lab (215)"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "Communication Lab (215)"
-      ]
+      ["Thursday", "11:00-11:50", "Communication Lab (215)"],
+      ["Thursday", "10:00-10:50", "Communication Lab (215)"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 343,
@@ -8149,7 +5100,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO302.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 344,
@@ -8161,23 +5112,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC308.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G15"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G15"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G15"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G15"],
+      ["Tuesday", "05:00-05:50", "LC-II-G15"],
+      ["Thursday", "03:00-03:50", "LC-II-G15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 345,
@@ -8189,23 +5128,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC309.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G15"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G15"],
+      ["Wednesday", "04:00-04:50", "LC-II-G15"],
+      ["Friday", "03:00-03:50", "LC-II-G15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 346,
@@ -8217,23 +5144,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC310.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G15"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-G15"],
+      ["Wednesday", "05:00-05:50", "LC-II-G15"],
+      ["Friday", "04:00-04:50", "LC-II-G15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 347,
@@ -8245,18 +5160,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC375.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "DE Lab"
-      ],
-      [
-        "Monday",
-        "11:00-11:50",
-        "DE Lab"
-      ]
+      ["Monday", "10:00-10:50", "DE Lab"],
+      ["Monday", "11:00-11:50", "DE Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 348,
@@ -8268,18 +5175,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC376.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "El MC Lab"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "El MC Lab"
-      ]
+      ["Thursday", "11:00-11:50", "El MC Lab"],
+      ["Thursday", "10:00-10:50", "El MC Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 349,
@@ -8291,23 +5190,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED402.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G15"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G15"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-G15"],
+      ["Thursday", "02:00-02:50", "LC-II-G15"],
+      ["Friday", "02:00-02:50", "LC-II-G15"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 350,
@@ -8319,23 +5206,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC308.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C5"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-C5"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C5"],
+      ["Tuesday", "05:00-05:50", "LC-II-C5"],
+      ["Thursday", "03:00-03:50", "LC-II-C5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 351,
@@ -8347,23 +5222,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC309.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C5"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-C5"],
+      ["Wednesday", "04:00-04:50", "LC-II-C5"],
+      ["Friday", "03:00-03:50", "LC-II-C5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 352,
@@ -8375,23 +5238,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC310.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C5"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-C5"],
+      ["Wednesday", "05:00-05:50", "LC-II-C5"],
+      ["Friday", "04:00-04:50", "LC-II-C5"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 353,
@@ -8403,18 +5254,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC355.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "lecture hall no"
-      ],
-      [
-        "Monday",
-        "11:00-11:50",
-        "lecture hall no"
-      ]
+      ["Monday", "10:00-10:50", "lecture hall no"],
+      ["Monday", "11:00-11:50", "lecture hall no"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 354,
@@ -8426,18 +5269,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC356.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Wastewater Lab"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "Wastewater Lab"
-      ]
+      ["Thursday", "11:00-11:50", "Wastewater Lab"],
+      ["Thursday", "10:00-10:50", "Wastewater Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 355,
@@ -8449,7 +5284,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESO401.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 356,
@@ -8461,23 +5296,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "FME-1"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "FME-1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "FME-1"
-      ]
+      ["Monday", "03:00-03:50", "FME-1"],
+      ["Tuesday", "05:00-05:50", "FME-1"],
+      ["Thursday", "03:00-03:50", "FME-1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 357,
@@ -8489,23 +5312,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "FME-1"
-      ]
+      ["Tuesday", "03:00-03:50", "FME-1"],
+      ["Wednesday", "04:00-04:50", "FME-1"],
+      ["Friday", "03:00-03:50", "FME-1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 358,
@@ -8517,7 +5328,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC306.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 359,
@@ -8529,7 +5340,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC351.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 360,
@@ -8541,7 +5352,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD401.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 361,
@@ -8553,7 +5364,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD402.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 362,
@@ -8565,23 +5376,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC300.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G11"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G11"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G11"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G11"],
+      ["Tuesday", "05:00-05:50", "LC-II-G11"],
+      ["Thursday", "03:00-03:50", "LC-II-G11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 363,
@@ -8593,23 +5392,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G11"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G11"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G11"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G11"],
+      ["Wednesday", "04:00-04:50", "LC-II-G11"],
+      ["Friday", "03:00-03:50", "LC-II-G11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 364,
@@ -8621,7 +5408,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC302.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 365,
@@ -8633,18 +5420,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC303.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Mine Ventilation Lab"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "Mine Ventilation Lab"
-      ]
+      ["Thursday", "11:00-11:50", "Mine Ventilation Lab"],
+      ["Thursday", "10:00-10:50", "Mine Ventilation Lab"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 366,
@@ -8656,23 +5435,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G11"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G11"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G11"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-G11"],
+      ["Wednesday", "05:00-05:50", "LC-II-G11"],
+      ["Friday", "04:00-04:50", "LC-II-G11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 367,
@@ -8684,23 +5451,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNO303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G11"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G11"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G11"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-G11"],
+      ["Thursday", "02:00-02:50", "LC-II-G11"],
+      ["Friday", "02:00-02:50", "LC-II-G11"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 368,
@@ -8712,23 +5467,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MSO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-G1"],
+      ["Thursday", "02:00-02:50", "LC-II-G1"],
+      ["Friday", "02:00-02:50", "LC-II-G1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 369,
@@ -8740,7 +5483,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MSO404.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 370,
@@ -8752,23 +5495,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "NLHC-G16"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "NLHC-G16"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "NLHC-G16"
-      ]
+      ["Monday", "03:00-03:50", "NLHC-G16"],
+      ["Tuesday", "05:00-05:50", "NLHC-G16"],
+      ["Thursday", "03:00-03:50", "NLHC-G16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 371,
@@ -8780,23 +5511,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "NLHC-G16"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "NLHC-G16"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "NLHC-G16"
-      ]
+      ["Tuesday", "03:00-03:50", "NLHC-G16"],
+      ["Wednesday", "04:00-04:50", "NLHC-G16"],
+      ["Friday", "03:00-03:50", "NLHC-G16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 372,
@@ -8808,23 +5527,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "NLHC-G16"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "NLHC-G16"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "NLHC-G16"
-      ]
+      ["Tuesday", "04:00-04:50", "NLHC-G16"],
+      ["Wednesday", "05:00-05:50", "NLHC-G16"],
+      ["Friday", "04:00-04:50", "NLHC-G16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 373,
@@ -8836,7 +5543,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC304.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 374,
@@ -8848,7 +5555,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC305.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 375,
@@ -8860,23 +5567,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "MME-C2"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "MME-C2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "MME-C2"
-      ]
+      ["Wednesday", "03:00-03:50", "MME-C2"],
+      ["Thursday", "02:00-02:50", "MME-C2"],
+      ["Friday", "02:00-02:50", "MME-C2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 376,
@@ -8888,23 +5583,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G16"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G16"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G16"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-G16"],
+      ["Thursday", "02:00-02:50", "LC-II-G16"],
+      ["Friday", "02:00-02:50", "LC-II-G16"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 377,
@@ -8916,23 +5599,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C1"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-C1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C1"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C1"],
+      ["Tuesday", "05:00-05:50", "LC-II-C1"],
+      ["Thursday", "03:00-03:50", "LC-II-C1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 378,
@@ -8944,23 +5615,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-C1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C1"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-C1"],
+      ["Wednesday", "04:00-04:50", "LC-II-C1"],
+      ["Friday", "03:00-03:50", "LC-II-C1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 379,
@@ -8972,18 +5631,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC303.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "MINE ELEC LAB"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "MINE ELEC LAB"
-      ]
+      ["Monday", "11:00-11:50", "MINE ELEC LAB"],
+      ["Monday", "10:00-10:50", "MINE ELEC LAB"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 380,
@@ -8995,18 +5646,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC304.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "MINE ELEC LAB"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "MINE ELEC LAB"
-      ]
+      ["Thursday", "11:00-11:50", "MINE ELEC LAB"],
+      ["Thursday", "10:00-10:50", "MINE ELEC LAB"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 381,
@@ -9018,23 +5661,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C4"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C4"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-C4"],
+      ["Wednesday", "05:00-05:50", "LC-II-C4"],
+      ["Friday", "04:00-04:50", "LC-II-C4"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 382,
@@ -9046,23 +5677,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "PET 1"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "PET 1"
-      ]
+      ["Monday", "03:00-03:50", "PET 1"],
+      ["Tuesday", "05:00-05:50", "PET 1"],
+      ["Thursday", "03:00-03:50", "PET 1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 383,
@@ -9074,23 +5693,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "PET 1"
-      ]
+      ["Tuesday", "03:00-03:50", "PET 1"],
+      ["Wednesday", "04:00-04:50", "PET 1"],
+      ["Friday", "03:00-03:50", "PET 1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 384,
@@ -9102,23 +5709,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "PET 1"
-      ]
+      ["Tuesday", "04:00-04:50", "PET 1"],
+      ["Wednesday", "05:00-05:50", "PET 1"],
+      ["Friday", "04:00-04:50", "PET 1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 385,
@@ -9130,7 +5725,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC304.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 386,
@@ -9142,7 +5737,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC305.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 387,
@@ -9154,23 +5749,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "PET 3"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "PET 3"
-      ]
+      ["Wednesday", "03:00-03:50", "PET 3"],
+      ["Thursday", "02:00-02:50", "PET 3"],
+      ["Friday", "02:00-02:50", "PET 3"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 388,
@@ -9182,18 +5765,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC300.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "PHUG LAB-2"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "PHUG LAB-2"
-      ]
+      ["Monday", "11:00-11:50", "PHUG LAB-2"],
+      ["Monday", "10:00-10:50", "PHUG LAB-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 389,
@@ -9205,18 +5780,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC301.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "PHUG LAB-2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "PHUG LAB-2"
-      ]
+      ["Thursday", "11:00-11:50", "PHUG LAB-2"],
+      ["Thursday", "10:00-10:50", "PHUG LAB-2"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 390,
@@ -9228,7 +5795,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC514.pdf",
     credits: "3-1-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 391,
@@ -9240,7 +5807,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC515.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 392,
@@ -9252,23 +5819,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO300.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-I-C18"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-I-C18"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-I-C18"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-I-C18"],
+      ["Wednesday", "05:00-05:50", "LC-I-C18"],
+      ["Friday", "04:00-04:50", "LC-I-C18"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 393,
@@ -9280,7 +5835,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO302.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 394,
@@ -9292,23 +5847,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "CSE CR1"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "CSE CR1"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "CSE CR1"
-      ]
+      ["Monday", "10:00-10:50", "CSE CR1"],
+      ["Tuesday", "09:00-09:50", "CSE CR1"],
+      ["Thursday", "11:00-11:50", "CSE CR1"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 395,
@@ -9320,18 +5863,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC507.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "CSE LAB - III"
-      ],
-      [
-        "Monday",
-        "03:00-03:50",
-        "CSE LAB - III"
-      ]
+      ["Monday", "04:00-04:50", "CSE LAB - III"],
+      ["Monday", "03:00-03:50", "CSE LAB - III"],
     ],
-    semester: "MS"
+    semester: "MS",
   },
   {
     id: 396,
@@ -9343,23 +5878,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C9"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C9"],
+      ["Wednesday", "09:00-09:50", "LC-II-C9"],
+      ["Friday", "09:00-09:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 397,
@@ -9371,28 +5894,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC207.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C9"
-      ],
-      [
-        "Tuesday",
-        "08:00-08:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C9"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C9"],
+      ["Tuesday", "08:00-08:50", " "],
+      ["Wednesday", "10:00-10:50", "LC-II-C9"],
+      ["Thursday", "11:00-11:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 398,
@@ -9404,23 +5911,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C9"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C9"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C9"],
+      ["Tuesday", "09:00-09:50", "LC-II-C9"],
+      ["Thursday", "09:00-09:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 399,
@@ -9432,23 +5927,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC209.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C9"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C9"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C9"],
+      ["Wednesday", "11:00-11:50", "LC-II-C9"],
+      ["Thursday", "10:00-10:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 400,
@@ -9460,28 +5943,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC210.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        " "
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        " "
-      ]
+      ["Monday", "05:00-05:50", " "],
+      ["Monday", "04:00-04:50", " "],
+      ["Thursday", "04:00-04:50", " "],
+      ["Thursday", "05:00-05:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 401,
@@ -9493,18 +5960,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC211.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "06:00-06:50",
-        " "
-      ]
+      ["Monday", "06:00-06:50", " "],
+      ["Thursday", "06:00-06:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 402,
@@ -9516,23 +5975,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C9"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C9"],
+      ["Wednesday", "08:00-08:50", "LC-II-C9"],
+      ["Friday", "08:00-08:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 403,
@@ -9544,23 +5991,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G14"],
+      ["Wednesday", "09:00-09:50", "LC-II-G14"],
+      ["Friday", "09:00-09:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 404,
@@ -9572,23 +6007,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G14"],
+      ["Wednesday", "10:00-10:50", "LC-II-G14"],
+      ["Thursday", "11:00-11:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 405,
@@ -9600,23 +6023,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G14"],
+      ["Tuesday", "09:00-09:50", "LC-II-G14"],
+      ["Thursday", "09:00-09:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 406,
@@ -9628,23 +6039,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC209.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G14"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G14"],
+      ["Wednesday", "11:00-11:50", "LC-II-G14"],
+      ["Thursday", "10:00-10:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 407,
@@ -9656,18 +6055,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC210.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "NLHC Computer Lab - I"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "NLHC Computer Lab - I"
-      ]
+      ["Monday", "05:00-05:50", "NLHC Computer Lab - I"],
+      ["Monday", "04:00-04:50", "NLHC Computer Lab - I"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 408,
@@ -9679,18 +6070,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC211.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "NLHC Computer Lab - I"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "NLHC Computer Lab - I"
-      ]
+      ["Thursday", "05:00-05:50", "NLHC Computer Lab - I"],
+      ["Thursday", "04:00-04:50", "NLHC Computer Lab - I"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 409,
@@ -9702,23 +6085,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-G1"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-G1"],
+      ["Wednesday", "08:00-08:50", "LC-II-G1"],
+      ["Friday", "08:00-08:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 410,
@@ -9730,23 +6101,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC206.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C2"],
+      ["Wednesday", "09:00-09:50", "LC-II-C2"],
+      ["Friday", "09:00-09:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 411,
@@ -9758,23 +6117,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C2"],
+      ["Wednesday", "10:00-10:50", "LC-II-C2"],
+      ["Thursday", "11:00-11:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 412,
@@ -9786,23 +6133,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C2"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C2"],
+      ["Tuesday", "09:00-09:50", "LC-II-C2"],
+      ["Thursday", "09:00-09:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 413,
@@ -9814,28 +6149,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC209.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        " "
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C2"],
+      ["Wednesday", "11:00-11:50", "LC-II-C2"],
+      ["Thursday", "10:00-10:50", "LC-II-C2"],
+      ["Friday", "10:00-10:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 414,
@@ -9847,18 +6166,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC210.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "CEUG1"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "CEUG1"
-      ]
+      ["Monday", "05:00-05:50", "CEUG1"],
+      ["Monday", "04:00-04:50", "CEUG1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 415,
@@ -9870,18 +6181,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC211.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "CEUG2"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "CEUG2"
-      ]
+      ["Thursday", "05:00-05:50", "CEUG2"],
+      ["Thursday", "04:00-04:50", "CEUG2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 416,
@@ -9893,23 +6196,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-G6"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-G6"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-G6"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-G6"],
+      ["Wednesday", "08:00-08:50", "LC-II-G6"],
+      ["Friday", "08:00-08:50", "LC-II-G6"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 417,
@@ -9921,23 +6212,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC206.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G2"],
+      ["Wednesday", "09:00-09:50", "LC-II-G2"],
+      ["Friday", "09:00-09:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 418,
@@ -9949,23 +6228,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G2"],
+      ["Wednesday", "10:00-10:50", "LC-II-G2"],
+      ["Thursday", "11:00-11:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 419,
@@ -9977,23 +6244,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G2"],
+      ["Tuesday", "09:00-09:50", "LC-II-G2"],
+      ["Thursday", "09:00-09:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 420,
@@ -10005,23 +6260,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC209.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G2"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G2"],
+      ["Wednesday", "11:00-11:50", "LC-II-G2"],
+      ["Thursday", "10:00-10:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 421,
@@ -10033,7 +6276,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC210.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 422,
@@ -10045,18 +6288,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC211.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "Digital Electronics Lab (635)"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Digital Electronics Lab (635)"
-      ]
+      ["Thursday", "05:00-05:50", "Digital Electronics Lab (635)"],
+      ["Thursday", "04:00-04:50", "Digital Electronics Lab (635)"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 423,
@@ -10068,23 +6303,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-G2"],
+      ["Wednesday", "08:00-08:50", "LC-II-G2"],
+      ["Friday", "08:00-08:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 424,
@@ -10096,23 +6319,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC204.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G16"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G16"],
+      ["Wednesday", "09:00-09:50", "LC-II-G16"],
+      ["Friday", "09:00-09:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 425,
@@ -10124,23 +6335,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G16"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G16"],
+      ["Wednesday", "10:00-10:50", "LC-II-G16"],
+      ["Thursday", "11:00-11:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 426,
@@ -10152,23 +6351,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G16"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G16"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G16"],
+      ["Tuesday", "09:00-09:50", "LC-II-G16"],
+      ["Thursday", "09:00-09:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 427,
@@ -10180,23 +6367,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G16"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G16"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G16"],
+      ["Wednesday", "11:00-11:50", "LC-II-G16"],
+      ["Thursday", "10:00-10:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 428,
@@ -10208,7 +6383,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC273.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 429,
@@ -10220,18 +6395,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC274.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "El MC Lab"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "El MC Lab"
-      ]
+      ["Thursday", "05:00-05:50", "El MC Lab"],
+      ["Thursday", "04:00-04:50", "El MC Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 430,
@@ -10243,23 +6410,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        " "
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        " "
-      ]
+      ["Monday", "08:00-08:50", " "],
+      ["Wednesday", "08:00-08:50", " "],
+      ["Friday", "08:00-08:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 431,
@@ -10271,23 +6426,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC204.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C20"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C20"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C20"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C20"],
+      ["Wednesday", "09:00-09:50", "LC-II-C20"],
+      ["Friday", "09:00-09:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 432,
@@ -10299,23 +6442,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C20"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C20"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C20"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C20"],
+      ["Wednesday", "10:00-10:50", "LC-II-C20"],
+      ["Thursday", "11:00-11:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 433,
@@ -10327,23 +6458,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C20"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C20"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C20"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C20"],
+      ["Tuesday", "09:00-09:50", "LC-II-C20"],
+      ["Thursday", "09:00-09:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 434,
@@ -10355,23 +6474,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C20"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C20"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C20"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C20"],
+      ["Wednesday", "11:00-11:50", "LC-II-C20"],
+      ["Thursday", "10:00-10:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 435,
@@ -10383,18 +6490,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC253.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "Water Chemistry Lab"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "Water Chemistry Lab"
-      ]
+      ["Monday", "05:00-05:50", "Water Chemistry Lab"],
+      ["Monday", "04:00-04:50", "Water Chemistry Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 436,
@@ -10406,18 +6505,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC254.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "Microbiology Lab "
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Microbiology Lab "
-      ]
+      ["Thursday", "05:00-05:50", "Microbiology Lab "],
+      ["Thursday", "04:00-04:50", "Microbiology Lab "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 437,
@@ -10429,23 +6520,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C20"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C20"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C20"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C20"],
+      ["Wednesday", "08:00-08:50", "LC-II-C20"],
+      ["Friday", "08:00-08:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 438,
@@ -10457,23 +6536,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC204.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "FME-1"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "FME-1"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "FME-1"
-      ]
+      ["Monday", "11:00-11:50", "FME-1"],
+      ["Tuesday", "09:00-09:50", "FME-1"],
+      ["Thursday", "09:00-09:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 439,
@@ -10485,23 +6552,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "FME-1"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "FME-1"
-      ]
+      ["Monday", "10:00-10:50", "FME-1"],
+      ["Wednesday", "10:00-10:50", "FME-1"],
+      ["Thursday", "11:00-11:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 440,
@@ -10513,23 +6568,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "FME-1"
-      ]
+      ["Monday", "09:00-09:50", "FME-1"],
+      ["Wednesday", "09:00-09:50", "FME-1"],
+      ["Friday", "09:00-09:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 441,
@@ -10541,23 +6584,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "FME-1"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "FME-1"
-      ]
+      ["Tuesday", "10:00-10:50", "FME-1"],
+      ["Wednesday", "11:00-11:50", "FME-1"],
+      ["Thursday", "10:00-10:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 442,
@@ -10569,7 +6600,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC253.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 443,
@@ -10581,7 +6612,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC254.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 444,
@@ -10593,23 +6624,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FME222.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C5"],
+      ["Wednesday", "08:00-08:50", "LC-II-C5"],
+      ["Friday", "08:00-08:50", "LC-II-C5"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 445,
@@ -10621,23 +6640,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G3"],
+      ["Wednesday", "09:00-09:50", "LC-II-G3"],
+      ["Friday", "09:00-09:50", "LC-II-G3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 446,
@@ -10649,23 +6656,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G3"],
+      ["Wednesday", "10:00-10:50", "LC-II-G3"],
+      ["Thursday", "11:00-11:50", "LC-II-G3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 447,
@@ -10677,23 +6672,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G3"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G3"],
+      ["Tuesday", "09:00-09:50", "LC-II-G3"],
+      ["Thursday", "09:00-09:50", "LC-II-G3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 448,
@@ -10705,23 +6688,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G3"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G3"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G3"],
+      ["Wednesday", "11:00-11:50", "LC-II-G3"],
+      ["Thursday", "10:00-10:50", "LC-II-G3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 449,
@@ -10733,28 +6704,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC209.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        " "
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        " "
-      ]
+      ["Tuesday", "05:00-05:50", " "],
+      ["Tuesday", "04:00-04:50", " "],
+      ["Wednesday", "05:00-05:50", " "],
+      ["Wednesday", "04:00-04:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 450,
@@ -10766,7 +6721,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC210.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 451,
@@ -10778,7 +6733,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNE202.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 452,
@@ -10790,23 +6745,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G1"],
+      ["Wednesday", "09:00-09:50", "LC-II-G1"],
+      ["Friday", "09:00-09:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 453,
@@ -10818,23 +6761,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G1"],
+      ["Wednesday", "10:00-10:50", "LC-II-G1"],
+      ["Thursday", "11:00-11:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 454,
@@ -10846,23 +6777,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G1"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G1"],
+      ["Tuesday", "09:00-09:50", "LC-II-G1"],
+      ["Thursday", "09:00-09:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 455,
@@ -10874,23 +6793,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC209.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G1"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G1"],
+      ["Wednesday", "11:00-11:50", "LC-II-G1"],
+      ["Thursday", "10:00-10:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 456,
@@ -10902,7 +6809,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC210.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 457,
@@ -10914,18 +6821,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC211.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "03:00-03:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        " "
-      ]
+      ["Thursday", "03:00-03:50", " "],
+      ["Thursday", "02:00-02:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 458,
@@ -10937,7 +6836,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEE202.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 459,
@@ -10949,28 +6848,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC206.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C4"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        " "
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C4"],
+      ["Wednesday", "09:00-09:50", "LC-II-C4"],
+      ["Thursday", "08:00-08:50", " "],
+      ["Friday", "09:00-09:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 460,
@@ -10982,23 +6865,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C4"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C4"],
+      ["Wednesday", "10:00-10:50", "LC-II-C4"],
+      ["Thursday", "11:00-11:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 461,
@@ -11010,23 +6881,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C4"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C4"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C4"],
+      ["Tuesday", "09:00-09:50", "LC-II-C4"],
+      ["Thursday", "09:00-09:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 462,
@@ -11038,23 +6897,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC209.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C4"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C4"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C4"],
+      ["Wednesday", "11:00-11:50", "LC-II-C4"],
+      ["Thursday", "10:00-10:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 463,
@@ -11066,18 +6913,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC210.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "PH&P LAB"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "PH&P LAB"
-      ]
+      ["Monday", "05:00-05:50", "PH&P LAB"],
+      ["Monday", "04:00-04:50", "PH&P LAB"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 464,
@@ -11089,18 +6928,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC211.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "Workshop"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Workshop"
-      ]
+      ["Thursday", "05:00-05:50", "Workshop"],
+      ["Thursday", "04:00-04:50", "Workshop"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 465,
@@ -11112,23 +6943,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MME201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C4"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C4"],
+      ["Wednesday", "08:00-08:50", "LC-II-C4"],
+      ["Friday", "08:00-08:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 466,
@@ -11140,23 +6959,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "PET 2"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "PET 2"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "PET 2"
-      ]
+      ["Monday", "09:00-09:50", "PET 2"],
+      ["Wednesday", "09:00-09:50", "PET 2"],
+      ["Friday", "09:00-09:50", "PET 2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 467,
@@ -11168,23 +6975,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "PET 2"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "PET 2"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "PET 2"
-      ]
+      ["Monday", "10:00-10:50", "PET 2"],
+      ["Wednesday", "10:00-10:50", "PET 2"],
+      ["Thursday", "11:00-11:50", "PET 2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 468,
@@ -11196,23 +6991,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "PET 2"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "PET 2"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "PET 2"
-      ]
+      ["Monday", "11:00-11:50", "PET 2"],
+      ["Tuesday", "09:00-09:50", "PET 2"],
+      ["Thursday", "09:00-09:50", "PET 2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 469,
@@ -11223,14 +7006,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC209.pdf",
     credits: "0-0-2",
-    timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        " "
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Tuesday", "03:00-03:50", " "]],
+    semester: "WS",
   },
   {
     id: 470,
@@ -11242,7 +7019,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC210.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 471,
@@ -11254,23 +7031,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "PET 2"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "PET 2"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "PET 2"
-      ]
+      ["Monday", "08:00-08:50", "PET 2"],
+      ["Wednesday", "08:00-08:50", "PET 2"],
+      ["Friday", "08:00-08:50", "PET 2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 472,
@@ -11282,23 +7047,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C15"],
+      ["Wednesday", "09:00-09:50", "LC-II-C15"],
+      ["Friday", "09:00-09:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 473,
@@ -11310,23 +7063,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C15"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C15"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C15"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C15"],
+      ["Wednesday", "10:00-10:50", "LC-II-C15"],
+      ["Thursday", "11:00-11:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 474,
@@ -11338,23 +7079,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C15"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C15"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C15"],
+      ["Tuesday", "09:00-09:50", "LC-II-C15"],
+      ["Thursday", "09:00-09:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 475,
@@ -11366,23 +7095,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C15"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C15"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C15"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C15"],
+      ["Wednesday", "11:00-11:50", "LC-II-C15"],
+      ["Thursday", "10:00-10:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 476,
@@ -11394,18 +7111,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC209.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "PHUG LAB-2"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "PHUG LAB-2"
-      ]
+      ["Monday", "05:00-05:50", "PHUG LAB-2"],
+      ["Monday", "04:00-04:50", "PHUG LAB-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 477,
@@ -11417,18 +7126,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC210.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "PHUG LAB-2"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "PHUG LAB-2"
-      ]
+      ["Thursday", "05:00-05:50", "PHUG LAB-2"],
+      ["Thursday", "04:00-04:50", "PHUG LAB-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 478,
@@ -11440,23 +7141,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHE202.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C15"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C15"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C15"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C15"],
+      ["Wednesday", "08:00-08:50", "LC-II-C15"],
+      ["Friday", "08:00-08:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 479,
@@ -11468,23 +7157,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC306.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C9"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C9"],
+      ["Wednesday", "02:00-02:50", "LC-II-C9"],
+      ["Friday", "02:00-02:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 480,
@@ -11496,23 +7173,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC307.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-C9"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-C9"],
+      ["Wednesday", "06:00-06:50", "LC-II-C9"],
+      ["Friday", "06:00-06:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 481,
@@ -11524,23 +7189,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC308.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "CSE LAB - III"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "CSE LAB - III"
-      ],
-      [
-        "Tuesday",
-        "12:00-12:50",
-        " "
-      ]
+      ["Tuesday", "11:00-11:50", "CSE LAB - III"],
+      ["Tuesday", "10:00-10:50", "CSE LAB - III"],
+      ["Tuesday", "12:00-12:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 482,
@@ -11552,18 +7205,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC309.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "NLHC Computer lab 3"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "NLHC Computer lab 3"
-      ]
+      ["Thursday", "11:00-11:50", "NLHC Computer lab 3"],
+      ["Thursday", "10:00-10:50", "NLHC Computer lab 3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 483,
@@ -11575,23 +7220,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD402.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "CHE-423"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "CHE-423"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "CHE-423"
-      ]
+      ["Tuesday", "02:00-02:50", "CHE-423"],
+      ["Thursday", "02:00-02:50", "CHE-423"],
+      ["Friday", "03:00-03:50", "CHE-423"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 484,
@@ -11603,23 +7236,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C9"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C9"],
+      ["Wednesday", "04:00-04:50", "LC-II-C9"],
+      ["Friday", "04:00-04:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 485,
@@ -11631,23 +7252,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C9"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C9"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C9"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C9"],
+      ["Wednesday", "03:00-03:50", "LC-II-C9"],
+      ["Thursday", "03:00-03:50", "LC-II-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 486,
@@ -11659,23 +7268,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC305.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G9"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G9"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G9"],
+      ["Wednesday", "02:00-02:50", "LC-II-G9"],
+      ["Friday", "02:00-02:50", "LC-II-G9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 487,
@@ -11687,23 +7284,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC306.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-G9"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-G9"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-G9"],
+      ["Wednesday", "06:00-06:50", "LC-II-G9"],
+      ["Friday", "06:00-06:50", "LC-II-G9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 488,
@@ -11715,18 +7300,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC307.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "NLHC Computer Lab - I"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "NLHC Computer Lab - I"
-      ]
+      ["Tuesday", "11:00-11:50", "NLHC Computer Lab - I"],
+      ["Tuesday", "10:00-10:50", "NLHC Computer Lab - I"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 489,
@@ -11738,18 +7315,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC308.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "10:00-10:50",
-        "CSE LAB - III"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "CSE LAB - III"
-      ]
+      ["Thursday", "10:00-10:50", "CSE LAB - III"],
+      ["Thursday", "11:00-11:50", "CSE LAB - III"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 490,
@@ -11761,23 +7330,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C6"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C6"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C6"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C6"],
+      ["Wednesday", "03:00-03:50", "LC-II-C6"],
+      ["Thursday", "03:00-03:50", "LC-II-C6"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 491,
@@ -11789,23 +7346,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO304.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C6"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C6"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C6"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C6"],
+      ["Thursday", "02:00-02:50", "LC-II-C6"],
+      ["Friday", "03:00-03:50", "LC-II-C6"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 492,
@@ -11817,23 +7362,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO506.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G15"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-G15"],
+      ["Wednesday", "04:00-04:50", "LC-II-G15"],
+      ["Friday", "04:00-04:50", "LC-II-G15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 493,
@@ -11845,23 +7378,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC305.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C5"],
+      ["Wednesday", "02:00-02:50", "LC-II-C5"],
+      ["Friday", "02:00-02:50", "LC-II-C5"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 494,
@@ -11873,23 +7394,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC306.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-C5"],
+      ["Wednesday", "06:00-06:50", "LC-II-C5"],
+      ["Friday", "06:00-06:50", "LC-II-C5"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 495,
@@ -11901,18 +7410,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC307.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "CEUG3"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "CEUG3"
-      ]
+      ["Tuesday", "11:00-11:50", "CEUG3"],
+      ["Tuesday", "10:00-10:50", "CEUG3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 496,
@@ -11924,18 +7425,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC308.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "10:00-10:50",
-        "CEUG4"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "CEUG4"
-      ]
+      ["Thursday", "10:00-10:50", "CEUG4"],
+      ["Thursday", "11:00-11:50", "CEUG4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 497,
@@ -11947,23 +7440,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C4"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C4"],
+      ["Thursday", "02:00-02:50", "LC-II-C4"],
+      ["Friday", "03:00-03:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 498,
@@ -11975,23 +7456,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO525.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C4"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C4"],
+      ["Wednesday", "03:00-03:50", "LC-II-C4"],
+      ["Thursday", "03:00-03:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 499,
@@ -12003,23 +7472,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO527.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C4"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C4"],
+      ["Wednesday", "04:00-04:50", "LC-II-C4"],
+      ["Friday", "04:00-04:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 500,
@@ -12031,23 +7488,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC306.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G12"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G12"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G12"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G12"],
+      ["Wednesday", "02:00-02:50", "LC-II-G12"],
+      ["Friday", "02:00-02:50", "LC-II-G12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 501,
@@ -12059,23 +7504,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC307.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-G12"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-G12"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-G12"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-G12"],
+      ["Wednesday", "06:00-06:50", "LC-II-G12"],
+      ["Friday", "06:00-06:50", "LC-II-G12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 502,
@@ -12087,18 +7520,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC308.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        " "
-      ]
+      ["Tuesday", "11:00-11:50", " "],
+      ["Tuesday", "10:00-10:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 503,
@@ -12110,18 +7535,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC309.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Microwave & Antenna Lab (232)"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "Microwave & Antenna Lab (232)"
-      ]
+      ["Thursday", "11:00-11:50", "Microwave & Antenna Lab (232)"],
+      ["Thursday", "10:00-10:50", "Microwave & Antenna Lab (232)"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 504,
@@ -12133,23 +7550,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-I-C12"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-I-C12"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C12"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-I-C12"],
+      ["Thursday", "02:00-02:50", "LC-I-C12"],
+      ["Friday", "03:00-03:50", "LC-I-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 505,
@@ -12161,23 +7566,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G7"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G7"],
+      ["Wednesday", "03:00-03:50", "LC-II-G7"],
+      ["Thursday", "03:00-03:50", "LC-II-G7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 506,
@@ -12188,14 +7581,8 @@
     type: "Open Elective (OE)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO402.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Friday",
-        "04:00-04:50",
-        " "
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Friday", "04:00-04:50", " "]],
+    semester: "WS",
   },
   {
     id: 507,
@@ -12207,23 +7594,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC311.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G14"],
+      ["Wednesday", "02:00-02:50", "LC-II-G14"],
+      ["Friday", "02:00-02:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 508,
@@ -12235,23 +7610,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC312.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-G14"],
+      ["Wednesday", "06:00-06:50", "LC-II-G14"],
+      ["Friday", "06:00-06:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 509,
@@ -12263,7 +7626,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC377.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 510,
@@ -12275,18 +7638,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC378.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "PE Lab"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "PE Lab"
-      ]
+      ["Thursday", "11:00-11:50", "PE Lab"],
+      ["Thursday", "10:00-10:50", "PE Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 511,
@@ -12298,18 +7653,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        " "
-      ]
+      ["Monday", "03:00-03:50", " "],
+      ["Wednesday", "03:00-03:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 512,
@@ -12321,23 +7668,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G14"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-G14"],
+      ["Thursday", "02:00-02:50", "LC-II-G14"],
+      ["Friday", "03:00-03:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 513,
@@ -12349,23 +7684,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "PET 4"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "PET 4"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "PET 4"
-      ]
+      ["Monday", "04:00-04:50", "PET 4"],
+      ["Wednesday", "04:00-04:50", "PET 4"],
+      ["Friday", "04:00-04:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 514,
@@ -12377,23 +7700,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC311.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "FME-2"
-      ]
+      ["Monday", "02:00-02:50", "FME-2"],
+      ["Wednesday", "02:00-02:50", "FME-2"],
+      ["Friday", "02:00-02:50", "FME-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 515,
@@ -12405,23 +7716,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC312.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "FME-2"
-      ]
+      ["Monday", "06:00-06:50", "FME-2"],
+      ["Wednesday", "06:00-06:50", "FME-2"],
+      ["Friday", "06:00-06:50", "FME-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 516,
@@ -12433,18 +7732,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC357.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "Wastewater Lab"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "Wastewater Lab"
-      ]
+      ["Tuesday", "11:00-11:50", "Wastewater Lab"],
+      ["Tuesday", "10:00-10:50", "Wastewater Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 517,
@@ -12456,18 +7747,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC358.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Remote Sensing & GIS Lab"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "Remote Sensing & GIS Lab"
-      ]
+      ["Thursday", "11:00-11:50", "Remote Sensing & GIS Lab"],
+      ["Thursday", "10:00-10:50", "Remote Sensing & GIS Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 518,
@@ -12479,23 +7762,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "FME-2"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "FME-2"
-      ]
+      ["Tuesday", "02:00-02:50", "FME-2"],
+      ["Thursday", "02:00-02:50", "FME-2"],
+      ["Friday", "03:00-03:50", "FME-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 519,
@@ -12507,23 +7778,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "FME-2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "FME-2"
-      ]
+      ["Monday", "03:00-03:50", "FME-2"],
+      ["Wednesday", "03:00-03:50", "FME-2"],
+      ["Thursday", "03:00-03:50", "FME-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 520,
@@ -12535,23 +7794,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "FME-2"
-      ]
+      ["Monday", "04:00-04:50", "FME-2"],
+      ["Wednesday", "04:00-04:50", "FME-2"],
+      ["Friday", "04:00-04:50", "FME-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 521,
@@ -12563,23 +7810,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C15"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C15"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C15"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C15"],
+      ["Wednesday", "03:00-03:50", "LC-II-C15"],
+      ["Thursday", "03:00-03:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 522,
@@ -12591,23 +7826,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC303.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-C8"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-C8"],
+      ["Wednesday", "06:00-06:50", "LC-II-C8"],
+      ["Friday", "06:00-06:50", "LC-II-C8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 523,
@@ -12619,23 +7842,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC304.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C8"],
+      ["Wednesday", "02:00-02:50", "LC-II-C8"],
+      ["Friday", "02:00-02:50", "LC-II-C8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 524,
@@ -12647,18 +7858,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC305.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        " "
-      ]
+      ["Thursday", "11:00-11:50", " "],
+      ["Thursday", "10:00-10:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 525,
@@ -12670,7 +7873,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC352.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 526,
@@ -12682,23 +7885,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD463.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C8"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C8"],
+      ["Wednesday", "03:00-03:50", "LC-II-C8"],
+      ["Thursday", "03:00-03:50", "LC-II-C8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 527,
@@ -12710,7 +7901,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD464.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 528,
@@ -12722,23 +7913,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMO431.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C8"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C8"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C8"],
+      ["Thursday", "02:00-02:50", "LC-II-C8"],
+      ["Friday", "03:00-03:50", "LC-II-C8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 529,
@@ -12750,23 +7929,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSD512.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-G9"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G9"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-G9"],
+      ["Wednesday", "04:00-04:50", "LC-II-G9"],
+      ["Friday", "04:00-04:50", "LC-II-G9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 530,
@@ -12778,18 +7945,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSD533.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        " "
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        " "
-      ]
+      ["Tuesday", "02:00-02:50", " "],
+      ["Friday", "03:00-03:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 531,
@@ -12801,23 +7960,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSO307.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-G4"],
+      ["Wednesday", "04:00-04:50", "LC-II-G4"],
+      ["Friday", "04:00-04:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 532,
@@ -12829,7 +7976,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSO308.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 533,
@@ -12841,7 +7988,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSO320.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 534,
@@ -12853,7 +8000,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSO511.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 535,
@@ -12865,7 +8012,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSO512.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 536,
@@ -12877,7 +8024,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/HSO514.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 537,
@@ -12889,23 +8036,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC304.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G15"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G15"],
+      ["Wednesday", "02:00-02:50", "LC-II-G15"],
+      ["Friday", "02:00-02:50", "LC-II-G15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 538,
@@ -12917,23 +8052,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC305.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-G15"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-G15"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-G15"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-G15"],
+      ["Wednesday", "06:00-06:50", "LC-II-G15"],
+      ["Friday", "06:00-06:50", "LC-II-G15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 539,
@@ -12945,7 +8068,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC306.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 540,
@@ -12957,7 +8080,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC307.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 541,
@@ -12969,7 +8092,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNO302.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 542,
@@ -12981,7 +8104,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNO304.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 543,
@@ -12993,23 +8116,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNO401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MIN- Seminar Hall"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "MIN- Seminar Hall"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "MIN- Seminar Hall"
-      ]
+      ["Tuesday", "02:00-02:50", "MIN- Seminar Hall"],
+      ["Thursday", "02:00-02:50", "MIN- Seminar Hall"],
+      ["Friday", "03:00-03:50", "MIN- Seminar Hall"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 544,
@@ -13021,23 +8132,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC306.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G10"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G10"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G10"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G10"],
+      ["Wednesday", "02:00-02:50", "LC-II-G10"],
+      ["Friday", "02:00-02:50", "LC-II-G10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 545,
@@ -13049,23 +8148,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC307.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-G10"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-G10"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-G10"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-G10"],
+      ["Wednesday", "06:00-06:50", "LC-II-G10"],
+      ["Friday", "06:00-06:50", "LC-II-G10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 546,
@@ -13077,18 +8164,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC308.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Friday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        " "
-      ]
+      ["Friday", "11:00-11:50", " "],
+      ["Friday", "09:00-09:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 547,
@@ -13100,18 +8179,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC309.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "09:00-09:50",
-        " "
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        " "
-      ]
+      ["Thursday", "09:00-09:50", " "],
+      ["Thursday", "12:00-12:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 548,
@@ -13123,23 +8194,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED519.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "NAC Hall"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "NAC Hall"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "NAC Hall"
-      ]
+      ["Monday", "03:00-03:50", "NAC Hall"],
+      ["Wednesday", "03:00-03:50", "NAC Hall"],
+      ["Thursday", "03:00-03:50", "NAC Hall"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 549,
@@ -13151,23 +8210,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "MME-207"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "MME-207"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "MME-207"
-      ]
+      ["Monday", "04:00-04:50", "MME-207"],
+      ["Wednesday", "04:00-04:50", "MME-207"],
+      ["Friday", "04:00-04:50", "MME-207"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 550,
@@ -13179,23 +8226,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO586.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "Mech G2"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "Mech G2"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "Mech G2"
-      ]
+      ["Tuesday", "02:00-02:50", "Mech G2"],
+      ["Thursday", "02:00-02:50", "Mech G2"],
+      ["Friday", "03:00-03:50", "Mech G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 551,
@@ -13207,7 +8242,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED545.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 552,
@@ -13219,23 +8254,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO581.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "Mech G1"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "Mech G1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "Mech G1"
-      ]
+      ["Monday", "03:00-03:50", "Mech G1"],
+      ["Wednesday", "03:00-03:50", "Mech G1"],
+      ["Thursday", "03:00-03:50", "Mech G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 553,
@@ -13247,23 +8270,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO590.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C15"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C15"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C15"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C15"],
+      ["Thursday", "02:00-02:50", "LC-II-C15"],
+      ["Friday", "03:00-03:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 554,
@@ -13275,23 +8286,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC305.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C4"],
+      ["Wednesday", "02:00-02:50", "LC-II-C4"],
+      ["Friday", "02:00-02:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 555,
@@ -13303,23 +8302,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC306.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-C4"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-C4"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-C4"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-C4"],
+      ["Wednesday", "06:00-06:50", "LC-II-C4"],
+      ["Friday", "06:00-06:50", "LC-II-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 556,
@@ -13331,18 +8318,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC307.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "MH- LAB"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "MH- LAB"
-      ]
+      ["Tuesday", "11:00-11:50", "MH- LAB"],
+      ["Tuesday", "10:00-10:50", "MH- LAB"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 557,
@@ -13354,18 +8333,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMC308.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "PFC LAB"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "PFC LAB"
-      ]
+      ["Thursday", "11:00-11:50", "PFC LAB"],
+      ["Thursday", "10:00-10:50", "PFC LAB"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 558,
@@ -13377,23 +8348,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC306.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "PET 2"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "PET 2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "PET 2"
-      ]
+      ["Monday", "02:00-02:50", "PET 2"],
+      ["Wednesday", "02:00-02:50", "PET 2"],
+      ["Friday", "02:00-02:50", "PET 2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 559,
@@ -13405,23 +8364,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC307.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "PET 1"
-      ]
+      ["Monday", "06:00-06:50", "PET 1"],
+      ["Wednesday", "06:00-06:50", "PET 1"],
+      ["Friday", "06:00-06:50", "PET 1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 560,
@@ -13433,7 +8380,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC308.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 561,
@@ -13445,7 +8392,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC309.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 562,
@@ -13457,23 +8404,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "PET 1"
-      ]
+      ["Monday", "04:00-04:50", "PET 1"],
+      ["Wednesday", "04:00-04:50", "PET 1"],
+      ["Friday", "04:00-04:50", "PET 1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 563,
@@ -13485,23 +8420,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "PET 1"
-      ]
+      ["Monday", "03:00-03:50", "PET 1"],
+      ["Wednesday", "03:00-03:50", "PET 1"],
+      ["Thursday", "03:00-03:50", "PET 1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 564,
@@ -13513,23 +8436,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "PET 1"
-      ]
+      ["Tuesday", "02:00-02:50", "PET 1"],
+      ["Thursday", "02:00-02:50", "PET 1"],
+      ["Friday", "03:00-03:50", "PET 1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 565,
@@ -13541,18 +8452,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC302.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "06:00-06:50",
-        " "
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        " "
-      ]
+      ["Wednesday", "06:00-06:50", " "],
+      ["Friday", "06:00-06:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 566,
@@ -13564,18 +8467,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC303.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "PHUG LAB-2"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "PHUG LAB-2"
-      ]
+      ["Tuesday", "11:00-11:50", "PHUG LAB-2"],
+      ["Tuesday", "10:00-10:50", "PHUG LAB-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 567,
@@ -13587,18 +8482,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC304.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "PHUG LAB-2"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "PHUG LAB-2"
-      ]
+      ["Thursday", "11:00-11:50", "PHUG LAB-2"],
+      ["Thursday", "10:00-10:50", "PHUG LAB-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 568,
@@ -13610,23 +8497,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC510.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        " "
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        " "
-      ]
+      ["Monday", "02:00-02:50", " "],
+      ["Wednesday", "02:00-02:50", " "],
+      ["Friday", "02:00-02:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 569,
@@ -13638,23 +8513,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-I-C9"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-I-C9"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C9"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-I-C9"],
+      ["Thursday", "02:00-02:50", "LC-I-C9"],
+      ["Friday", "03:00-03:50", "LC-I-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 570,
@@ -13666,7 +8529,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO403.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 571,
@@ -13678,23 +8541,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "CHE-401"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "CHE-401"
-      ]
+      ["Tuesday", "11:00-11:50", "CHE-401"],
+      ["Thursday", "12:00-12:50", "CHE-401"],
+      ["Friday", "10:00-10:50", "CHE-401"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 572,
@@ -13706,23 +8557,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD411.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "CHE-401"
-      ]
+      ["Monday", "12:00-12:50", "CHE-401"],
+      ["Wednesday", "12:00-12:50", "CHE-401"],
+      ["Friday", "12:00-12:50", "CHE-401"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 573,
@@ -13734,7 +8573,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD417.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 574,
@@ -13746,23 +8585,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO403.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "CHE-401"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "CHE-401"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "CHE-401"
-      ]
+      ["Monday", "08:00-08:50", "CHE-401"],
+      ["Wednesday", "08:00-08:50", "CHE-401"],
+      ["Friday", "08:00-08:50", "CHE-401"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 575,
@@ -13774,23 +8601,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G14"],
+      ["Wednesday", "12:00-12:50", "LC-II-G14"],
+      ["Friday", "12:00-12:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 576,
@@ -13802,7 +8617,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD403.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 577,
@@ -13814,23 +8629,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "CSE CR1"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "CSE CR1"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "CSE CR1"
-      ]
+      ["Monday", "08:00-08:50", "CSE CR1"],
+      ["Wednesday", "08:00-08:50", "CSE CR1"],
+      ["Friday", "08:00-08:50", "CSE CR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 578,
@@ -13842,23 +8645,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        " "
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        " "
-      ]
+      ["Monday", "12:00-12:50", " "],
+      ["Wednesday", "12:00-12:50", " "],
+      ["Friday", "12:00-12:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 579,
@@ -13870,23 +8661,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "CSE CR1"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "CSE CR1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "CSE CR1"
-      ]
+      ["Tuesday", "11:00-11:50", "CSE CR1"],
+      ["Thursday", "12:00-12:50", "CSE CR1"],
+      ["Friday", "10:00-10:50", "CSE CR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 580,
@@ -13898,23 +8677,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G14"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G14"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G14"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-G14"],
+      ["Thursday", "12:00-12:50", "LC-II-G14"],
+      ["Friday", "10:00-10:50", "LC-II-G14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 581,
@@ -13926,7 +8693,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD521.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 582,
@@ -13938,23 +8705,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "LC-II-G9"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "LC-II-G9"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G9"
-      ]
+      ["Tuesday", "08:00-08:50", "LC-II-G9"],
+      ["Thursday", "08:00-08:50", "LC-II-G9"],
+      ["Friday", "09:00-09:50", "LC-II-G9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 583,
@@ -13966,23 +8721,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "CECR3"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "CECR3"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "CECR3"
-      ]
+      ["Tuesday", "11:00-11:50", "CECR3"],
+      ["Thursday", "12:00-12:50", "CECR3"],
+      ["Friday", "10:00-10:50", "CECR3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 584,
@@ -13994,23 +8737,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED529.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "CECR2"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "CECR2"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "CECR2"
-      ]
+      ["Monday", "08:00-08:50", "CECR2"],
+      ["Wednesday", "08:00-08:50", "CECR2"],
+      ["Friday", "08:00-08:50", "CECR2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 585,
@@ -14022,23 +8753,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED542.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "CECR1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "CECR1"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "CECR1"
-      ]
+      ["Monday", "12:00-12:50", "CECR1"],
+      ["Wednesday", "12:00-12:50", "CECR1"],
+      ["Friday", "12:00-12:50", "CECR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 586,
@@ -14050,23 +8769,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO526.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "CECR3"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "CECR3"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "CECR3"
-      ]
+      ["Tuesday", "08:00-08:50", "CECR3"],
+      ["Thursday", "08:00-08:50", "CECR3"],
+      ["Friday", "09:00-09:50", "CECR3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 587,
@@ -14078,23 +8785,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C1"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C1"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-C1"],
+      ["Thursday", "12:00-12:50", "LC-II-C1"],
+      ["Friday", "10:00-10:50", "LC-II-C1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 588,
@@ -14106,23 +8801,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD419.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-I-C4"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-I-C4"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-I-C4"
-      ]
+      ["Monday", "12:00-12:50", "LC-I-C4"],
+      ["Wednesday", "12:00-12:50", "LC-I-C4"],
+      ["Friday", "12:00-12:50", "LC-I-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 589,
@@ -14134,7 +8817,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 590,
@@ -14146,7 +8829,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO506.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 591,
@@ -14158,23 +8841,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C3"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C3"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-C3"],
+      ["Wednesday", "12:00-12:50", "LC-II-C3"],
+      ["Friday", "12:00-12:50", "LC-II-C3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 592,
@@ -14186,23 +8857,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED406.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G16"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G16"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G16"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-G16"],
+      ["Thursday", "12:00-12:50", "LC-II-G16"],
+      ["Friday", "10:00-10:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 593,
@@ -14214,23 +8873,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C3"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C3"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-C3"],
+      ["Thursday", "12:00-12:50", "LC-II-C3"],
+      ["Friday", "10:00-10:50", "LC-II-C3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 594,
@@ -14242,23 +8889,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G16"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G16"],
+      ["Wednesday", "12:00-12:50", "LC-II-G16"],
+      ["Friday", "12:00-12:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 595,
@@ -14270,23 +8905,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C3"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C3"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C3"],
+      ["Wednesday", "08:00-08:50", "LC-II-C3"],
+      ["Friday", "08:00-08:50", "LC-II-C3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 596,
@@ -14298,23 +8921,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "LC-II-C3"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C3"
-      ]
+      ["Tuesday", "08:00-08:50", "LC-II-C3"],
+      ["Thursday", "08:00-08:50", "LC-II-C3"],
+      ["Friday", "09:00-09:50", "LC-II-C3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 597,
@@ -14326,23 +8937,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD402.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "MS 011"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "MS 011"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "MS 011"
-      ]
+      ["Monday", "12:00-12:50", "MS 011"],
+      ["Wednesday", "12:00-12:50", "MS 011"],
+      ["Friday", "12:00-12:50", "MS 011"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 598,
@@ -14354,23 +8953,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD406.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C15"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C15"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C15"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-C15"],
+      ["Thursday", "12:00-12:50", "LC-II-C15"],
+      ["Friday", "10:00-10:50", "LC-II-C15"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 599,
@@ -14382,7 +8969,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD503.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 600,
@@ -14394,18 +8981,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESO505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "LC-II-C20"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "LC-II-C20"
-      ]
+      ["Tuesday", "08:00-08:50", "LC-II-C20"],
+      ["Thursday", "08:00-08:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 601,
@@ -14417,23 +8996,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD462.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "FME-1"
-      ]
+      ["Monday", "12:00-12:50", "FME-1"],
+      ["Wednesday", "12:00-12:50", "FME-1"],
+      ["Friday", "12:00-12:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 602,
@@ -14445,23 +9012,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD522.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "FME-2"
-      ]
+      ["Monday", "08:00-08:50", "FME-2"],
+      ["Wednesday", "08:00-08:50", "FME-2"],
+      ["Friday", "08:00-08:50", "FME-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 603,
@@ -14473,7 +9028,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD530.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 604,
@@ -14485,23 +9040,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD536.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "FME-1"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "FME-1"
-      ]
+      ["Tuesday", "11:00-11:50", "FME-1"],
+      ["Thursday", "12:00-12:50", "FME-1"],
+      ["Friday", "10:00-10:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 605,
@@ -14513,7 +9056,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND407.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 606,
@@ -14525,23 +9068,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND408.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "MIN-1"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "MIN-1"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "MIN-1"
-      ]
+      ["Monday", "08:00-08:50", "MIN-1"],
+      ["Wednesday", "08:00-08:50", "MIN-1"],
+      ["Friday", "08:00-08:50", "MIN-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 607,
@@ -14553,7 +9084,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND409.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 608,
@@ -14565,23 +9096,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND410.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "MIN-1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "MIN-1"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "MIN-1"
-      ]
+      ["Monday", "12:00-12:50", "MIN-1"],
+      ["Wednesday", "12:00-12:50", "MIN-1"],
+      ["Friday", "12:00-12:50", "MIN-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 609,
@@ -14593,23 +9112,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND411.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "MIN-1"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "MIN-1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "MIN-1"
-      ]
+      ["Tuesday", "11:00-11:50", "MIN-1"],
+      ["Thursday", "12:00-12:50", "MIN-1"],
+      ["Friday", "10:00-10:50", "MIN-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 610,
@@ -14621,7 +9128,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND412.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 611,
@@ -14633,23 +9140,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED529.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C14"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C14"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C14"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-C14"],
+      ["Wednesday", "12:00-12:50", "LC-II-C14"],
+      ["Friday", "12:00-12:50", "LC-II-C14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 612,
@@ -14661,23 +9156,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED531.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "MME-207"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "MME-207"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "MME-207"
-      ]
+      ["Tuesday", "11:00-11:50", "MME-207"],
+      ["Thursday", "12:00-12:50", "MME-207"],
+      ["Friday", "10:00-10:50", "MME-207"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 613,
@@ -14689,23 +9172,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO522.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "MME-207"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "MME-207"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "MME-207"
-      ]
+      ["Monday", "08:00-08:50", "MME-207"],
+      ["Wednesday", "08:00-08:50", "MME-207"],
+      ["Friday", "08:00-08:50", "MME-207"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 614,
@@ -14717,23 +9188,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO528.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "MME-207"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "MME-207"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "MME-207"
-      ]
+      ["Tuesday", "08:00-08:50", "MME-207"],
+      ["Thursday", "08:00-08:50", "MME-207"],
+      ["Friday", "09:00-09:50", "MME-207"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 615,
@@ -14745,7 +9204,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED521.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 616,
@@ -14757,23 +9216,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED541.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "Mech G1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "Mech G1"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "Mech G1"
-      ]
+      ["Monday", "12:00-12:50", "Mech G1"],
+      ["Wednesday", "12:00-12:50", "Mech G1"],
+      ["Friday", "12:00-12:50", "Mech G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 617,
@@ -14785,23 +9232,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED542.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "Mech G2"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "Mech G2"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "Mech G2"
-      ]
+      ["Tuesday", "11:00-11:50", "Mech G2"],
+      ["Thursday", "12:00-12:50", "Mech G2"],
+      ["Friday", "10:00-10:50", "Mech G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 618,
@@ -14813,23 +9248,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MMO504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "Mech G1"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "Mech G1"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "Mech G1"
-      ]
+      ["Monday", "08:00-08:50", "Mech G1"],
+      ["Wednesday", "08:00-08:50", "Mech G1"],
+      ["Friday", "08:00-08:50", "Mech G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 619,
@@ -14841,23 +9264,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED404.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "PET 1"
-      ]
+      ["Monday", "12:00-12:50", "PET 1"],
+      ["Wednesday", "12:00-12:50", "PET 1"],
+      ["Friday", "12:00-12:50", "PET 1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 620,
@@ -14869,23 +9280,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "PET 3"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "PET 3"
-      ]
+      ["Monday", "12:00-12:50", "PET 3"],
+      ["Wednesday", "12:00-12:50", "PET 3"],
+      ["Friday", "12:00-12:50", "PET 3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 621,
@@ -14897,23 +9296,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED406.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "PET 3"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "PET 3"
-      ]
+      ["Tuesday", "11:00-11:50", "PET 3"],
+      ["Thursday", "12:00-12:50", "PET 3"],
+      ["Friday", "10:00-10:50", "PET 3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 622,
@@ -14925,23 +9312,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "PET 1"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "PET 1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "PET 1"
-      ]
+      ["Tuesday", "11:00-11:50", "PET 1"],
+      ["Thursday", "12:00-12:50", "PET 1"],
+      ["Friday", "10:00-10:50", "PET 1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 623,
@@ -14953,23 +9328,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO405.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "PET 3"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "PET 3"
-      ]
+      ["Tuesday", "08:00-08:50", "PET 3"],
+      ["Thursday", "08:00-08:50", "PET 3"],
+      ["Friday", "09:00-09:50", "PET 3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 624,
@@ -14981,23 +9344,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO506.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "PET 3"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "PET 3"
-      ]
+      ["Monday", "08:00-08:50", "PET 3"],
+      ["Wednesday", "08:00-08:50", "PET 3"],
+      ["Friday", "08:00-08:50", "PET 3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 625,
@@ -15009,23 +9360,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C5"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-C5"],
+      ["Wednesday", "12:00-12:50", "LC-II-C5"],
+      ["Friday", "12:00-12:50", "LC-II-C5"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 626,
@@ -15037,7 +9376,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD511.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 627,
@@ -15049,7 +9388,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD512.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 628,
@@ -15061,7 +9400,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD513.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 629,
@@ -15073,7 +9412,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO303.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 630,
@@ -15085,23 +9424,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "MS 010"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "MS 010"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "MS 010"
-      ]
+      ["Monday", "08:00-08:50", "MS 010"],
+      ["Wednesday", "08:00-08:50", "MS 010"],
+      ["Friday", "08:00-08:50", "MS 010"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 631,
@@ -15113,23 +9440,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C6"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C6"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C6"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C6"],
+      ["Wednesday", "09:00-09:50", "LC-II-C6"],
+      ["Friday", "09:00-09:50", "LC-II-C6"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 632,
@@ -15141,23 +9456,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC206.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C6"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C6"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C6"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C6"],
+      ["Wednesday", "10:00-10:50", "LC-II-C6"],
+      ["Thursday", "11:00-11:50", "LC-II-C6"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 633,
@@ -15169,23 +9472,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C6"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C6"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C6"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C6"],
+      ["Tuesday", "09:00-09:50", "LC-II-C6"],
+      ["Thursday", "09:00-09:50", "LC-II-C6"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 634,
@@ -15197,23 +9488,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC208.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-C12"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C12"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-C12"],
+      ["Wednesday", "11:00-11:50", "LC-II-C12"],
+      ["Thursday", "10:00-10:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 635,
@@ -15225,18 +9504,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC209.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Petrology Lab"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "Petrology Lab"
-      ]
+      ["Thursday", "04:00-04:50", "Petrology Lab"],
+      ["Thursday", "05:00-05:50", "Petrology Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 636,
@@ -15248,18 +9519,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC210.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-C6"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C6"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-C6"],
+      ["Monday", "04:00-04:50", "LC-II-C6"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 637,
@@ -15271,7 +9534,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLE202.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 638,
@@ -15283,23 +9546,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "Annexe 102"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "Annexe 102"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "Annexe 102"
-      ]
+      ["Monday", "11:00-11:50", "Annexe 102"],
+      ["Tuesday", "09:00-09:50", "Annexe 102"],
+      ["Thursday", "09:00-09:50", "Annexe 102"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 639,
@@ -15311,23 +9562,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC206.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "Annexe 102"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "Annexe 102"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "Annexe 102"
-      ]
+      ["Monday", "10:00-10:50", "Annexe 102"],
+      ["Wednesday", "10:00-10:50", "Annexe 102"],
+      ["Thursday", "11:00-11:50", "Annexe 102"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 640,
@@ -15339,23 +9578,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC207.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "Annexe 102"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "Annexe 102"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "Annexe 102"
-      ]
+      ["Monday", "09:00-09:50", "Annexe 102"],
+      ["Wednesday", "09:00-09:50", "Annexe 102"],
+      ["Friday", "09:00-09:50", "Annexe 102"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 641,
@@ -15367,18 +9594,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC208.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "Annexe 102"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "Annexe 102"
-      ]
+      ["Monday", "05:00-05:50", "Annexe 102"],
+      ["Monday", "04:00-04:50", "Annexe 102"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 642,
@@ -15390,23 +9609,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPE201.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C12"],
+      ["Wednesday", "08:00-08:50", "LC-II-C12"],
+      ["Friday", "08:00-08:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 643,
@@ -15418,23 +9625,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC205.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G7"
-      ]
+      ["Tuesday", "10:00-10:50", "LC-II-G7"],
+      ["Wednesday", "11:00-11:50", "LC-II-G7"],
+      ["Thursday", "10:00-10:50", "LC-II-G7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 644,
@@ -15446,23 +9641,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-G4"],
+      ["Wednesday", "09:00-09:50", "LC-II-G4"],
+      ["Friday", "09:00-09:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 645,
@@ -15474,23 +9657,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G4"],
+      ["Wednesday", "10:00-10:50", "LC-II-G4"],
+      ["Thursday", "11:00-11:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 646,
@@ -15502,18 +9673,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC512.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "UG Lab-1"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "UG Lab-1"
-      ]
+      ["Monday", "05:00-05:50", "UG Lab-1"],
+      ["Monday", "04:00-04:50", "UG Lab-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 647,
@@ -15525,23 +9688,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCE301.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-G7"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-G7"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-G7"],
+      ["Wednesday", "08:00-08:50", "LC-II-G7"],
+      ["Friday", "08:00-08:50", "LC-II-G7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 648,
@@ -15553,23 +9704,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G7"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G7"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G7"],
+      ["Tuesday", "09:00-09:50", "LC-II-G7"],
+      ["Thursday", "09:00-09:50", "LC-II-G7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 649,
@@ -15581,23 +9720,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "AGL-3"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "AGL-3"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "AGL-3"
-      ]
+      ["Monday", "02:00-02:50", "AGL-3"],
+      ["Wednesday", "02:00-02:50", "AGL-3"],
+      ["Friday", "02:00-02:50", "AGL-3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 650,
@@ -15609,23 +9736,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "AGL-3"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "AGL-3"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "AGL-3"
-      ]
+      ["Monday", "06:00-06:50", "AGL-3"],
+      ["Wednesday", "06:00-06:50", "AGL-3"],
+      ["Friday", "06:00-06:50", "AGL-3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 651,
@@ -15637,18 +9752,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC514.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "Petrology Lab"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "Petrology Lab"
-      ]
+      ["Tuesday", "11:00-11:50", "Petrology Lab"],
+      ["Tuesday", "10:00-10:50", "Petrology Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 652,
@@ -15660,7 +9767,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC515.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 653,
@@ -15672,23 +9779,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD530.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C11"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C11"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C11"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C11"],
+      ["Wednesday", "04:00-04:50", "LC-II-C11"],
+      ["Friday", "04:00-04:50", "LC-II-C11"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 654,
@@ -15700,23 +9795,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD540.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "AGL-1"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "AGL-1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "AGL-1"
-      ]
+      ["Monday", "03:00-03:50", "AGL-1"],
+      ["Wednesday", "03:00-03:50", "AGL-1"],
+      ["Thursday", "03:00-03:50", "AGL-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 655,
@@ -15728,23 +9811,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C12"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C12"],
+      ["Wednesday", "03:00-03:50", "LC-II-C12"],
+      ["Thursday", "03:00-03:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 656,
@@ -15756,23 +9827,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C12"],
+      ["Wednesday", "04:00-04:50", "LC-II-C12"],
+      ["Friday", "04:00-04:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 657,
@@ -15784,23 +9843,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C12"],
+      ["Wednesday", "09:00-09:50", "LC-II-C12"],
+      ["Friday", "09:00-09:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 658,
@@ -15812,23 +9859,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C12"],
+      ["Wednesday", "02:00-02:50", "LC-II-C12"],
+      ["Friday", "02:00-02:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 659,
@@ -15840,7 +9875,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC512.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 660,
@@ -15852,7 +9887,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC513.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 661,
@@ -15864,7 +9899,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC515.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 662,
@@ -15876,23 +9911,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPO503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C12"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C12"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C12"],
+      ["Thursday", "02:00-02:50", "LC-II-C12"],
+      ["Friday", "03:00-03:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 663,
@@ -15903,14 +9926,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC511.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Tuesday",
-        "09:00-09:50",
-        " "
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Tuesday", "09:00-09:50", " "]],
+    semester: "WS",
   },
   {
     id: 664,
@@ -15922,7 +9939,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC513.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 665,
@@ -15934,7 +9951,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD501.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 666,
@@ -15946,23 +9963,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-G16"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-G16"],
+      ["Wednesday", "06:00-06:50", "LC-II-G16"],
+      ["Friday", "06:00-06:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 667,
@@ -15974,23 +9979,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G16"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G16"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G16"],
+      ["Wednesday", "03:00-03:50", "LC-II-G16"],
+      ["Thursday", "03:00-03:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 668,
@@ -16002,23 +9995,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD560.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "Seminar Hall-1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "Seminar Hall-1"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "Seminar Hall-1"
-      ]
+      ["Monday", "04:00-04:50", "Seminar Hall-1"],
+      ["Wednesday", "04:00-04:50", "Seminar Hall-1"],
+      ["Friday", "04:00-04:50", "Seminar Hall-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 669,
@@ -16030,7 +10011,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC513.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 670,
@@ -16042,7 +10023,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC516.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 671,
@@ -16054,23 +10035,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC526.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C7"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C7"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C7"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-C7"],
+      ["Wednesday", "12:00-12:50", "LC-II-C7"],
+      ["Friday", "11:00-11:50", "LC-II-C7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 672,
@@ -16082,18 +10051,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC533.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "Ore Geology Lab"
-      ],
-      [
-        "Monday",
-        "02:00-02:50",
-        "Ore Geology Lab"
-      ]
+      ["Monday", "03:00-03:50", "Ore Geology Lab"],
+      ["Monday", "02:00-02:50", "Ore Geology Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 673,
@@ -16105,23 +10066,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD528.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C7"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C7"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C7"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-C7"],
+      ["Thursday", "12:00-12:50", "LC-II-C7"],
+      ["Friday", "12:00-12:50", "LC-II-C7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 674,
@@ -16133,23 +10082,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD571.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "AGL-3"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "AGL-3"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "AGL-3"
-      ]
+      ["Monday", "08:00-08:50", "AGL-3"],
+      ["Wednesday", "08:00-08:50", "AGL-3"],
+      ["Friday", "08:00-08:50", "AGL-3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 675,
@@ -16161,23 +10098,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLO545.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "AGL-3"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "AGL-3"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "AGL-3"
-      ]
+      ["Tuesday", "08:00-08:50", "AGL-3"],
+      ["Thursday", "08:00-08:50", "AGL-3"],
+      ["Friday", "09:00-09:50", "AGL-3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 676,
@@ -16189,23 +10114,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC520.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C13"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C13"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C13"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C13"],
+      ["Wednesday", "10:00-10:50", "LC-II-C13"],
+      ["Thursday", "11:00-11:50", "LC-II-C13"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 677,
@@ -16217,23 +10130,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC521.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-C13"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-C13"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-C13"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-C13"],
+      ["Wednesday", "12:00-12:50", "LC-II-C13"],
+      ["Friday", "11:00-11:50", "LC-II-C13"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 678,
@@ -16245,7 +10146,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC522.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 679,
@@ -16257,7 +10158,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC523.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 680,
@@ -16269,23 +10170,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-C13"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C13"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-C13"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-C13"],
+      ["Thursday", "12:00-12:50", "LC-II-C13"],
+      ["Friday", "12:00-12:50", "LC-II-C13"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 681,
@@ -16297,23 +10186,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "08:00-08:50",
-        "LC-II-C13"
-      ],
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-C13"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-C13"
-      ]
+      ["Monday", "08:00-08:50", "LC-II-C13"],
+      ["Wednesday", "08:00-08:50", "LC-II-C13"],
+      ["Friday", "08:00-08:50", "LC-II-C13"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 682,
@@ -16325,23 +10202,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC401.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G7"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G7"],
+      ["Wednesday", "12:00-12:50", "LC-II-G7"],
+      ["Friday", "11:00-11:50", "LC-II-G7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 683,
@@ -16353,18 +10218,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC402.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "UG Lab-2"
-      ],
-      [
-        "Monday",
-        "02:00-02:50",
-        "UG Lab-2"
-      ]
+      ["Monday", "03:00-03:50", "UG Lab-2"],
+      ["Monday", "02:00-02:50", "UG Lab-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 684,
@@ -16376,23 +10233,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G7"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-G7"],
+      ["Thursday", "12:00-12:50", "LC-II-G7"],
+      ["Friday", "12:00-12:50", "LC-II-G7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 685,
@@ -16404,23 +10249,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-G7"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-G7"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-G7"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-G7"],
+      ["Wednesday", "10:00-10:50", "LC-II-G7"],
+      ["Thursday", "11:00-11:50", "LC-II-G7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 686,
@@ -16432,7 +10265,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD516.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 687,
@@ -16444,7 +10277,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO402.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 688,
@@ -16456,7 +10289,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 689,
@@ -16468,7 +10301,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC537.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 690,
@@ -16480,7 +10313,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC538.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 691,
@@ -16492,18 +10325,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC539.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        " "
-      ]
+      ["Monday", "11:00-11:50", " "],
+      ["Monday", "10:00-10:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 692,
@@ -16515,18 +10340,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC540.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        " "
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        " "
-      ]
+      ["Wednesday", "11:00-11:50", " "],
+      ["Wednesday", "10:00-10:50", " "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 693,
@@ -16538,7 +10355,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD520.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 694,
@@ -16550,23 +10367,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CHC530.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-C13"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C13"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-C13"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-II-C13"],
+      ["Wednesday", "05:00-05:50", "LC-II-C13"],
+      ["Friday", "05:00-05:50", "LC-II-C13"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 695,
@@ -16578,7 +10383,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CHC531.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 696,
@@ -16590,18 +10395,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC529.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PG Lab"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "PG Lab"
-      ]
+      ["Wednesday", "11:00-11:50", "PG Lab"],
+      ["Wednesday", "10:00-10:50", "PG Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 697,
@@ -16613,7 +10410,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD524.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 698,
@@ -16625,7 +10422,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD529.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 699,
@@ -16637,7 +10434,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD530.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 700,
@@ -16649,7 +10446,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD531.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 701,
@@ -16661,23 +10458,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "CHE-402"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "CHE-402"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "CHE-402"
-      ]
+      ["Monday", "03:00-03:50", "CHE-402"],
+      ["Wednesday", "02:00-02:50", "CHE-402"],
+      ["Friday", "02:00-02:50", "CHE-402"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 702,
@@ -16689,23 +10474,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "CHE-402"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "CHE-402"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "CHE-402"
-      ]
+      ["Tuesday", "02:00-02:50", "CHE-402"],
+      ["Thursday", "03:00-03:50", "CHE-402"],
+      ["Friday", "03:00-03:50", "CHE-402"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 703,
@@ -16717,18 +10490,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC510.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "CHE 426"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "CHE 426"
-      ]
+      ["Monday", "11:00-11:50", "CHE 426"],
+      ["Monday", "10:00-10:50", "CHE 426"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 704,
@@ -16740,18 +10505,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC511.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "CHE-423"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "CHE-423"
-      ]
+      ["Wednesday", "11:00-11:50", "CHE-423"],
+      ["Wednesday", "10:00-10:50", "CHE-423"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 705,
@@ -16763,23 +10520,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "CHE-434"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "CHE-434"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "CHE-434"
-      ]
+      ["Monday", "04:00-04:50", "CHE-434"],
+      ["Wednesday", "03:00-03:50", "CHE-434"],
+      ["Thursday", "04:00-04:50", "CHE-434"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 706,
@@ -16791,7 +10536,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD505.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 707,
@@ -16803,23 +10548,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "CHE-402"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "CHE-402"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "CHE-402"
-      ]
+      ["Tuesday", "04:00-04:50", "CHE-402"],
+      ["Wednesday", "04:00-04:50", "CHE-402"],
+      ["Friday", "04:00-04:50", "CHE-402"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 708,
@@ -16831,7 +10564,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO503.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 709,
@@ -16843,18 +10576,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC508.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "CSE LAB -IV"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "CSE LAB -IV"
-      ]
+      ["Monday", "11:00-11:50", "CSE LAB -IV"],
+      ["Monday", "10:00-10:50", "CSE LAB -IV"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 710,
@@ -16866,18 +10591,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC509.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "CSE LAB -IV"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "CSE LAB -IV"
-      ]
+      ["Wednesday", "11:00-11:50", "CSE LAB -IV"],
+      ["Wednesday", "10:00-10:50", "CSE LAB -IV"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 711,
@@ -16889,23 +10606,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "CSE CR2"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "CSE CR2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "CSE CR2"
-      ]
+      ["Monday", "03:00-03:50", "CSE CR2"],
+      ["Wednesday", "02:00-02:50", "CSE CR2"],
+      ["Friday", "02:00-02:50", "CSE CR2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 712,
@@ -16917,23 +10622,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "CSE CR1"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "CSE CR1"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "CSE CR1"
-      ]
+      ["Monday", "03:00-03:50", "CSE CR1"],
+      ["Wednesday", "02:00-02:50", "CSE CR1"],
+      ["Friday", "02:00-02:50", "CSE CR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 713,
@@ -16945,23 +10638,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "CSE CR1"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "CSE CR1"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "CSE CR1"
-      ]
+      ["Monday", "04:00-04:50", "CSE CR1"],
+      ["Wednesday", "03:00-03:50", "CSE CR1"],
+      ["Thursday", "04:00-04:50", "CSE CR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 714,
@@ -16973,23 +10654,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD516.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "CSE CR2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "CSE CR2"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "CSE CR2"
-      ]
+      ["Tuesday", "02:00-02:50", "CSE CR2"],
+      ["Thursday", "03:00-03:50", "CSE CR2"],
+      ["Friday", "03:00-03:50", "CSE CR2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 715,
@@ -17001,7 +10670,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD517.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 716,
@@ -17013,23 +10682,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "CSE CR1"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "CSE CR1"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "CSE CR1"
-      ]
+      ["Monday", "05:00-05:50", "CSE CR1"],
+      ["Tuesday", "03:00-03:50", "CSE CR1"],
+      ["Thursday", "05:00-05:50", "CSE CR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 717,
@@ -17041,23 +10698,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "NAC Hall"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "NAC Hall"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "NAC Hall"
-      ]
+      ["Tuesday", "04:00-04:50", "NAC Hall"],
+      ["Wednesday", "04:00-04:50", "NAC Hall"],
+      ["Friday", "04:00-04:50", "NAC Hall"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 718,
@@ -17069,23 +10714,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "CSE CR1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "CSE CR1"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "CSE CR1"
-      ]
+      ["Tuesday", "04:00-04:50", "CSE CR1"],
+      ["Wednesday", "04:00-04:50", "CSE CR1"],
+      ["Friday", "04:00-04:50", "CSE CR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 719,
@@ -17097,7 +10730,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO508.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 720,
@@ -17109,18 +10742,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC509.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "CEPG1"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "CEPG1"
-      ]
+      ["Monday", "11:00-11:50", "CEPG1"],
+      ["Monday", "10:00-10:50", "CEPG1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 721,
@@ -17132,18 +10757,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC510.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "CEPG2"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "CEPG2"
-      ]
+      ["Wednesday", "11:00-11:50", "CEPG2"],
+      ["Wednesday", "10:00-10:50", "CEPG2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 722,
@@ -17155,23 +10772,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED528.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "CECR1"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "CECR1"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "CECR1"
-      ]
+      ["Monday", "03:00-03:50", "CECR1"],
+      ["Wednesday", "02:00-02:50", "CECR1"],
+      ["Friday", "02:00-02:50", "CECR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 723,
@@ -17183,23 +10788,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED530.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C1"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C1"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C1"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C1"],
+      ["Wednesday", "02:00-02:50", "LC-II-C1"],
+      ["Friday", "02:00-02:50", "LC-II-C1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 724,
@@ -17211,23 +10804,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED532.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "CECR2"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "CECR2"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "CECR2"
-      ]
+      ["Monday", "04:00-04:50", "CECR2"],
+      ["Wednesday", "03:00-03:50", "CECR2"],
+      ["Thursday", "04:00-04:50", "CECR2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 725,
@@ -17239,23 +10820,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED533.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "CECR3"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "CECR3"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "CECR3"
-      ]
+      ["Tuesday", "02:00-02:50", "CECR3"],
+      ["Thursday", "03:00-03:50", "CECR3"],
+      ["Friday", "03:00-03:50", "CECR3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 726,
@@ -17267,23 +10836,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED534.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "CECR1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "CECR1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "CECR1"
-      ]
+      ["Tuesday", "02:00-02:50", "CECR1"],
+      ["Thursday", "03:00-03:50", "CECR1"],
+      ["Friday", "03:00-03:50", "CECR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 727,
@@ -17295,23 +10852,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED535.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "CECR2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "CECR2"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "CECR2"
-      ]
+      ["Tuesday", "02:00-02:50", "CECR2"],
+      ["Thursday", "03:00-03:50", "CECR2"],
+      ["Friday", "03:00-03:50", "CECR2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 728,
@@ -17323,7 +10868,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CED537.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 729,
@@ -17335,23 +10880,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO524.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "CECR3"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "CECR3"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "CECR3"
-      ]
+      ["Monday", "05:00-05:50", "CECR3"],
+      ["Tuesday", "03:00-03:50", "CECR3"],
+      ["Thursday", "05:00-05:50", "CECR3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 730,
@@ -17363,23 +10896,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO531.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "CECR3"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "CECR3"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "CECR3"
-      ]
+      ["Tuesday", "04:00-04:50", "CECR3"],
+      ["Wednesday", "04:00-04:50", "CECR3"],
+      ["Friday", "04:00-04:50", "CECR3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 731,
@@ -17391,18 +10912,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC507.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "Computer Simulation Lab (637)"
-      ],
-      [
-        "Monday",
-        "11:00-11:50",
-        "Computer Simulation Lab (637)"
-      ]
+      ["Monday", "10:00-10:50", "Computer Simulation Lab (637)"],
+      ["Monday", "11:00-11:50", "Computer Simulation Lab (637)"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 732,
@@ -17414,18 +10927,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC508.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "Digital Signal Processing Lab (216)"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "Digital Signal Processing Lab (216)"
-      ]
+      ["Wednesday", "11:00-11:50", "Digital Signal Processing Lab (216)"],
+      ["Wednesday", "10:00-10:50", "Digital Signal Processing Lab (216)"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 733,
@@ -17437,23 +10942,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD500.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-I-C4"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-I-C4"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C4"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-I-C4"],
+      ["Thursday", "03:00-03:50", "LC-I-C4"],
+      ["Friday", "03:00-03:50", "LC-I-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 734,
@@ -17465,7 +10958,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD501.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 735,
@@ -17477,23 +10970,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C16"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C16"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-C16"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C16"],
+      ["Wednesday", "03:00-03:50", "LC-II-C16"],
+      ["Thursday", "04:00-04:50", "LC-II-C16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 736,
@@ -17505,23 +10986,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G13"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G13"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G13"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G13"],
+      ["Wednesday", "02:00-02:50", "LC-II-G13"],
+      ["Friday", "02:00-02:50", "LC-II-G13"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 737,
@@ -17533,23 +11002,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C16"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C16"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C16"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C16"],
+      ["Thursday", "03:00-03:50", "LC-II-C16"],
+      ["Friday", "03:00-03:50", "LC-II-C16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 738,
@@ -17561,23 +11018,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD514.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-I-C7"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-I-C7"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C7"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-I-C7"],
+      ["Thursday", "03:00-03:50", "LC-I-C7"],
+      ["Friday", "03:00-03:50", "LC-I-C7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 739,
@@ -17589,23 +11034,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD520.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-I-C4"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-I-C4"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-I-C4"
-      ]
+      ["Monday", "04:00-04:50", "LC-I-C4"],
+      ["Wednesday", "03:00-03:50", "LC-I-C4"],
+      ["Thursday", "04:00-04:50", "LC-I-C4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 740,
@@ -17617,7 +11050,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD531.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 741,
@@ -17629,7 +11062,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD540.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 742,
@@ -17641,23 +11074,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD541.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-I-C7"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-I-C7"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-I-C7"
-      ]
+      ["Monday", "04:00-04:50", "LC-I-C7"],
+      ["Wednesday", "03:00-03:50", "LC-I-C7"],
+      ["Thursday", "04:00-04:50", "LC-I-C7"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 743,
@@ -17669,7 +11090,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD560.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 744,
@@ -17681,7 +11102,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD569.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 745,
@@ -17693,23 +11114,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO520.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-C16"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-C16"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-C16"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-C16"],
+      ["Tuesday", "03:00-03:50", "LC-II-C16"],
+      ["Thursday", "05:00-05:50", "LC-II-C16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 746,
@@ -17721,23 +11130,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO560.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C16"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C16"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C16"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-C16"],
+      ["Wednesday", "04:00-04:50", "LC-II-C16"],
+      ["Friday", "04:00-04:50", "LC-II-C16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 747,
@@ -17749,23 +11146,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C2"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C2"],
+      ["Thursday", "03:00-03:50", "LC-II-C2"],
+      ["Friday", "03:00-03:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 748,
@@ -17777,23 +11162,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C2"],
+      ["Wednesday", "02:00-02:50", "LC-II-C2"],
+      ["Friday", "02:00-02:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 749,
@@ -17805,18 +11178,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC513.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "PS Lab"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "PS Lab"
-      ]
+      ["Monday", "11:00-11:50", "PS Lab"],
+      ["Monday", "10:00-10:50", "PS Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 750,
@@ -17828,18 +11193,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC514.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "Prot. Lab"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "Prot. Lab"
-      ]
+      ["Wednesday", "11:00-11:50", "Prot. Lab"],
+      ["Wednesday", "10:00-10:50", "Prot. Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 751,
@@ -17851,23 +11208,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C2"],
+      ["Wednesday", "03:00-03:50", "LC-II-C2"],
+      ["Thursday", "04:00-04:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 752,
@@ -17879,23 +11224,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-C2"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-C2"],
+      ["Tuesday", "03:00-03:50", "LC-II-C2"],
+      ["Thursday", "05:00-05:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 753,
@@ -17907,23 +11240,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEO503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C2"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-C2"],
+      ["Wednesday", "04:00-04:50", "LC-II-C2"],
+      ["Friday", "04:00-04:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 754,
@@ -17935,23 +11256,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC506.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C20"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-C20"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-C20"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C20"],
+      ["Wednesday", "02:00-02:50", "LC-II-C20"],
+      ["Friday", "02:00-02:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 755,
@@ -17963,23 +11272,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C20"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C20"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C20"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-C20"],
+      ["Thursday", "03:00-03:50", "LC-II-C20"],
+      ["Friday", "03:00-03:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 756,
@@ -17991,18 +11288,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC523.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "Wastewater Lab"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "Wastewater Lab"
-      ]
+      ["Monday", "11:00-11:50", "Wastewater Lab"],
+      ["Monday", "10:00-10:50", "Wastewater Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 757,
@@ -18014,18 +11303,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC524.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "Microbiology Lab "
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "Microbiology Lab "
-      ]
+      ["Wednesday", "11:00-11:50", "Microbiology Lab "],
+      ["Wednesday", "10:00-10:50", "Microbiology Lab "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 758,
@@ -18037,23 +11318,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "MS 011"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "MS 011"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "MS 011"
-      ]
+      ["Monday", "04:00-04:50", "MS 011"],
+      ["Wednesday", "03:00-03:50", "MS 011"],
+      ["Thursday", "04:00-04:50", "MS 011"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 759,
@@ -18065,7 +11334,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD512.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 760,
@@ -18077,23 +11346,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-C20"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-C20"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-C20"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-C20"],
+      ["Tuesday", "03:00-03:50", "LC-II-C20"],
+      ["Thursday", "05:00-05:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 761,
@@ -18105,23 +11362,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESO502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C20"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-C20"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-C20"
-      ]
+      ["Tuesday", "04:00-04:50", "LC-II-C20"],
+      ["Wednesday", "04:00-04:50", "LC-II-C20"],
+      ["Friday", "04:00-04:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 762,
@@ -18133,7 +11378,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC553.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 763,
@@ -18145,7 +11390,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMC556.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 764,
@@ -18157,23 +11402,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD525.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "FME-1"
-      ]
+      ["Monday", "03:00-03:50", "FME-1"],
+      ["Wednesday", "02:00-02:50", "FME-1"],
+      ["Friday", "02:00-02:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 765,
@@ -18185,7 +11418,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD528.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 766,
@@ -18197,23 +11430,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD531.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "FME-1"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "FME-1"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "FME-1"
-      ]
+      ["Monday", "05:00-05:50", "FME-1"],
+      ["Tuesday", "03:00-03:50", "FME-1"],
+      ["Thursday", "05:00-05:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 767,
@@ -18225,23 +11446,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD540.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "FME-1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "FME-1"
-      ]
+      ["Tuesday", "02:00-02:50", "FME-1"],
+      ["Thursday", "03:00-03:50", "FME-1"],
+      ["Friday", "03:00-03:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 768,
@@ -18253,23 +11462,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD541.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "FME-1"
-      ]
+      ["Tuesday", "04:00-04:50", "FME-1"],
+      ["Wednesday", "04:00-04:50", "FME-1"],
+      ["Friday", "04:00-04:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 769,
@@ -18281,7 +11478,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC539.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 770,
@@ -18293,23 +11490,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC540.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-I-C18"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-I-C18"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C18"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-I-C18"],
+      ["Thursday", "03:00-03:50", "LC-I-C18"],
+      ["Friday", "03:00-03:50", "LC-I-C18"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 771,
@@ -18321,7 +11506,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC541.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 772,
@@ -18333,18 +11518,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC542.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PG Lab-1"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "PG Lab-1"
-      ]
+      ["Wednesday", "11:00-11:50", "PG Lab-1"],
+      ["Wednesday", "10:00-10:50", "PG Lab-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 773,
@@ -18356,7 +11533,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD543.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 774,
@@ -18368,7 +11545,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO531.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 775,
@@ -18380,7 +11557,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO532.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 776,
@@ -18392,23 +11569,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MIN-2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "MIN-2"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "MIN-2"
-      ]
+      ["Tuesday", "02:00-02:50", "MIN-2"],
+      ["Thursday", "03:00-03:50", "MIN-2"],
+      ["Friday", "03:00-03:50", "MIN-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 777,
@@ -18420,18 +11585,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC506.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "CAMPAD Lab"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "CAMPAD Lab"
-      ]
+      ["Wednesday", "11:00-11:50", "CAMPAD Lab"],
+      ["Wednesday", "10:00-10:50", "CAMPAD Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 778,
@@ -18443,23 +11600,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "MIN-2"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "MIN-2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "MIN-2"
-      ]
+      ["Monday", "03:00-03:50", "MIN-2"],
+      ["Wednesday", "02:00-02:50", "MIN-2"],
+      ["Friday", "02:00-02:50", "MIN-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 779,
@@ -18471,18 +11616,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNC509.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "CAMPAD Lab"
-      ],
-      [
-        "Monday",
-        "11:00-11:50",
-        "CAMPAD Lab"
-      ]
+      ["Monday", "10:00-10:50", "CAMPAD Lab"],
+      ["Monday", "11:00-11:50", "CAMPAD Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 780,
@@ -18494,23 +11631,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND500.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-C5"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C5"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-C5"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-C5"],
+      ["Wednesday", "03:00-03:50", "LC-II-C5"],
+      ["Thursday", "04:00-04:50", "LC-II-C5"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 781,
@@ -18522,23 +11647,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND556.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "MIN-1"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "MIN-1"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "MIN-1"
-      ]
+      ["Monday", "04:00-04:50", "MIN-1"],
+      ["Wednesday", "03:00-03:50", "MIN-1"],
+      ["Thursday", "04:00-04:50", "MIN-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 782,
@@ -18550,23 +11663,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "PET 2"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "PET 2"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "PET 2"
-      ]
+      ["Monday", "05:00-05:50", "PET 2"],
+      ["Tuesday", "03:00-03:50", "PET 2"],
+      ["Thursday", "05:00-05:50", "PET 2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 783,
@@ -18578,23 +11679,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MNO510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "MIN-2"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "MIN-2"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "MIN-2"
-      ]
+      ["Tuesday", "04:00-04:50", "MIN-2"],
+      ["Wednesday", "04:00-04:50", "MIN-2"],
+      ["Friday", "04:00-04:50", "MIN-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 784,
@@ -18606,18 +11695,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC509.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "ThE lab"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "ThE lab"
-      ]
+      ["Monday", "11:00-11:50", "ThE lab"],
+      ["Monday", "10:00-10:50", "ThE lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 785,
@@ -18629,18 +11710,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC510.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "Workshop"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "Workshop"
-      ]
+      ["Wednesday", "11:00-11:50", "Workshop"],
+      ["Wednesday", "10:00-10:50", "Workshop"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 786,
@@ -18652,23 +11725,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "MME-212"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "MME-212"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "MME-212"
-      ]
+      ["Monday", "04:00-04:50", "MME-212"],
+      ["Wednesday", "03:00-03:50", "MME-212"],
+      ["Thursday", "04:00-04:50", "MME-212"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 787,
@@ -18680,23 +11741,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED525.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MME-207"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "MME-207"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "MME-207"
-      ]
+      ["Tuesday", "02:00-02:50", "MME-207"],
+      ["Thursday", "03:00-03:50", "MME-207"],
+      ["Friday", "03:00-03:50", "MME-207"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 788,
@@ -18708,23 +11757,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED538.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "Mech G2"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "Mech G2"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "Mech G2"
-      ]
+      ["Monday", "04:00-04:50", "Mech G2"],
+      ["Wednesday", "03:00-03:50", "Mech G2"],
+      ["Thursday", "04:00-04:50", "Mech G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 789,
@@ -18736,23 +11773,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED546.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "Mech G2"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "Mech G2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "Mech G2"
-      ]
+      ["Monday", "03:00-03:50", "Mech G2"],
+      ["Wednesday", "02:00-02:50", "Mech G2"],
+      ["Friday", "02:00-02:50", "Mech G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 790,
@@ -18764,18 +11789,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED547.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "Mech G1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "Mech G1"
-      ]
+      ["Tuesday", "02:00-02:50", "Mech G1"],
+      ["Friday", "03:00-03:50", "Mech G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 791,
@@ -18787,23 +11804,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED554.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "MME-212"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "MME-212"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "MME-212"
-      ]
+      ["Monday", "05:00-05:50", "MME-212"],
+      ["Tuesday", "03:00-03:50", "MME-212"],
+      ["Thursday", "05:00-05:50", "MME-212"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 792,
@@ -18815,18 +11820,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED555.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "Mech G1"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "Mech G1"
-      ]
+      ["Wednesday", "02:00-02:50", "Mech G1"],
+      ["Friday", "02:00-02:50", "Mech G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 793,
@@ -18838,23 +11835,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO579.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "Mech G2"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "Mech G2"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "Mech G2"
-      ]
+      ["Tuesday", "04:00-04:50", "Mech G2"],
+      ["Wednesday", "04:00-04:50", "Mech G2"],
+      ["Friday", "04:00-04:50", "Mech G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 794,
@@ -18865,14 +11850,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC515.pdf",
     credits: "0-0-2",
-    timetable: [
-      [
-        "Tuesday",
-        "06:00-06:50",
-        " "
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Tuesday", "06:00-06:50", " "]],
+    semester: "WS",
   },
   {
     id: 795,
@@ -18883,14 +11862,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC517.pdf",
     credits: "0-0-2",
-    timetable: [
-      [
-        "Wednesday",
-        "09:00-09:50",
-        " "
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Wednesday", "09:00-09:50", " "]],
+    semester: "WS",
   },
   {
     id: 796,
@@ -18902,23 +11875,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC519.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "MS 210"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "MS 210"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "MS 210"
-      ]
+      ["Monday", "03:00-03:50", "MS 210"],
+      ["Wednesday", "02:00-02:50", "MS 210"],
+      ["Friday", "02:00-02:50", "MS 210"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 797,
@@ -18930,23 +11891,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC520.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MS 010"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "MS 010"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "MS 010"
-      ]
+      ["Tuesday", "02:00-02:50", "MS 010"],
+      ["Thursday", "03:00-03:50", "MS 010"],
+      ["Friday", "03:00-03:50", "MS 010"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 798,
@@ -18958,7 +11907,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC527.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 799,
@@ -18970,23 +11919,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD512.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-G9"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G9"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-G9"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-G9"],
+      ["Tuesday", "03:00-03:50", "LC-II-G9"],
+      ["Thursday", "05:00-05:50", "LC-II-G9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 800,
@@ -18998,23 +11935,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD526.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "MS 010"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "MS 010"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "MS 010"
-      ]
+      ["Monday", "04:00-04:50", "MS 010"],
+      ["Wednesday", "03:00-03:50", "MS 010"],
+      ["Thursday", "04:00-04:50", "MS 010"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 801,
@@ -19026,23 +11951,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "PET 4"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "PET 4"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "PET 4"
-      ]
+      ["Monday", "03:00-03:50", "PET 4"],
+      ["Wednesday", "02:00-02:50", "PET 4"],
+      ["Friday", "02:00-02:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 802,
@@ -19054,23 +11967,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "PET 4"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "PET 4"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "PET 4"
-      ]
+      ["Tuesday", "02:00-02:50", "PET 4"],
+      ["Thursday", "03:00-03:50", "PET 4"],
+      ["Friday", "03:00-03:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 803,
@@ -19082,18 +11983,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC510.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "PE Instrumentation Laboratory"
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "PE Instrumentation Laboratory"
-      ]
+      ["Monday", "11:00-11:50", "PE Instrumentation Laboratory"],
+      ["Monday", "10:00-10:50", "PE Instrumentation Laboratory"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 804,
@@ -19105,18 +11998,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEC511.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "PET 4"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "PET 4"
-      ]
+      ["Wednesday", "11:00-11:50", "PET 4"],
+      ["Wednesday", "10:00-10:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 805,
@@ -19128,18 +12013,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "PET 4"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "PET 4"
-      ]
+      ["Wednesday", "03:00-03:50", "PET 4"],
+      ["Thursday", "04:00-04:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 806,
@@ -19151,23 +12028,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "PET 4"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "PET 4"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "PET 4"
-      ]
+      ["Monday", "05:00-05:50", "PET 4"],
+      ["Tuesday", "03:00-03:50", "PET 4"],
+      ["Thursday", "05:00-05:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 807,
@@ -19179,23 +12044,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PEO503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "PET 3"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "PET 3"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "PET 3"
-      ]
+      ["Tuesday", "04:00-04:50", "PET 3"],
+      ["Wednesday", "04:00-04:50", "PET 3"],
+      ["Friday", "04:00-04:50", "PET 3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 808,
@@ -19207,23 +12060,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ]
+      ["Tuesday", "09:00-09:50", "LC-II-C10"],
+      ["Thursday", "09:00-09:50", "LC-II-C10"],
+      ["Friday", "10:00-10:50", "LC-II-C10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 809,
@@ -19235,23 +12076,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C10"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C10"],
+      ["Wednesday", "10:00-10:50", "LC-II-C10"],
+      ["Thursday", "11:00-11:50", "LC-II-C10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 810,
@@ -19263,23 +12092,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C10"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C10"],
+      ["Wednesday", "09:00-09:50", "LC-II-C10"],
+      ["Friday", "09:00-09:50", "LC-II-C10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 811,
@@ -19291,23 +12108,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC511.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-C10"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-C10"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-C10"],
+      ["Tuesday", "10:00-10:50", "LC-II-C10"],
+      ["Thursday", "10:00-10:50", "LC-II-C10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 812,
@@ -19319,18 +12124,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC512.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "PG Lab"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "PG Lab"
-      ]
+      ["Thursday", "05:00-05:50", "PG Lab"],
+      ["Thursday", "04:00-04:50", "PG Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 813,
@@ -19342,18 +12139,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC513.pdf",
     credits: "0-0-3",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "PG Lab"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "PG Lab"
-      ]
+      ["Monday", "05:00-05:50", "PG Lab"],
+      ["Monday", "04:00-04:50", "PG Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 814,
@@ -19365,23 +12154,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "HSS class room -1"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "HSS class room -1"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "HSS class room -1"
-      ]
+      ["Monday", "12:00-12:50", "HSS class room -1"],
+      ["Wednesday", "12:00-12:50", "HSS class room -1"],
+      ["Friday", "12:00-12:50", "HSS class room -1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 815,
@@ -19393,7 +12170,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYO503.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 816,
@@ -19405,23 +12182,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "11:00-11:50",
-        "LC-II-G4"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "11:00-11:50", "LC-II-G4"],
+      ["Tuesday", "10:00-10:50", "LC-II-G4"],
+      ["Thursday", "10:00-10:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 817,
@@ -19433,7 +12198,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC509.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 818,
@@ -19445,7 +12210,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC510.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 819,
@@ -19457,7 +12222,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC511.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 820,
@@ -19469,7 +12234,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC512.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 821,
@@ -19481,7 +12246,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC513.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 822,
@@ -19493,23 +12258,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G4"],
+      ["Wednesday", "12:00-12:50", "LC-II-G4"],
+      ["Friday", "12:00-12:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 823,
@@ -19521,23 +12274,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC508.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C8"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C8"],
+      ["Wednesday", "09:00-09:50", "LC-II-C8"],
+      ["Friday", "09:00-09:50", "LC-II-C8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 824,
@@ -19549,23 +12290,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-C8"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C8"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C8"
-      ]
+      ["Tuesday", "09:00-09:50", "LC-II-C8"],
+      ["Thursday", "09:00-09:50", "LC-II-C8"],
+      ["Friday", "10:00-10:50", "LC-II-C8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 825,
@@ -19577,7 +12306,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC510.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 826,
@@ -19589,23 +12318,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C8"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C8"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C8"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C8"],
+      ["Wednesday", "10:00-10:50", "LC-II-C8"],
+      ["Thursday", "11:00-11:50", "LC-II-C8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 827,
@@ -19617,18 +12334,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC512.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "PHPG LAB"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "PHPG LAB"
-      ]
+      ["Monday", "05:00-05:50", "PHPG LAB"],
+      ["Monday", "04:00-04:50", "PHPG LAB"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 828,
@@ -19640,18 +12349,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC513.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "05:00-05:50",
-        "PHPG LAB"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "PHPG LAB"
-      ]
+      ["Thursday", "05:00-05:50", "PHPG LAB"],
+      ["Thursday", "04:00-04:50", "PHPG LAB"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 829,
@@ -19663,23 +12364,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-I-C9"
-      ]
+      ["Monday", "12:00-12:50", "LC-I-C9"],
+      ["Wednesday", "12:00-12:50", "LC-I-C9"],
+      ["Friday", "12:00-12:50", "LC-I-C9"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 830,
@@ -19691,7 +12380,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 831,
@@ -19703,23 +12392,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD514.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "MS 111"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "MS 111"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "MS 111"
-      ]
+      ["Monday", "05:00-05:50", "MS 111"],
+      ["Tuesday", "03:00-03:50", "MS 111"],
+      ["Thursday", "05:00-05:50", "MS 111"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 832,
@@ -19731,23 +12408,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD515.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MS 209"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "MS 209"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "MS 209"
-      ]
+      ["Tuesday", "02:00-02:50", "MS 209"],
+      ["Thursday", "03:00-03:50", "MS 209"],
+      ["Friday", "03:00-03:50", "MS 209"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 833,
@@ -19759,23 +12424,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD521.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "MS 210"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "MS 210"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "MS 210"
-      ]
+      ["Monday", "04:00-04:50", "MS 210"],
+      ["Wednesday", "03:00-03:50", "MS 210"],
+      ["Thursday", "04:00-04:50", "MS 210"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 834,
@@ -19787,23 +12440,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "MS 209"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "MS 209"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "MS 209"
-      ]
+      ["Monday", "09:00-09:50", "MS 209"],
+      ["Wednesday", "10:00-10:50", "MS 209"],
+      ["Friday", "10:00-10:50", "MS 209"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 835,
@@ -19815,23 +12456,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "MS 210"
-      ],
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "MS 210"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "MS 210"
-      ]
+      ["Monday", "10:00-10:50", "MS 210"],
+      ["Tuesday", "10:00-10:50", "MS 210"],
+      ["Thursday", "10:00-10:50", "MS 210"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 836,
@@ -19843,23 +12472,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC512.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "MS 011"
-      ],
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "MS 011"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "MS 011"
-      ]
+      ["Tuesday", "02:00-02:50", "MS 011"],
+      ["Wednesday", "11:00-11:50", "MS 011"],
+      ["Friday", "09:00-09:50", "MS 011"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 837,
@@ -19871,23 +12488,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "MS 210"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "MS 210"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "MS 210"
-      ]
+      ["Monday", "12:00-12:50", "MS 210"],
+      ["Tuesday", "09:00-09:50", "MS 210"],
+      ["Thursday", "12:00-12:50", "MS 210"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 838,
@@ -19899,23 +12504,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC514.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "MS 210"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "MS 210"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "MS 210"
-      ]
+      ["Tuesday", "12:00-12:50", "MS 210"],
+      ["Wednesday", "12:00-12:50", "MS 210"],
+      ["Friday", "12:00-12:50", "MS 210"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 839,
@@ -19927,7 +12520,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC515.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 840,
@@ -19939,7 +12532,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC517.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 841,
@@ -19951,7 +12544,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MCC539.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 842,
@@ -19963,7 +12556,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MCC541.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 843,
@@ -19975,7 +12568,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MCO531.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 844,
@@ -19987,7 +12580,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC510.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 845,
@@ -19999,28 +12592,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC524.pdf",
     credits: "4-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "MS 111"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "MS 111"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "MS 111"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "MS 111"
-      ]
+      ["Monday", "12:00-12:50", "MS 111"],
+      ["Tuesday", "09:00-09:50", "MS 111"],
+      ["Thursday", "12:00-12:50", "MS 111"],
+      ["Friday", "12:00-12:50", "MS 111"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 846,
@@ -20032,28 +12609,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC525.pdf",
     credits: "4-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "MS 209"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "MS 209"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "MS 209"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "MS 209"
-      ]
+      ["Monday", "12:00-12:50", "MS 209"],
+      ["Tuesday", "09:00-09:50", "MS 209"],
+      ["Thursday", "12:00-12:50", "MS 209"],
+      ["Friday", "12:00-12:50", "MS 209"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 847,
@@ -20065,7 +12626,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC527.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 848,
@@ -20077,18 +12638,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC528.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "11:00-11:50",
-        "MS 010"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "MS 010"
-      ]
+      ["Wednesday", "11:00-11:50", "MS 010"],
+      ["Wednesday", "12:00-12:50", "MS 010"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 849,
@@ -20100,7 +12653,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 850,
@@ -20112,18 +12665,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSC529.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "11:00-11:50",
-        "MS 111"
-      ],
-      [
-        "Thursday",
-        "10:00-10:50",
-        "MS 111"
-      ]
+      ["Thursday", "11:00-11:50", "MS 111"],
+      ["Thursday", "10:00-10:50", "MS 111"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 851,
@@ -20135,7 +12680,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD514.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 852,
@@ -20147,23 +12692,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD519.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "MS 111"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "MS 111"
-      ],
-      [
-        "Thursday",
-        "06:00-06:50",
-        "MS 111"
-      ]
+      ["Monday", "06:00-06:50", "MS 111"],
+      ["Wednesday", "06:00-06:50", "MS 111"],
+      ["Thursday", "06:00-06:50", "MS 111"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 853,
@@ -20175,23 +12708,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD520.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "MS 011"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "MS 011"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "MS 011"
-      ]
+      ["Monday", "02:00-02:50", "MS 011"],
+      ["Tuesday", "06:00-06:50", "MS 011"],
+      ["Thursday", "02:00-02:50", "MS 011"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 854,
@@ -20203,7 +12724,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD524.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 855,
@@ -20215,7 +12736,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD537.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 856,
@@ -20227,7 +12748,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC509.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 857,
@@ -20239,7 +12760,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC510.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 858,
@@ -20251,23 +12772,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-C11"],
+      ["Wednesday", "03:00-03:50", "LC-II-C11"],
+      ["Thursday", "03:00-03:50", "LC-II-C11"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 859,
@@ -20279,23 +12788,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC512.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "PET 2"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "PET 2"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "PET 2"
-      ]
+      ["Monday", "04:00-04:50", "PET 2"],
+      ["Wednesday", "04:00-04:50", "PET 2"],
+      ["Friday", "04:00-04:50", "PET 2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 860,
@@ -20307,7 +12804,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC513.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 861,
@@ -20318,14 +12815,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC514.pdf",
     credits: "0-0-3",
-    timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "Petrology Lab"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Tuesday", "12:00-12:50", "Petrology Lab"]],
+    semester: "WS",
   },
   {
     id: 862,
@@ -20337,7 +12828,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC515.pdf",
     credits: "0-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 863,
@@ -20349,7 +12840,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC516.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 864,
@@ -20361,7 +12852,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC508.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 865,
@@ -20373,7 +12864,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC509.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 866,
@@ -20385,23 +12876,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-C12"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-C12"],
+      ["Wednesday", "06:00-06:50", "LC-II-C12"],
+      ["Friday", "06:00-06:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 867,
@@ -20413,7 +12892,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC511.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 868,
@@ -20425,7 +12904,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC512.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 869,
@@ -20437,7 +12916,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC513.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 870,
@@ -20449,7 +12928,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC515.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 871,
@@ -20461,7 +12940,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC526.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 872,
@@ -20473,23 +12952,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC527.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "LC-II-C11"
-      ],
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "LC-II-C11"
-      ],
-      [
-        "Thursday",
-        "11:00-11:50",
-        "LC-II-C11"
-      ]
+      ["Monday", "10:00-10:50", "LC-II-C11"],
+      ["Wednesday", "10:00-10:50", "LC-II-C11"],
+      ["Thursday", "11:00-11:50", "LC-II-C11"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 873,
@@ -20501,7 +12968,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC533.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 874,
@@ -20513,18 +12980,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC534.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-C11"
-      ],
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-C11"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-C11"],
+      ["Tuesday", "02:00-02:50", "LC-II-C11"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 875,
@@ -20536,23 +12995,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD531.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C11"
-      ],
-      [
-        "Thursday",
-        "12:00-12:50",
-        "LC-II-C11"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C11"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-C11"],
+      ["Thursday", "12:00-12:50", "LC-II-C11"],
+      ["Friday", "10:00-10:50", "LC-II-C11"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 876,
@@ -20564,7 +13011,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD544.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 877,
@@ -20576,7 +13023,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLO542.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 878,
@@ -20588,7 +13035,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC520.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 879,
@@ -20600,7 +13047,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC521.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 880,
@@ -20612,7 +13059,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC522.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 881,
@@ -20624,7 +13071,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC523.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 882,
@@ -20636,23 +13083,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-C14"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-C14"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-C14"
-      ]
+      ["Tuesday", "11:00-11:50", "LC-II-C14"],
+      ["Thursday", "09:00-09:50", "LC-II-C14"],
+      ["Friday", "10:00-10:50", "LC-II-C14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 883,
@@ -20664,18 +13099,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "LC-II-C14"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "LC-II-C14"
-      ]
+      ["Monday", "09:00-09:50", "LC-II-C14"],
+      ["Wednesday", "09:00-09:50", "LC-II-C14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 884,
@@ -20687,23 +13114,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPO510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "LC-II-C14"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "LC-II-C14"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "LC-II-C14"
-      ]
+      ["Tuesday", "08:00-08:50", "LC-II-C14"],
+      ["Thursday", "08:00-08:50", "LC-II-C14"],
+      ["Friday", "09:00-09:50", "LC-II-C14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 885,
@@ -20715,7 +13130,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/prep/CYP003.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 886,
@@ -20727,7 +13142,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/prep/CYP004.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 887,
@@ -20739,7 +13154,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/prep/HSP002.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 888,
@@ -20751,7 +13166,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/prep/MCP002.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 889,
@@ -20763,7 +13178,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/prep/PHP003.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 890,
@@ -20775,7 +13190,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/prep/PHP004.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 891,
@@ -20787,7 +13202,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD521.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 892,
@@ -20799,23 +13214,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD518.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-C3"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C3"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-C3"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-II-C3"],
+      ["Wednesday", "05:00-05:50", "LC-II-C3"],
+      ["Friday", "05:00-05:50", "LC-II-C3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 893,
@@ -20827,7 +13230,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD528.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 894,
@@ -20839,23 +13242,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "CHE-402"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "CHE-402"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "CHE-402"
-      ]
+      ["Monday", "02:00-02:50", "CHE-402"],
+      ["Tuesday", "06:00-06:50", "CHE-402"],
+      ["Thursday", "02:00-02:50", "CHE-402"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 895,
@@ -20867,23 +13258,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHD507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "CHE-434"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "CHE-434"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "CHE-434"
-      ]
+      ["Monday", "02:00-02:50", "CHE-434"],
+      ["Tuesday", "06:00-06:50", "CHE-434"],
+      ["Thursday", "02:00-02:50", "CHE-434"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 896,
@@ -20894,14 +13273,8 @@
     type: "Open Elective (OE)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHO504.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Friday",
-        "05:00-05:50",
-        " "
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Friday", "05:00-05:50", " "]],
+    semester: "WS",
   },
   {
     id: 897,
@@ -20913,23 +13286,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "CSE CR1"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "CSE CR1"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "CSE CR1"
-      ]
+      ["Monday", "02:00-02:50", "CSE CR1"],
+      ["Tuesday", "06:00-06:50", "CSE CR1"],
+      ["Thursday", "02:00-02:50", "CSE CR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 898,
@@ -20941,23 +13302,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSD518.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C19"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "LC-II-C19"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C19"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C19"],
+      ["Tuesday", "06:00-06:50", "LC-II-C19"],
+      ["Thursday", "02:00-02:50", "LC-II-C19"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 899,
@@ -20969,23 +13318,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSO502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "NAC Hall"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "NAC Hall"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "NAC Hall"
-      ]
+      ["Tuesday", "05:00-05:50", "NAC Hall"],
+      ["Wednesday", "05:00-05:50", "NAC Hall"],
+      ["Friday", "05:00-05:50", "NAC Hall"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 900,
@@ -20997,23 +13334,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO529.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "CECR1"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "CECR1"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "CECR1"
-      ]
+      ["Monday", "02:00-02:50", "CECR1"],
+      ["Tuesday", "06:00-06:50", "CECR1"],
+      ["Thursday", "02:00-02:50", "CECR1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 901,
@@ -21025,23 +13350,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEO530.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "CECR3"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "CECR3"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "CECR3"
-      ]
+      ["Tuesday", "05:00-05:50", "CECR3"],
+      ["Wednesday", "05:00-05:50", "CECR3"],
+      ["Friday", "05:00-05:50", "CECR3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 902,
@@ -21053,23 +13366,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD510.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G13"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "LC-II-G13"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G13"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G13"],
+      ["Tuesday", "06:00-06:50", "LC-II-G13"],
+      ["Thursday", "02:00-02:50", "LC-II-G13"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 903,
@@ -21081,7 +13382,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECD561.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 904,
@@ -21093,7 +13394,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECO542.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 905,
@@ -21105,23 +13406,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-C2"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C2"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-C2"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-II-C2"],
+      ["Wednesday", "05:00-05:50", "LC-II-C2"],
+      ["Friday", "05:00-05:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 906,
@@ -21133,23 +13422,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EED502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C2"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "LC-II-C2"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C2"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C2"],
+      ["Tuesday", "06:00-06:50", "LC-II-C2"],
+      ["Thursday", "02:00-02:50", "LC-II-C2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 907,
@@ -21161,23 +13438,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD506.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C20"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "LC-II-C20"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C20"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C20"],
+      ["Tuesday", "06:00-06:50", "LC-II-C20"],
+      ["Thursday", "02:00-02:50", "LC-II-C20"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 908,
@@ -21189,7 +13454,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESD509.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 909,
@@ -21201,7 +13466,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMD534.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 910,
@@ -21213,23 +13478,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/fme/FMO541.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "FME-2"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "FME-2"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "FME-2"
-      ]
+      ["Tuesday", "05:00-05:50", "FME-2"],
+      ["Wednesday", "05:00-05:50", "FME-2"],
+      ["Friday", "05:00-05:50", "FME-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 911,
@@ -21241,7 +13494,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD540.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 912,
@@ -21253,23 +13506,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCO533.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-I-C18"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-I-C18"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-I-C18"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-I-C18"],
+      ["Wednesday", "05:00-05:50", "LC-I-C18"],
+      ["Friday", "05:00-05:50", "LC-I-C18"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 913,
@@ -21281,23 +13522,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "PG Lab-1 Geomatics"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "PG Lab-1 Geomatics"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "PG Lab-1 Geomatics"
-      ]
+      ["Monday", "02:00-02:50", "PG Lab-1 Geomatics"],
+      ["Tuesday", "06:00-06:50", "PG Lab-1 Geomatics"],
+      ["Thursday", "02:00-02:50", "PG Lab-1 Geomatics"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 914,
@@ -21309,23 +13538,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "PG Lab-1 Geomatics"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "PG Lab-1 Geomatics"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "PG Lab-1 Geomatics"
-      ]
+      ["Tuesday", "05:00-05:50", "PG Lab-1 Geomatics"],
+      ["Wednesday", "05:00-05:50", "PG Lab-1 Geomatics"],
+      ["Friday", "05:00-05:50", "PG Lab-1 Geomatics"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 915,
@@ -21337,23 +13554,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "MIN-2"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "MIN-2"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "MIN-2"
-      ]
+      ["Monday", "02:00-02:50", "MIN-2"],
+      ["Tuesday", "06:00-06:50", "MIN-2"],
+      ["Thursday", "02:00-02:50", "MIN-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 916,
@@ -21365,23 +13570,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/me/MND547.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "MIN-2"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "MIN-2"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "MIN-2"
-      ]
+      ["Tuesday", "05:00-05:50", "MIN-2"],
+      ["Wednesday", "05:00-05:50", "MIN-2"],
+      ["Friday", "05:00-05:50", "MIN-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 917,
@@ -21393,23 +13586,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-C14"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "LC-II-C14"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-C14"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-C14"],
+      ["Tuesday", "06:00-06:50", "LC-II-C14"],
+      ["Thursday", "02:00-02:50", "LC-II-C14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 918,
@@ -21421,23 +13602,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED509.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "Mech G2"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "Mech G2"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "Mech G2"
-      ]
+      ["Tuesday", "05:00-05:50", "Mech G2"],
+      ["Wednesday", "05:00-05:50", "Mech G2"],
+      ["Friday", "05:00-05:50", "Mech G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 919,
@@ -21449,23 +13618,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MED515.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "NAC Hall"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "NAC Hall"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "NAC Hall"
-      ]
+      ["Monday", "02:00-02:50", "NAC Hall"],
+      ["Tuesday", "06:00-06:50", "NAC Hall"],
+      ["Thursday", "02:00-02:50", "NAC Hall"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 920,
@@ -21477,23 +13634,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEO534.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G16"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G16"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-G16"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-II-G16"],
+      ["Wednesday", "05:00-05:50", "LC-II-G16"],
+      ["Friday", "05:00-05:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 921,
@@ -21505,23 +13650,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "MS 111"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "MS 111"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "MS 111"
-      ]
+      ["Monday", "02:00-02:50", "MS 111"],
+      ["Tuesday", "06:00-06:50", "MS 111"],
+      ["Thursday", "02:00-02:50", "MS 111"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 922,
@@ -21533,23 +13666,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/msie/MSD525.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "MS 209"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "MS 209"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "MS 209"
-      ]
+      ["Tuesday", "05:00-05:50", "MS 209"],
+      ["Wednesday", "05:00-05:50", "MS 209"],
+      ["Friday", "05:00-05:50", "MS 209"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 923,
@@ -21561,23 +13682,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "PET 4"
-      ],
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "PET 4"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "PET 4"
-      ]
+      ["Monday", "02:00-02:50", "PET 4"],
+      ["Tuesday", "06:00-06:50", "PET 4"],
+      ["Thursday", "02:00-02:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 924,
@@ -21589,23 +13698,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/pe/PED504.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "PET 4"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "PET 4"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "PET 4"
-      ]
+      ["Tuesday", "05:00-05:50", "PET 4"],
+      ["Wednesday", "05:00-05:50", "PET 4"],
+      ["Friday", "05:00-05:50", "PET 4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 925,
@@ -21617,23 +13714,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-C10"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C10"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-C10"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-C10"],
+      ["Tuesday", "04:00-04:50", "LC-II-C10"],
+      ["Thursday", "05:00-05:50", "LC-II-C10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 926,
@@ -21645,7 +13730,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD502.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 927,
@@ -21657,23 +13742,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C10"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-C10"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-II-C10"],
+      ["Wednesday", "05:00-05:50", "LC-II-C10"],
+      ["Friday", "03:00-03:50", "LC-II-C10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 928,
@@ -21685,7 +13758,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD506.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 929,
@@ -21697,23 +13770,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD512.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "HSS class room -1"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "HSS class room -1"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "HSS class room -1"
-      ]
+      ["Monday", "05:00-05:50", "HSS class room -1"],
+      ["Tuesday", "04:00-04:50", "HSS class room -1"],
+      ["Thursday", "05:00-05:50", "HSS class room -1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 930,
@@ -21725,23 +13786,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYD520.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "HSS class room -1"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "HSS class room -1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "HSS class room -1"
-      ]
+      ["Tuesday", "05:00-05:50", "HSS class room -1"],
+      ["Wednesday", "05:00-05:50", "HSS class room -1"],
+      ["Friday", "03:00-03:50", "HSS class room -1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 931,
@@ -21753,23 +13802,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD503.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-I-C11"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-I-C11"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-I-C11"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-I-C11"],
+      ["Wednesday", "05:00-05:50", "LC-I-C11"],
+      ["Friday", "03:00-03:50", "LC-I-C11"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 932,
@@ -21781,7 +13818,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD513.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 933,
@@ -21793,23 +13830,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHD507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "AGL-1"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "AGL-1"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "AGL-1"
-      ]
+      ["Monday", "05:00-05:50", "AGL-1"],
+      ["Tuesday", "04:00-04:50", "AGL-1"],
+      ["Thursday", "05:00-05:50", "AGL-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 934,
@@ -21821,18 +13846,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHO502.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "MS 010"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "MS 010"
-      ]
+      ["Tuesday", "05:00-05:50", "MS 010"],
+      ["Wednesday", "05:00-05:50", "MS 010"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 935,
@@ -21844,23 +13861,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD575.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "AGL-3"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "AGL-3"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "AGL-3"
-      ]
+      ["Monday", "05:00-05:50", "AGL-3"],
+      ["Tuesday", "04:00-04:50", "AGL-3"],
+      ["Friday", "05:00-05:50", "AGL-3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 936,
@@ -21872,23 +13877,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLO501.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "AGL-3"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "AGL-3"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "AGL-3"
-      ]
+      ["Tuesday", "06:00-06:50", "AGL-3"],
+      ["Wednesday", "05:00-05:50", "AGL-3"],
+      ["Thursday", "04:00-04:50", "AGL-3"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 937,
@@ -21900,23 +13893,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD522.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-C14"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C14"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-C14"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-C14"],
+      ["Tuesday", "04:00-04:50", "LC-II-C14"],
+      ["Friday", "05:00-05:50", "LC-II-C14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 938,
@@ -21928,18 +13909,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPO511.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-C14"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-C14"
-      ]
+      ["Wednesday", "05:00-05:50", "LC-II-C14"],
+      ["Thursday", "04:00-04:50", "LC-II-C14"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 939,
@@ -21951,7 +13924,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 940,
@@ -21963,23 +13936,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD551.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "AGL-2"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "AGL-2"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "AGL-2"
-      ]
+      ["Monday", "05:00-05:50", "AGL-2"],
+      ["Tuesday", "04:00-04:50", "AGL-2"],
+      ["Friday", "05:00-05:50", "AGL-2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 941,
@@ -21991,7 +13952,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 942,
@@ -22003,23 +13964,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPD505.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-C12"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-C12"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-C12"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-C12"],
+      ["Tuesday", "04:00-04:50", "LC-II-C12"],
+      ["Friday", "05:00-05:50", "LC-II-C12"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 943,
@@ -22031,7 +13980,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD532.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 944,
@@ -22043,18 +13992,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCD535.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "06:00-06:50",
-        "LC-II-G16"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-G16"
-      ]
+      ["Tuesday", "06:00-06:50", "LC-II-G16"],
+      ["Thursday", "04:00-04:50", "LC-II-G16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 945,
@@ -22066,23 +14007,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "08:00-08:50",
-        "LC-II-G4"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-G4"],
+      ["Friday", "10:00-10:50", "LC-II-G4"],
+      ["Friday", "08:00-08:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 946,
@@ -22094,23 +14023,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G2"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G2"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G2"],
+      ["Tuesday", "03:00-03:50", "LC-II-G2"],
+      ["Wednesday", "04:00-04:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 947,
@@ -22122,18 +14039,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "10:00-10:50",
-        "NLHC Computer Lab - I"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "NLHC Computer Lab - I"
-      ]
+      ["Thursday", "10:00-10:50", "NLHC Computer Lab - I"],
+      ["Thursday", "09:00-09:50", "NLHC Computer Lab - I"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 948,
@@ -22145,28 +14054,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-G1"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-G1"],
+      ["Tuesday", "05:00-05:50", "LC-II-G1"],
+      ["Thursday", "02:00-02:50", "LC-II-G1"],
+      ["Friday", "03:00-03:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 949,
@@ -22178,23 +14071,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-G4"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-G4"],
+      ["Wednesday", "02:00-02:50", "LC-II-G4"],
+      ["Thursday", "03:00-03:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 950,
@@ -22206,18 +14087,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-G4"
-      ]
+      ["Wednesday", "05:00-05:50", "LC-II-G4"],
+      ["Friday", "05:00-05:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 951,
@@ -22229,23 +14102,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G4"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G4"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G4"],
+      ["Tuesday", "04:00-04:50", "LC-II-G4"],
+      ["Friday", "02:00-02:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 952,
@@ -22257,18 +14118,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "PHUG LAB 1 "
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "PHUG LAB 1 "
-      ]
+      ["Tuesday", "10:00-10:50", "PHUG LAB 1 "],
+      ["Tuesday", "09:00-09:50", "PHUG LAB 1 "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 953,
@@ -22280,7 +14133,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 954,
@@ -22292,7 +14145,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 955,
@@ -22304,28 +14157,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G8"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G8"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G8"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-G8"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G8"],
+      ["Tuesday", "03:00-03:50", "LC-II-G8"],
+      ["Wednesday", "04:00-04:50", "LC-II-G8"],
+      ["Thursday", "05:00-05:50", "LC-II-G8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 956,
@@ -22337,7 +14174,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 957,
@@ -22349,7 +14186,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 958,
@@ -22361,7 +14198,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 959,
@@ -22373,7 +14210,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 960,
@@ -22385,23 +14222,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
     timetable: [
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "08:00-08:50",
-        "LC-II-G4"
-      ]
+      ["Tuesday", "03:00-03:50", "LC-II-G4"],
+      ["Thursday", "09:00-09:50", "LC-II-G4"],
+      ["Thursday", "08:00-08:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 961,
@@ -22413,23 +14238,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G2"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G2"],
+      ["Tuesday", "04:00-04:50", "LC-II-G2"],
+      ["Friday", "02:00-02:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 962,
@@ -22441,18 +14254,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Wednesday",
-        "10:00-10:50",
-        "NLHC Computer Lab - I"
-      ],
-      [
-        "Wednesday",
-        "09:00-09:50",
-        "NLHC Computer Lab - I"
-      ]
+      ["Wednesday", "10:00-10:50", "NLHC Computer Lab - I"],
+      ["Wednesday", "09:00-09:50", "NLHC Computer Lab - I"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 963,
@@ -22464,28 +14269,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G1"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-G1"],
+      ["Wednesday", "02:00-02:50", "LC-II-G1"],
+      ["Thursday", "03:00-03:50", "LC-II-G1"],
+      ["Friday", "04:00-04:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 964,
@@ -22497,18 +14286,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-G4"
-      ]
+      ["Wednesday", "03:00-03:50", "LC-II-G4"],
+      ["Thursday", "04:00-04:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 965,
@@ -22520,18 +14301,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G4"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-G4"
-      ]
+      ["Tuesday", "05:00-05:50", "LC-II-G4"],
+      ["Thursday", "05:00-05:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 966,
@@ -22543,18 +14316,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G4"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G4"
-      ]
+      ["Thursday", "02:00-02:50", "LC-II-G4"],
+      ["Friday", "03:00-03:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 967,
@@ -22566,18 +14331,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        "PHUG LAB 1 "
-      ],
-      [
-        "Monday",
-        "10:00-10:50",
-        "PHUG LAB 1 "
-      ]
+      ["Monday", "09:00-09:50", "PHUG LAB 1 "],
+      ["Monday", "10:00-10:50", "PHUG LAB 1 "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 968,
@@ -22589,7 +14346,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 969,
@@ -22601,7 +14358,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 970,
@@ -22613,28 +14370,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G8"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G8"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G8"
-      ],
-      [
-        "Friday",
-        "02:00-02:50",
-        "LC-II-G8"
-      ]
+      ["Monday", "03:00-03:50", "LC-II-G8"],
+      ["Tuesday", "04:00-04:50", "LC-II-G8"],
+      ["Wednesday", "05:00-05:50", "LC-II-G8"],
+      ["Friday", "02:00-02:50", "LC-II-G8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 971,
@@ -22646,7 +14387,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 972,
@@ -22658,7 +14399,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 973,
@@ -22670,7 +14411,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 974,
@@ -22682,7 +14423,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 975,
@@ -22693,14 +14434,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
-    timetable: [
-      [
-        "Wednesday",
-        "08:00-08:50",
-        "LC-II-G4"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Wednesday", "08:00-08:50", "LC-II-G4"]],
+    semester: "WS",
   },
   {
     id: 976,
@@ -22712,23 +14447,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G2"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-G2"],
+      ["Thursday", "02:00-02:50", "LC-II-G2"],
+      ["Friday", "03:00-03:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 977,
@@ -22739,14 +14462,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
-    timetable: [
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "NLHC Computer Lab - I"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Tuesday", "09:00-09:50", "NLHC Computer Lab - I"]],
+    semester: "WS",
   },
   {
     id: 978,
@@ -22758,28 +14475,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-G1"
-      ],
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-G1"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-G1"],
+      ["Wednesday", "03:00-03:50", "LC-II-G1"],
+      ["Thursday", "04:00-04:50", "LC-II-G1"],
+      ["Friday", "05:00-05:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 979,
@@ -22790,14 +14491,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
-    timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G4"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Monday", "02:00-02:50", "LC-II-G4"]],
+    semester: "WS",
   },
   {
     id: 980,
@@ -22809,7 +14504,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 981,
@@ -22821,7 +14516,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 982,
@@ -22833,18 +14528,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Friday",
-        "10:00-10:50",
-        "PHUG LAB 1 "
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "PHUG LAB 1 "
-      ]
+      ["Friday", "10:00-10:50", "PHUG LAB 1 "],
+      ["Friday", "09:00-09:50", "PHUG LAB 1 "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 983,
@@ -22856,7 +14543,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 984,
@@ -22868,7 +14555,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 985,
@@ -22880,28 +14567,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [
-      [
-        "Monday",
-        "04:00-04:50",
-        "LC-II-G8"
-      ],
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "LC-II-G8"
-      ],
-      [
-        "Thursday",
-        "02:00-02:50",
-        "LC-II-G8"
-      ],
-      [
-        "Friday",
-        "03:00-03:50",
-        "LC-II-G8"
-      ]
+      ["Monday", "04:00-04:50", "LC-II-G8"],
+      ["Tuesday", "05:00-05:50", "LC-II-G8"],
+      ["Thursday", "02:00-02:50", "LC-II-G8"],
+      ["Friday", "03:00-03:50", "LC-II-G8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 986,
@@ -22913,7 +14584,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 987,
@@ -22925,7 +14596,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 988,
@@ -22937,7 +14608,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 989,
@@ -22949,7 +14620,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 990,
@@ -22961,18 +14632,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
     timetable: [
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "LC-II-G4"
-      ],
-      [
-        "Tuesday",
-        "08:00-08:50",
-        "LC-II-G4"
-      ]
+      ["Tuesday", "09:00-09:50", "LC-II-G4"],
+      ["Tuesday", "08:00-08:50", "LC-II-G4"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 991,
@@ -22984,23 +14647,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G2"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G2"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G2"
-      ]
+      ["Wednesday", "02:00-02:50", "LC-II-G2"],
+      ["Thursday", "03:00-03:50", "LC-II-G2"],
+      ["Friday", "04:00-04:50", "LC-II-G2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 992,
@@ -23012,18 +14663,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "NLHC Computer Lab - I"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "NLHC Computer Lab - I"
-      ]
+      ["Monday", "10:00-10:50", "NLHC Computer Lab - I"],
+      ["Monday", "09:00-09:50", "NLHC Computer Lab - I"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 993,
@@ -23035,28 +14678,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "LC-II-G1"
-      ],
-      [
-        "Tuesday",
-        "03:00-03:50",
-        "LC-II-G1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "LC-II-G1"
-      ],
-      [
-        "Thursday",
-        "05:00-05:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "02:00-02:50", "LC-II-G1"],
+      ["Tuesday", "03:00-03:50", "LC-II-G1"],
+      ["Wednesday", "04:00-04:50", "LC-II-G1"],
+      ["Thursday", "05:00-05:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 994,
@@ -23068,7 +14695,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 995,
@@ -23080,7 +14707,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 996,
@@ -23092,7 +14719,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 997,
@@ -23104,18 +14731,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "10:00-10:50",
-        "PHUG LAB 1 "
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "PHUG LAB 1 "
-      ]
+      ["Thursday", "10:00-10:50", "PHUG LAB 1 "],
+      ["Thursday", "09:00-09:50", "PHUG LAB 1 "],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 998,
@@ -23127,7 +14746,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CEI101.pdf",
     credits: "1-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 999,
@@ -23139,7 +14758,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1000,
@@ -23151,28 +14770,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "LC-II-G8"
-      ],
-      [
-        "Wednesday",
-        "02:00-02:50",
-        "LC-II-G8"
-      ],
-      [
-        "Thursday",
-        "03:00-03:50",
-        "LC-II-G8"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "LC-II-G8"
-      ]
+      ["Monday", "05:00-05:50", "LC-II-G8"],
+      ["Wednesday", "02:00-02:50", "LC-II-G8"],
+      ["Thursday", "03:00-03:50", "LC-II-G8"],
+      ["Friday", "04:00-04:50", "LC-II-G8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1001,
@@ -23184,7 +14787,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI101.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1002,
@@ -23196,7 +14799,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MSI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1003,
@@ -23208,7 +14811,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1004,
@@ -23220,7 +14823,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/PHI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1005,
@@ -23232,7 +14835,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1006,
@@ -23244,18 +14847,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "10:00-10:50",
-        "UG Lab"
-      ],
-      [
-        "Tuesday",
-        "09:00-09:50",
-        "UG Lab"
-      ]
+      ["Tuesday", "10:00-10:50", "UG Lab"],
+      ["Tuesday", "09:00-09:50", "UG Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1007,
@@ -23266,14 +14861,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/GLI101.pdf",
     credits: "2-0-0",
-    timetable: [
-      [
-        "Friday",
-        "05:00-05:50",
-        "LC-II-G8"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Friday", "05:00-05:50", "LC-II-G8"]],
+    semester: "WS",
   },
   {
     id: 1008,
@@ -23284,14 +14873,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
-    timetable: [
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G1"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Wednesday", "12:00-12:50", "LC-II-G1"]],
+    semester: "WS",
   },
   {
     id: 1009,
@@ -23303,7 +14886,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1010,
@@ -23315,7 +14898,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1011,
@@ -23327,18 +14910,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
     timetable: [
-      [
-        "Friday",
-        "11:00-11:50",
-        "LC-II-G1"
-      ],
-      [
-        "Friday",
-        "10:00-10:50",
-        "LC-II-G1"
-      ]
+      ["Friday", "11:00-11:50", "LC-II-G1"],
+      ["Friday", "10:00-10:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1012,
@@ -23350,7 +14925,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1013,
@@ -23362,7 +14937,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1014,
@@ -23374,7 +14949,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1015,
@@ -23386,7 +14961,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1016,
@@ -23397,14 +14972,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/ESI101.pdf",
     credits: "2-0-0",
-    timetable: [
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "LC-II-G1"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Wednesday", "05:00-05:50", "LC-II-G1"]],
+    semester: "WS",
   },
   {
     id: 1017,
@@ -23416,7 +14985,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1018,
@@ -23428,7 +14997,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1019,
@@ -23440,7 +15009,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1020,
@@ -23452,7 +15021,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1021,
@@ -23464,18 +15033,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "10:00-10:50",
-        "UG Lab"
-      ],
-      [
-        "Monday",
-        "09:00-09:50",
-        "UG Lab"
-      ]
+      ["Monday", "10:00-10:50", "UG Lab"],
+      ["Monday", "09:00-09:50", "UG Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1022,
@@ -23487,7 +15048,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/GLI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1023,
@@ -23499,18 +15060,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
     timetable: [
-      [
-        "Tuesday",
-        "12:00-12:50",
-        "LC-II-G1"
-      ],
-      [
-        "Tuesday",
-        "11:00-11:50",
-        "LC-II-G1"
-      ]
+      ["Tuesday", "12:00-12:50", "LC-II-G1"],
+      ["Tuesday", "11:00-11:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1024,
@@ -23522,7 +15075,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1025,
@@ -23534,7 +15087,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1026,
@@ -23546,7 +15099,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1027,
@@ -23558,7 +15111,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1028,
@@ -23570,7 +15123,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1029,
@@ -23582,7 +15135,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1030,
@@ -23594,7 +15147,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1031,
@@ -23606,7 +15159,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/ESI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1032,
@@ -23618,7 +15171,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1033,
@@ -23630,7 +15183,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1034,
@@ -23642,7 +15195,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1035,
@@ -23654,7 +15207,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1036,
@@ -23666,18 +15219,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Friday",
-        "10:00-10:50",
-        "UG Lab"
-      ],
-      [
-        "Friday",
-        "09:00-09:50",
-        "UG Lab"
-      ]
+      ["Friday", "10:00-10:50", "UG Lab"],
+      ["Friday", "09:00-09:50", "UG Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1037,
@@ -23689,7 +15234,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/GLI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1038,
@@ -23701,18 +15246,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G1"
-      ],
-      [
-        "Tuesday",
-        "04:00-04:50",
-        "LC-II-G1"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G1"],
+      ["Tuesday", "04:00-04:50", "LC-II-G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1039,
@@ -23724,7 +15261,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1040,
@@ -23736,7 +15273,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1041,
@@ -23748,7 +15285,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1042,
@@ -23760,7 +15297,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1043,
@@ -23772,7 +15309,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1044,
@@ -23784,7 +15321,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1045,
@@ -23796,7 +15333,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1046,
@@ -23808,7 +15345,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/ESI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1047,
@@ -23820,7 +15357,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1048,
@@ -23832,7 +15369,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1049,
@@ -23844,7 +15381,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1050,
@@ -23856,23 +15393,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "02:00-02:50",
-        "LC-II-G8"
-      ],
-      [
-        "Wednesday",
-        "03:00-03:50",
-        "LC-II-G8"
-      ],
-      [
-        "Thursday",
-        "04:00-04:50",
-        "LC-II-G8"
-      ]
+      ["Tuesday", "02:00-02:50", "LC-II-G8"],
+      ["Wednesday", "03:00-03:50", "LC-II-G8"],
+      ["Thursday", "04:00-04:50", "LC-II-G8"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1051,
@@ -23884,18 +15409,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Thursday",
-        "10:00-10:50",
-        "UG Lab"
-      ],
-      [
-        "Thursday",
-        "09:00-09:50",
-        "UG Lab"
-      ]
+      ["Thursday", "10:00-10:50", "UG Lab"],
+      ["Thursday", "09:00-09:50", "UG Lab"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1052,
@@ -23907,7 +15424,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/GLI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1053,
@@ -23918,14 +15435,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
-    timetable: [
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G1"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Friday", "12:00-12:50", "LC-II-G1"]],
+    semester: "WS",
   },
   {
     id: 1054,
@@ -23937,7 +15448,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1055,
@@ -23949,7 +15460,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI103.pdf",
     credits: "02-02-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1056,
@@ -23960,14 +15471,8 @@
     type: "Institute Core (IC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
-    timetable: [
-      [
-        "Monday",
-        "03:00-03:50",
-        "LC-II-G1"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Monday", "03:00-03:50", "LC-II-G1"]],
+    semester: "WS",
   },
   {
     id: 1057,
@@ -23979,7 +15484,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI101.pdf",
     credits: "02-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1058,
@@ -23991,7 +15496,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CSI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1059,
@@ -24003,7 +15508,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI101.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1060,
@@ -24015,7 +15520,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/CYI102.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1061,
@@ -24027,7 +15532,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/ESI101.pdf",
     credits: "2-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1062,
@@ -24039,7 +15544,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/HSI101.pdf",
     credits: "1-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1063,
@@ -24051,7 +15556,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MCI102.pdf",
     credits: "03-01-2000",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1064,
@@ -24063,7 +15568,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/comm/MEI102.pdf",
     credits: "2-0-3",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1065,
@@ -24075,23 +15580,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLC591.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "AGL-1"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "AGL-1"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "AGL-1"
-      ]
+      ["Monday", "02:00-02:50", "AGL-1"],
+      ["Wednesday", "04:00-04:50", "AGL-1"],
+      ["Friday", "04:00-04:50", "AGL-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1066,
@@ -24103,7 +15596,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agl/GLD501.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1067,
@@ -24115,7 +15608,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/agp/GPC555.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1068,
@@ -24127,7 +15620,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ccb/CYC540.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1069,
@@ -24139,23 +15632,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ce/CHC518.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "CHE-402"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "CHE-402"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "CHE-402"
-      ]
+      ["Monday", "06:00-06:50", "CHE-402"],
+      ["Wednesday", "06:00-06:50", "CHE-402"],
+      ["Friday", "06:00-06:50", "CHE-402"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1070,
@@ -24167,7 +15648,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cse/CSC516.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1071,
@@ -24178,14 +15659,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/cve/CEC502.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "CECR3"
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Monday", "02:00-02:50", "CECR3"]],
+    semester: "WS",
   },
   {
     id: 1072,
@@ -24197,23 +15672,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ece/ECC581.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-C16"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-C16"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-C16"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-C16"],
+      ["Wednesday", "06:00-06:50", "LC-II-C16"],
+      ["Friday", "06:00-06:50", "LC-II-C16"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1073,
@@ -24225,23 +15688,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ee/EEC550.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "02:00-02:50",
-        "Conference Room"
-      ],
-      [
-        "Wednesday",
-        "04:00-04:50",
-        "Conference Room"
-      ],
-      [
-        "Friday",
-        "04:00-04:50",
-        "Conference Room"
-      ]
+      ["Monday", "02:00-02:50", "Conference Room"],
+      ["Wednesday", "04:00-04:50", "Conference Room"],
+      ["Friday", "04:00-04:50", "Conference Room"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1074,
@@ -24253,23 +15704,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/ese/ESC526.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "FME-1"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "FME-1"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "FME-1"
-      ]
+      ["Monday", "06:00-06:50", "FME-1"],
+      ["Wednesday", "06:00-06:50", "FME-1"],
+      ["Friday", "06:00-06:50", "FME-1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1075,
@@ -24281,18 +15720,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSD507.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Tuesday",
-        "05:00-05:50",
-        "PET 1"
-      ],
-      [
-        "Wednesday",
-        "05:00-05:50",
-        "PET 1"
-      ]
+      ["Tuesday", "05:00-05:50", "PET 1"],
+      ["Wednesday", "05:00-05:50", "PET 1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1076,
@@ -24304,7 +15735,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSD521.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1077,
@@ -24316,7 +15747,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSD551.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1078,
@@ -24328,7 +15759,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1079,
@@ -24340,7 +15771,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mc/MCC500.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1080,
@@ -24352,23 +15783,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/mech/MEC591.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "Mech G1"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "Mech G1"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "Mech G1"
-      ]
+      ["Monday", "06:00-06:50", "Mech G1"],
+      ["Wednesday", "06:00-06:50", "Mech G1"],
+      ["Friday", "06:00-06:50", "Mech G1"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1081,
@@ -24380,23 +15799,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/phy/PHC571.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "06:00-06:50",
-        "LC-II-C10"
-      ],
-      [
-        "Wednesday",
-        "06:00-06:50",
-        "LC-II-C10"
-      ],
-      [
-        "Friday",
-        "06:00-06:50",
-        "LC-II-C10"
-      ]
+      ["Monday", "06:00-06:50", "LC-II-C10"],
+      ["Wednesday", "06:00-06:50", "LC-II-C10"],
+      ["Friday", "06:00-06:50", "LC-II-C10"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1082,
@@ -24407,14 +15814,8 @@
     type: "Department Compulsory (DC)",
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC507.pdf",
     credits: "3-0-0",
-    timetable: [
-      [
-        "Monday",
-        "09:00-09:50",
-        " "
-      ]
-    ],
-    semester: "WS"
+    timetable: [["Monday", "09:00-09:50", " "]],
+    semester: "WS",
   },
   {
     id: 1083,
@@ -24426,18 +15827,10 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC516.pdf",
     credits: "0-0-2",
     timetable: [
-      [
-        "Monday",
-        "05:00-05:50",
-        "HSS class room -2"
-      ],
-      [
-        "Monday",
-        "04:00-04:50",
-        "HSS class room -2"
-      ]
+      ["Monday", "05:00-05:50", "HSS class room -2"],
+      ["Monday", "04:00-04:50", "HSS class room -2"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1084,
@@ -24449,7 +15842,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC520.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1085,
@@ -24461,7 +15854,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC521.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1086,
@@ -24473,7 +15866,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC527.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1087,
@@ -24485,7 +15878,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSC532.pdf",
     credits: "0-0-2",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1088,
@@ -24497,7 +15890,7 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSD554.pdf",
     credits: "3-0-0",
     timetable: [],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1089,
@@ -24509,23 +15902,11 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSO508.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "LC-II-G11"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "LC-II-G11"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "LC-II-G11"
-      ]
+      ["Monday", "12:00-12:50", "LC-II-G11"],
+      ["Wednesday", "12:00-12:50", "LC-II-G11"],
+      ["Friday", "12:00-12:50", "LC-II-G11"],
     ],
-    semester: "WS"
+    semester: "WS",
   },
   {
     id: 1090,
@@ -24537,22 +15918,12 @@
     link: "https://people.iitism.ac.in/~academics/assets/course_structure/new/cat/hss/HSO513.pdf",
     credits: "3-0-0",
     timetable: [
-      [
-        "Monday",
-        "12:00-12:50",
-        "NAC Hall"
-      ],
-      [
-        "Wednesday",
-        "12:00-12:50",
-        "NAC Hall"
-      ],
-      [
-        "Friday",
-        "12:00-12:50",
-        "NAC Hall"
-      ]
+      ["Monday", "12:00-12:50", "NAC Hall"],
+      ["Wednesday", "12:00-12:50", "NAC Hall"],
+      ["Friday", "12:00-12:50", "NAC Hall"],
     ],
-    semester: "WS"
-  }
-]
+    semester: "WS",
+  },
+];
+
+export default data;

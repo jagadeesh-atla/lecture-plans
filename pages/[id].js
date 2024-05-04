@@ -85,11 +85,12 @@ export async function getStaticProps(context) {
   const { id } = context.params;
   const [sem, code] = id.split("-");
 
-  const items = timetable.filter((thing) => {
+  const items = [];
+  for (const thing of timetable) {
     if (thing.semester == sem.toUpperCase() && thing.code == code.toUpperCase())
-      return true;
-    else return false;
-  });
+      items.push(thing);
+  }
+
   const item = items.length === 0 ? null : items[0];
 
   return {
